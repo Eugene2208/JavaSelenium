@@ -1,0 +1,10 @@
+2020-05-08 12:07:18 [INFO ] Calculator:19 - MINUS: first: 4, second: 4, result: 0
+2020-05-08 12:07:18 [INFO ] Calculator:19 - MINUS: first: 4, second: 4, result: 0
+2020-05-08 12:07:18 [WARN ] Calculator:25 - MULTIPLY: first: 2, second: 8, result: 16
+2020-05-08 12:07:18 [WARN ] Calculator:25 - MULTIPLY: first: 2, second: 8, result: 16
+2020-05-08 12:07:18 [ERROR] Calculator:39 - DIVIDE: first: 400, second: 2, result: 200
+2020-05-08 12:07:18 [ERROR] Calculator:39 - DIVIDE: first: 400, second: 2, result: 200
+2020-05-08 12:07:18 [INFO ] Calculator:19 - MINUS: first: 40, second: 31, result: 9
+2020-05-08 12:07:18 [INFO ] Calculator:19 - MINUS: first: 40, second: 31, result: 9
+2020-05-08 12:07:18 [DEBUG] Calculator:13 - SUM: first: 3, second: 3, result: 6
+2020-05-08 12:07:18 [DEBUG] Calculator:13 - SUM: first: 3, second: 3, result: 6
