@@ -1,0 +1,887 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>test -&nbsp;I.UA&nbsp;</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="google-site-verification" content="HShIi9AqQMLaZPv7XOyqYVcwWYfPY-kJbUWtVTQkXkQ">
+
+<link id="dynamic-favicon" rel="icon" href="//i3.i.ua/css/i2/favicon_16.ico" type="image/x-icon">
+<link rel="shortcut icon" href="//i3.i.ua/css/i2/favicon_16.ico" type="image/x-icon">
+<!--[if !IE]--><link rel="stylesheet" type="text/css" media="all" href="//i3.i.ua/css/i2/blue/sprite/mail.y2016369a.css"><!--[endif]-->
+<!--[if gte IE 8]><link rel="stylesheet" type="text/css" media="all" href="//i3.i.ua/css/i2/blue/sprite/mail_ie.y2016369a.css" /><![endif]-->
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="all" href="//i3.i.ua/css/i2/blue/sprite/mail_ie7.y2016369a.css" /><![endif]-->
+<script async="async" src="//stats.g.doubleclick.net/dc.js"></script><script src="https://cdn.ampproject.org/rtv/012005012256000/amp4ads-host-v0.js"></script><script async="async" src="//kpmediagaua.hit.gemius.pl/xgemius.js"></script><script type="text/javascript">
+<!--
+window.JS_ERROR_NOTIFY = 'MTE5ODYzMjI=';
+var lmJsVersion = 1.690;
+var lmJsPath = '//i3.i.ua/js/';
+var JS_LANG_ID = 1;
+var I_VER2 = true;
+var I_SSL = true;
+var SSG = 'd42d1cef';
+//-->
+</script>
+<script type="text/javascript" src="//i3.i.ua/js/util.ya033ba43.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/JSHttpRequest.y989b751f.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/global.y18bbae35.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/autoload.yffdd94c6.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/mbox/mbox2.y88dc6a1d.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/popupdiv.y2ddeb664.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/mbox/updiv.y3e27618f.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/mbox/compose.y7d0fde42.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/util2.yaf11ba4a.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/richtextmulti2201_v2.y3551048b.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/dropdown.yf5a8f0e.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/form.y5b5b4ba3.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/form.yab1d854f.js"></script>
+<script type="text/javascript" async="" id="Admixer" data-inv="//inv-nets.admixer.net/" data-r="always" data-bundle="desktop" src="https://cdn.admixer.net/scripts3/loader2.js"></script><script type="text/javascript">
+(function() {
+
+	var branding = {
+			padTop:130,
+			bgColor:'#fff',
+			fixed:true,
+			hwAlco:false,
+			hwMed:false,
+			iuaNew:false
+		};
+	
+	function addEvent(e,t,f) {
+		if (e.addEventListener) {
+			e.addEventListener(t, f, false);
+		} else if (e.attachEvent) {
+			e.attachEvent('on'+t, f);
+		}
+	}
+	
+	function removeEvent(e,t,f) {
+		if (e.removeEventListener) {
+			e.removeEventListener(t, f, false);
+		} else if (e.detachEvent) {
+			e.detachEvent('on'+t, f);
+		}
+	}
+	
+	function merge() {
+		var options, name, copy, target=arguments[0] || {};
+		for (i = 1; i < arguments.length; i++ )
+			if ((options = arguments[i]) != null)
+				for (name in options)
+					if (options.hasOwnProperty(name) && options[name] !== undefined)
+						target[name] = options[name];
+		return target;
+	}
+
+	function GEBCN(cn){
+		if(document.getElementsByClassName) // Returns NodeList here
+			return document.getElementsByClassName(cn);
+
+		cn = cn.replace(/ *$/, '');
+
+		if(document.querySelectorAll) // Returns NodeList here
+			return document.querySelectorAll((' ' + cn).replace(/ +/g, '.'));
+
+		cn = cn.replace(/^ */, '');
+
+		var classes = cn.split(/ +/), clength = classes.length;
+		var els = document.getElementsByTagName('*'), elength = els.length;
+		var results = [];
+		var i, j, match;
+
+		for(i = 0; i < elength; i++){
+			match = true;
+			for(j = clength; j--;)
+				if(!RegExp(' ' + classes[j] + ' ').test(' ' + els[i].className + ' '))
+					match = false;
+			if(match)
+				results.push(els[i]);
+		}
+
+		// Returns Array here
+		return results;
+	}
+
+	function addClass (o, c) {
+		var re = new RegExp("(^|\\s)" + c + "(\\s|$)", "g");
+		if (re.test(o.className)) return
+		o.className = (o.className + " " + c).replace(/\s+/g, " ").replace(/(^ | $)/g, "");
+	}
+
+	function getStyle(e,s){
+		if (e.currentStyle) { return e.currentStyle[s]||''; }
+		else if (window.getComputedStyle) { return window.getComputedStyle(e,null)[s]||''; }
+	}
+
+	addEvent(window,"message", catchMsg);
+	
+	function catchMsg(e) {
+		if (typeof e.data == 'string') {
+			var str = e.data;
+			if (str.indexOf('admBranding_padTop') != -1) {
+				branding.padTop = str.split('_')[str.split('_').length-1]; 
+			}
+			if (str.indexOf('admBranding_bgColor') != -1) {
+				branding.bgColor = str.split('_')[str.split('_').length-1];
+			}
+			if (str.indexOf('admBranding_fixed') != -1) {
+				branding.fixed = str.split('_')[str.split('_').length-1];
+			}
+			if (str.indexOf('admBranding_hwAlco') != -1) {
+				branding.hwAlco = str.split('_')[str.split('_').length-1];
+				branding.hwAlco = (branding.hwAlco=='true')?true:false;
+			}
+			if (str.indexOf('admBranding_hwMed') != -1) {
+				branding.hwMed = str.split('_')[str.split('_').length-1];
+				branding.hwMed = (branding.hwMed=='true')?true:false;
+			}
+			if (str.indexOf('admBranding_iuaNew') != -1) {
+				branding.iuaNew = str.split('_')[str.split('_').length-1];
+				branding.iuaNew = (branding.iuaNew=='true')?true:false;
+			}
+			if (e.data == 'admix_branding') {
+				loadBranding();
+				removeEvent(window,"message", catchMsg);
+			}
+		}
+	}
+	
+	function loadBranding() {
+		var html_brnd,
+			html_brnd_first,
+			topId = ['admixer_async_681667001',  // weather
+					'admixer_async_1388268464',  // video
+					'admixer_async_395934906',  // tv
+					'admixer_async_1382177623',  // radio
+					'admixer_async_1115304362',  // prikol
+					'admixer_async_1036325645',  // perevod
+					'admixer_async_1071860055',  // otvet
+					'admixer_async_2022697699',  // news
+					'admixer_async_697525821',  // narod
+					'admixer_async_1419050558',  // music
+					'admixer_async_1890157712',  // map
+					'admixer_async_98527678',  // mail
+					'admixer_async_884978609',  // love
+					'admixer_async_393312103',  // links
+					'admixer_async_1871637314',  // job
+					'admixer_async_1764799217',  // goroskop
+					'admixer_async_1714031575',  // cook
+					'admixer_async_1974191118',  // board
+					'admixer_async_1023898800',  // blog
+					'admixer_async_68886793', // finance
+					'admixer_async_168746454', // kino
+					'admixer_async_536713179',  // inner
+					'admixer_top_weather',  // weather
+					'admixer_top_video',  // video
+					'admixer_top_tv',  // tv
+					'admixer_top_radio',  // radio
+					'admixer_top_prikol',  // prikol
+					'admixer_top_perevod',  // perevod
+					'admixer_top_otvet',  // otvet
+					'admixer_top_news',  // news
+					'admixer_top_narod',  // narod
+					'admixer_top_music',  // music
+					'admixer_top_map',  // map
+					'admixer_top_mail',  // mail
+					'admixer_top_love',  // love
+					'admixer_top_links',  // links
+					'admixer_top_job',  // job
+					'admixer_top_goroskop',  // goroskop
+					'admixer_top_cook',  // cook
+					'admixer_top_board',  // board
+					'admixer_top_blog',  // blog
+					'admixer_top_finance',  // finance
+					'admixer_top_kino',  // kino
+					'admixer_top_inner'];  // inner
+					
+		for (var i=0; i<topId.length; i++) {
+			if (document.getElementById(topId[i])) {
+				html_brnd = document.getElementById(topId[i]);
+				break;
+			}
+		}
+		
+		var partition = window.location.hostname.split('.')[0];
+		
+		if (branding.iuaNew) {
+
+			var partitions_new = ['weather','finance','perevod','map','tv','goroskop','prikol'];
+			
+			var isNewPartition = (function() {
+				for (var i=0; i < partitions_new.length; i++) {
+					if (partitions_new[i] == partition) {
+						return true;
+					}
+				}
+				return false;
+			})();
+			
+			if (isNewPartition) {
+				
+				var bOffset = 47;
+				
+				if (html_brnd) {
+					if (html_brnd.firstChild) {
+						html_brnd_first = html_brnd.firstChild;
+						merge(html_brnd_first.style, {'max-width':'100%','max-height':'100%','min-width':'100%','min-height':'100%'});
+					}
+				} else {
+					console.log('Function loadBranding stopped');
+					console.log('Place holder id for TOP banner is not found in topId array');
+					return;
+				}
+				
+				if (typeof I_VER3 !== 'undefined') {
+					
+					if (GEBCN('body_container')[0]) {
+						var body_cont = GEBCN('body_container')[0];
+					}
+					
+					addClass(document.body, 'iua_branding');
+					document.body.style.overflowX = 'hidden';
+					
+					if (GEBCN('header_adv')[0]) {
+						var header_adv_cont = GEBCN('header_adv')[0];
+						header_adv_cont.style.display = 'none';
+					}
+					
+					if (GEBCN('header_container').length) {
+						merge(GEBCN('header_container')[0].style, {'position':'absolute','width':'100%','z-index':2});
+					}
+					
+					if (GEBCN('page')[0]) {
+						var page_cont = GEBCN('page')[0];
+						merge(page_cont.style, {'position':'relative','z-index':1});
+						var contWidth = getStyle(page_cont, 'width'); 
+						if (~contWidth.indexOf("px")) {
+							contWidth = +contWidth.slice(0,contWidth.length-2)+8;
+						}
+					}
+					
+					body_cont.style.top = (bOffset+parseInt(branding.padTop)) + 'px';
+					
+					if (document.getElementById('section_nav')) {
+						document.getElementById('section_nav').style.zIndex = 1;
+					}
+					
+					if (GEBCN('footer_container').length) {
+						merge(GEBCN('footer_container')[0].style, {'top':parseInt(branding.padTop)+20+ 'px', 'z-index':1});
+					}
+					
+					merge(html_brnd.style, {'position':'fixed','top':bOffset+'px','width':'100%','height':'100%','overflow': 'hidden','z-index':0});
+					document.body.appendChild(html_brnd);
+					
+					$(window).scroll(function () {
+						if ($(window).scrollTop() >= bOffset) {
+							$(html_brnd).css({'top':0+'px', 'position':'fixed'});
+						} else {
+							$(html_brnd).css({'top':bOffset-$(window).scrollTop()+'px', 'position':'absolute'});
+						}
+					});
+					
+					function addHealthWarning() {
+						var hwDiv = document.createElement('DIV');
+						GEBCN('page')[0].appendChild(hwDiv);
+						merge(hwDiv.style, {
+							'position':'relative',
+							'width':'1100px',
+							'height':'142px',
+							'margin':'0 auto',
+							'min-width':'1100px',
+							'max-width':'1100px',
+							'background-color':'#fff',
+							'background-image': (branding.hwAlco ? 'url(//i.holder.com.ua/h/1/2/282_pf2_1.jpg)' : branding.hwMed ? 'url(//i.holder.com.ua/h/5/6/266_pf1_1.jpg)' : ''),
+							'background-repeat':'no-repeat',
+							'background-position':'center top',
+							'background-size':'contain',
+							'z-index':1
+						});
+						
+					}
+					
+					if (branding.hwAlco || branding.hwMed) {
+						addHealthWarning();
+					}
+						
+				}
+					
+			}
+				
+		} else {
+				
+			if (html_brnd) {
+				if (html_brnd.firstChild) {
+					html_brnd_first = html_brnd.firstChild;
+					merge(html_brnd_first.style, {'max-width':'100%','max-height':'150px','min-width':'100%','min-height':'150px'});
+				}
+			} else {
+				console.log('Function loadBranding stopped');
+				console.log('Place holder id for TOP banner is not found in topId array');
+				return;
+			}
+			
+			merge(html_brnd.style, {'width':'100%','height':'150px','max-width':'100%','max-height':'150px','min-width':'100%','min-height':'150px','margin':'0px auto'});
+			if (GEBCN('header_adv').length) {
+				GEBCN('header_adv')[0].style.padding = '0px';
+			}
+			if (GEBCN('header_adv_item').length) {
+				merge(GEBCN('header_adv_item')[0].style, { 'width':'100%', 'border':'none' });
+			}
+			if (GEBCN('widget_adv').length) {
+				merge(GEBCN('widget_adv')[0].style, { 'width':'100%', 'border':'none' });
+			}
+			
+		}
+		
+	}
+})();
+</script><script type="text/javascript">
+<!--
+if (window.frPr)
+	window.frPr();
+var i_user = 1;
+var username = 'Евгений';
+//-->
+</script>
+<script charset="utf-8" src="https://cdn.admixer.net/scripts3/0edd7dbfd3145011e4ef.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/2e618849ee13451c8cf1.b.js"></script><iframe title="iframe" style="display: none;"></iframe><script async="" src="//i.mediatraffic.com.ua/js/uho/mt20_3.js"></script><script async="" src="https://h.holder.com.ua/s?ta&amp;b7894&amp;c1&amp;r57082604&amp;dholder_300x350_94&amp;hhttps%3A//mbox2.i.ua/compose/1400254098/"></script><script async="true" type="text/javascript" src="https://inv-nets.admixer.net/dsp.aspx?sender=admixer&amp;rct=4&amp;v=2.0&amp;data=%7B%22id%22%3A%225cfe88ff-7754-7735-fb85-93a07c0a4de1%22%2C%22site%22%3A%7B%22page%22%3A%22https%253A%252F%252Fmbox2.i.ua%252Fcompose%252F1400254098%252F%22%2C%22ref%22%3A%22https%253A%252F%252Fmbox2.i.ua%252F%253F_rand%253D318677724%2526phcode%253D70326e1a3e45edbe86e88f2767367e0b%22%2C%22sf%22%3A0%7D%2C%22device%22%3A%7B%22ua%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F81.0.4044.138%20Safari%2F537.36%22%2C%22sr%22%3A%221536x864%22%7D%2C%22labels%22%3A%7B%22rtb_rta%22%3A%22%22%7D%2C%22imp%22%3A%5B%7B%22id%22%3A%22f1b224ec-a8e1-c64a-e4a6-6f7b240dc0d0%22%2C%22tagid%22%3A%2210c147c0-92a2-4910-a618-1fbaf92467d1%22%2C%22ext%22%3A%7B%22ph%22%3A%22admixer_rm_inner%22%2C%22pos%22%3A1%7D%2C%22sender%22%3Anull%7D%2C%7B%22id%22%3A%2297eaa4ae-726d-6783-875b-d0c50ae933ff%22%2C%22tagid%22%3A%222724cbf4-a4a5-49cb-84fb-c8dd977b5901%22%2C%22ext%22%3A%7B%22ph%22%3A%22admixer_top_mail%22%2C%22pos%22%3A1%7D%2C%22sender%22%3Anull%7D%5D%2C%22allimps%22%3A2%7D&amp;rnd=8951666842240313&amp;cpv=b6cad6b2-ba43-19d3-64d5-dcd0d3bdd21a&amp;am-uid=null&amp;3rd=true"></script><script async="async" charset="windows-1251" src="//t.holder.com.ua/s?v3&amp;s1&amp;pbottom_mail&amp;m6&amp;r74442387&amp;c1"></script><style type="text/css">.mtr3{margin:auto;z-index:1}.mtr3 a{line-height:1.1!important;}.mtr3,.mtr3::after,.mtr3::before{box-sizing:content-box!important;}.mtr3.img-top{text-align:center}.mtr3.img-left,.mtr3.img-right{text-align:left}.mtr3.inner{position:relative}.mtr3.pop-in{position:absolute}.mtr3.T,.mtr3 .prt.T{top:0}.mtr3.B,.mtr3 .prt.B{bottom:0}.mtr3.L,.mtr3 .prt.L{left:0}.mtr3.R,.mtr3 .prt.R{right:0}.mtr3.hor{width:100%}.mtr3.ver{height:100%}.mtr3 table{width:100%;border-collapse: initial!important;cursor:pointer}.mtr3 td{vertical-align:top!important;position: relative;}.mtr3 .mt-hdr,.mtr3 .mt-txt{display:block;line-height:0.8!important}.mtr3 .mt-hdr a,.mtr3 .mt-txt a{border-style:none!important}.mtr3 .mt-img{position:relative;height:auto;display:inline-block;z-index:10;overflow: hidden}.mtr3 .mt-img:hover{z-index:15}.mtr3.img-left .mt-img{float:left}.mtr3.img-right .mt-img{float:right}.mtr3 .mt-img img{width:100%;height:auto;}.mtr3 .mt-btn{display:inline-block;float:none;position:absolute;white-space:nowrap;bottom:3px}.mtr3 .prt{position:absolute;z-index:11}.mtr3 .prt .prt_title{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAqCAYAAABMW14yAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwtJREFUeNrsmzFMU1EUhm8NTp1tnYx2NiWuAosMIo40QStamjahiwwoUxMJJh1lwKUkhVKBIklpUJHWAUUjMLk0znUgLHXD1EWT6t/E2NR7bu+D+zDtO9/Y+9pe+t/3n7/nUJcQoiY6kMMLF9tin2cEwwKwAMx/o6v5gVpNvyRUKhXh9Xpt2VixUBDXBwa0r3e5XFrXnXu9JM5e7j3VD/nH54/i68275u8Aj8cjHkxMGN9wf/81Sx++oy3oXihkfFPBYJBrgC5+v18EhoaMbmp4+BYLYIVoNGpsQ4+np4Xb7WYBrAC/9vkuGdnQnZERZ6cgFeVy+fcH7ZOuxeNxEYmc7E6IRiLk61erVSN3BpVGrCYmVbKx7Q7Y2XlXj552+XYgECDXCltbbEFgNZuVPo7TCf+2I3q+KRbF0bcjFgDMPp21xb9jYzFyLZVKcRH+Wwe+1E+kDPg3fNwqKOA3Bgela6VSSeTW11kA3RMZDoctv95oaJQssC82NjiGNoMTiUQk42pPT93PrTAWk9sPCv6jqSkWQMbK8vKx/FwWPdFTkrG5+Yq/iFHgZCKby4Cf634xU1lWlkhcLECLbA4/H78/rhU9YVlU9NzefssCqEjOJcm12xodzcmHk3SdyeUc0Yo4kQA4oXu7u9K1VrMCWFRvXx/Z8kjNz7MAOuTzeXJNNSuARVHRU1XgWYAmnszMkP0h1ayAsigU9k6PnkYFAKuKtCKbFcCaqOi5tvZcOAkjAqj6Q7JZgcqanBA9jQug6g8BzAoaoyesycnR07gAQNUfapwVcPS0SQBVf+jPrEAVPVHInRI9bRGgVXzErABWREXPuWRSOBGjAqj6Q5gVUGNLPGcxs8gCmEA1u6VOP56DQs4CGEDVHzL5HBaAADESY0Rd0EtyWvS0VQDwLJPRvjadTgsnY4sAqv4QR89TEADojBOdGj0b+edfExcW6BO5v7ev/cKJRKLlNVaip5X3NsX3lyui69MH6drPwwMj74GflfCvJDvRghgWoG1qwPtO/MMOrpzvbod9/hJgAJdIGMi/wvmOAAAAAElFTkSuQmCC);margin:0;background-repeat:no-repeat;background-size:contain;content:"";display:inline-block;height:10px;line-height:10px;width:23px;border-top:1px solid #000}</style><script async="true" type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script><script async="true" type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/13eacf6cee6bddf36c40.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/0c041d0472a1e9937f43.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/41a864b609924a98ff78.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/74f4cdef0798513d6ef8.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/dafea4539efafbf32fa2.b.js"></script><script async="true" type="text/javascript" src="//recreativ.ru/rcode.WckOTW32bU.js"></script><script src="//recreativ.ru/cs/1/1"></script><link rel="preload" href="https://adservice.google.com.ua/adsid/integrator.js?domain=mbox2.i.ua" as="script"><script type="text/javascript" src="https://adservice.google.com.ua/adsid/integrator.js?domain=mbox2.i.ua"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=mbox2.i.ua" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=mbox2.i.ua"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020051802.js" async=""></script><script src="//recreativ.ru/cs/1/1"></script><script src="//recreativ.ru/tizers.php?bn=WckOTW32bU&amp;cache=tJnc49fcsG_y2Rk"></script><link rel="prefetch" href="https://ef45ffcc48b04113f0c2760ffd8bdf2c.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html"><script src="/sugg/to.js?sugg_keystring=z&amp;dp_varName=data_provider&amp;dp_idWaiting=399535.5768717479"></script></head>
+
+<body><div id="sugg_man_bcc_layer" style="position: absolute; z-index: 120001; background-color: yellow; visibility: hidden;"><table id="sugg_man_bcc_table" border="0" width="100%" cellspacing="0" cellpadding="1" class="table_autocomplete" style="visibility: hidden;"></table></div><div id="sugg_man_cc_layer" style="position: absolute; z-index: 120001; background-color: yellow; visibility: hidden;"><table id="sugg_man_cc_table" border="0" width="100%" cellspacing="0" cellpadding="1" class="table_autocomplete" style="visibility: hidden;"></table></div><div id="sugg_man_layer" style="position: absolute; z-index: 120001; background-color: yellow; visibility: visible; width: 828px; left: 197px; top: 308px;"><table id="sugg_man_table" border="0" width="100%" cellspacing="0" cellpadding="1" class="table_autocomplete" style="visibility: visible;"><tbody><tr id="sugg_man_tr_0"><td nowrap="" class="td_autocomplete_selected" id="sugg_man_td_left_0"></td><td nowrap="" class="td_autocomplete_selected" id="sugg_man_td_right_0">zhenyamoroz2208@i.ua</td></tr></tbody></table></div>
+	<div class="body_container">
+<div id="bmcounter">
+<script type="text/javascript" language="javascript"><!--
+iS='<img src="//r.i.ua/s?u100&p0&n'+Math.random();
+iD=document;if(!iD.cookie)iD.cookie="b=b; path=/";if(iD.cookie)iS+='&c1';
+try{
+iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)
++"&w"+screen.width+'&h'+screen.height;
+}catch(e){}
+iT=iR=iD.referrer.replace(/^.*\/\//, '');iH=window.location.href.replace(/^.*\/\//, '');
+((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);
+if(iT!=iH.substring(0,iI))iS+='&f'+escape(iR);
+iS+='&r'+escape(iH);
+iD.write(iS+'" border="0" width="1" height="1" />');
+bmQ='//c.bigmir.net/?s134156&t6&n'+Math.random();
+bmD=document;
+if(bmD.cookie)bmQ+='&c1';
+try{
+bmS=screen;bmQ+='&d'+(bmS.colorDepth?bmS.colorDepth:bmS.pixelDepth)+"&r"+bmS.width;
+}catch(e){}
+bmF = bmD.referrer.replace(/^.*\/\//, '');
+if(bmF.indexOf('.i.ua')==-1)bmQ+='&f'+escape(bmF);
+UtilLite.addEvent(window, 'load', function () {
+	var img = dge('bmcounter').appendChild(dce('IMG'));
+	img.border=0;
+	img.width=1;
+	img.height=1;
+	img.src=bmQ;
+});
+
+function ILoadScript(src){var t='script',gt=iD.createElement(t),s=iD.getElementsByTagName(t)[0];gt.setAttribute('async','async');gt.src=src; s.parentNode.insertBefore(gt,s);}
+var pp_gemius_identifier = new String('1vYwRCuDZ31P3rDTWe_gUtVprfGN0cO2V4Jk3H6nxS..R7');
+function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+ILoadScript('//kpmediagaua.hit.gemius.pl/xgemius.js');
+
+/*var tns_already, tnscm_adn = tnscm_adn || [];
+(function(c,m){if(c.indexOf&&c.indexOf(m)<0){c.unshift(m);}}(tnscm_adn,"inline_cm"));
+if (!tns_already) {
+	tns_already=1;
+
+	UtilLite.addEvent(window, 'load', function () {
+		var i=new Image();
+		i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=i.ua&j=1&nocache="+Math.random();
+		ILoadScript("http://source.mmi.bemobile.ua/cm/cm.js");
+	});
+}*/
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34374057-1']);
+_gaq.push(['_setDomainName', '.i.ua']);
+_gaq.push(['_addOrganic', 'go.mail.ru', 'q']);
+_gaq.push(['_addOrganic', 'nigma.ru', 's']);
+_gaq.push(['_addOrganic', 'search.qip.ru', 'query']);
+_gaq.push(['_addOrganic', 'aport.ru', 'r']);
+_gaq.push(['_addOrganic', 'webalta.ru', 'q']);
+_gaq.push(['_addOrganic', 'search.livetool.ru', 'text']);
+_gaq.push(['_addOrganic', 'poisk.ngs.ru', 'q']);
+_gaq.push(['_addOrganic', 'search.tyt.by', 'query']);
+_gaq.push(['_addOrganic', 'search.ukr.net', 'search_query']);
+_gaq.push(['_addOrganic', 'liveinternet.ru', 'q']);
+_gaq.push(['_addOrganic', 'meta.ua', 'q']);
+_gaq.push(['_addOrganic', 'gogo.ru', 'q']);
+_gaq.push(['_trackPageview']);
+UtilLite.addEvent(window, 'load', function () {
+	ILoadScript('//stats.g.doubleclick.net/dc.js');
+});
+//--></script><img src="//r.i.ua/s?u100&amp;p0&amp;n0.7674592167249794&amp;c1&amp;d24&amp;w1536&amp;h864&amp;rmbox2.i.ua/compose/1400254098/" border="0" width="1" height="1"><img border="0" width="1" height="1" src="//c.bigmir.net/?s134156&amp;t6&amp;n0.7287678164450526&amp;c1&amp;d24&amp;r1536"></div><div id="admixer_rm_inner" data-zone="10c147c0-92a2-4910-a618-1fbaf92467d1" style="z-index: 9999; margin: 0px auto; position: relative; overflow: hidden; width: 0px; height: 0px;"><iframe allowfullscreen="true" allowtransparency="true" frameborder="0" hidefocus="true" marginheight="0" marginwidth="0" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" tabindex="-1" webkitallowfullscreen="true" title="iframe" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; display: none;"></iframe><div><div id="bn_lone" data-h="0" style="text-align: center; z-index: 2147483647; box-sizing: border-box; background-color: rgb(255, 255, 255); position: fixed !important; right: 0px !important; bottom: 0px !important; left: 0px !important; opacity: 1 !important; background-image: none !important; box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px !important; margin: 0px; display: block;"><div style="position:relative !important;overflow:hidden !important;padding:0 0 0 0 !important;margin:auto !important;box-sizing:border-box !important;width:100% !important;max-width:1200px !important;" '="" class="rc-lone-div"><table style="width:100% !important;max-width:1200px !important;table-layout:auto !important;-webkit-hyphens:auto !important;-moz-hyphens:auto !important;-ms-hyphens:auto !important;hyphens:auto !important;word-break:break-word !important;border-collapse:separate !important;border:0 !important;margin:0 !important;border-spacing:4px 2px !important;padding:0 !important;margin:0 -4px !important;width:calc(100% + 8px) !important;"><tbody><tr><td style="width: 33%; display: table-cell;" class="rc-lone-td" data-i="0"><a href="https://recreativ.ru/go.php?t=7nkUWHAJFGNpH0LzIreK1RALDzULwUULBvx6iJsoXPQ6DlN5uMUFCjzZVJL4jSWzEVc5joabWbYOeyBHg5XzUj7f849Bqo3SGoEDS1Gg8jZAZxkZHuTfCzBelQ75xyi5C_6V7TodSQhZFyHCuJ0X9aqelA84XAv9DPnv6EEK__h-Bgd3VGgAW94pSw" target="_blank" rel="nofollow" style="cursor:pointer !important;text-decoration:none !important;display:block !important;margin:0 !important;padding:0 !important;text-indent:0 !important;text-align:left !important;position:relative !important;border:0 !important;" data-i="0"><div style="display:block !important;"><div class="rc-lone-imgbox"><img src="//st5.recreativ.ru/2/200/88bb9c90022bf1c4688c2f03026218f8" srcset="//st5.recreativ.ru/2/304/88bb9c90022bf1c4688c2f03026218f8 2x" class="rc-lone-img" data-i="0" style="display: block !important;"></div><i style="display: block;"></i><i></i></div><div' class="rc-lone-desc" style="display: block;"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="3">Чоловічі Levis з натуральної телячої шкіри по акційній ціні</span><div class="rc-lone-button" data-i="7"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="7">Топ продаж</span> </div></div'></a></td><td style="width: 33%; display: table-cell;" class="rc-lone-td" data-i="1"><a href="https://recreativ.ru/go.php?t=7nkUWHAJFGNpH0LzIreK1RALDzULwUULBvx6iJsoXPQ6DlN5uMUFCjzZVJL4jSWzEVc5joabWbYOeyBHg5XzUj7f849Bqo3SGoEDS1Gg8jZAZxkZHuTfCzBelQ75xyi5C_6V7TodSQhZFyHCuJ0X9aqelA84XAv9DPnv6EEKELN-Bgd3VGgAW94pSw" target="_blank" rel="nofollow" style="cursor:pointer !important;text-decoration:none !important;display:block !important;margin:0 !important;padding:0 !important;text-indent:0 !important;text-align:left !important;position:relative !important;border:0 !important;" data-i="1"><div style="display:block !important;"><div class="rc-lone-imgbox"><img src="//st5.recreativ.ru/2/200/94bce9d33ff28ed9a490378aa5e9b46e" srcset="//st5.recreativ.ru/2/304/94bce9d33ff28ed9a490378aa5e9b46e 2x" class="rc-lone-img" data-i="1" style="display: block !important;"></div><i style="display: block;"></i><i></i></div><div' class="rc-lone-desc" style="display: block;"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="3">Соковиті та великі плоди діаметром 3-5см! До 30кг з дерева.</span><div class="rc-lone-price"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="5">199 грн</span></div><div class="rc-lone-button" data-i="7"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="7">Топ продаж</span> </div></div'></a></td><td style="width: 33%; display: table-cell;" class="rc-lone-td" data-i="2"><a href="https://recreativ.ru/go.php?t=7nkUWHAJFGNpH0LzIreK1RALDzULwUULBvx6iJsoXPQ6DlN5uMUFCjzZVJL4jSWzEVc5joabWbYOeyBHg5XzUj7f849Bqo3SGoEDS1Gg8jZAZxkZHuTfCzBelQ75xyi5C_6V7TodSQhZFyHCuJ0X9aqelA84XAv9DPnv6EFWW_t-Bgd3VGgAW94pSw" target="_blank" rel="nofollow" style="cursor:pointer !important;text-decoration:none !important;display:block !important;margin:0 !important;padding:0 !important;text-indent:0 !important;text-align:left !important;position:relative !important;border:0 !important;" data-i="2"><div style="display:block !important;"><div class="rc-lone-imgbox"><img src="//st5.recreativ.ru/2/200/a79b6e278800bc9b880a24caaab3b79b" srcset="//st5.recreativ.ru/2/304/a79b6e278800bc9b880a24caaab3b79b 2x" class="rc-lone-img" data-i="2" style="display: block !important;"></div><i style="display: block;"></i><i></i></div><div' class="rc-lone-desc" style="display: block;"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="3">Електровикрутка та 8 насадок в комплекті! Є підсвітка</span><div class="rc-lone-price"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="5">Знижка 20%</span></div><div class="rc-lone-button" data-i="7"><span style="color:inherit !important;font-size:inherit !important;font-weight:inherit !important;text-decoration:inherit !important;" data-i="7">Топ продаж</span> </div></div'></a></td></tr></tbody></table><a href="https://recreativ.com" title="Рекламная" сеть="" recreativ="" -="" с="" нами="" Вас="" заметят!"="" target="_blank" class="rc-lone-logo" style="display:block;width:18px;height:14px;overflow:hidden;position:absolute;box-sizing:content-box;right:0;top:0;margin:0;border:0;padding:1px;transition:0.3s;background:url(//recreativ.ru/img/logo160.png) 2px 2px no-repeat#fff;background-size:auto 80%;border-radius:0 0 0 5px;"></a></div><a href="#" data-i="z" style="position: absolute;width: 28px;height: 28px;top: -28px;right: 0;background-image: url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='13' viewBox='341 8 13 13' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%234F4F4F' d='M354 9.31L352.69 8l-5.19 5.19L342.31 8 341 9.31l5.19 5.19-5.19 5.19 1.31 1.31 5.19-5.19 5.19 5.19 1.31-1.31-5.19-5.19z' fill-rule='evenodd'/%3E%3C/svg%3E&quot;);background-size: 13px 13px;background-position: 9px;background-color: #fff;background-repeat: no-repeat;box-shadow: 0 -1px 1px 0 rgba(0,0,0,0.2);border: none;border-radius: 12px 0 0 0;"><div style="position: absolute;top: -20px;right: 0;left: -20px;bottom: 0;"></div></a><style>#bn_lone{all: initial}#bn_lone .rc-lone-td{border:1px solid #D0D0D0 !important;text-align:left !important;padding:0px !important;background-color:#FFFFFF !important;vertical-align:top !important;line-height:0 !important;}#bn_lone .rc-lone-imgbox{margin:0 5px 0 0 !important;float:left !important;width:180px !important;height:102px !important;box-sizing:content-box !important;padding:0 !important;overflow:hidden !important;background:#fff !important;display:block !important;}#bn_lone .rc-lone-img{max-width:100% !important;max-height:100% !important;border:0 !important;margin:0 !important;padding:0 !important;width:100% !important;height:auto !important;}#bn_lone .rc-lone-title{font-family:Tahoma, Arial, sans-serif !important;font-size:12px !important;line-height:normal !important;color:#000 !important;text-decoration:underline !important;font-weight:normal !important;float:none !important;display:block !important;margin:0 !important;padding:0 !important;}#bn_lone .rc-lone-desc{font-family:Arial, sans-serif !important;font-size:17px !important;line-height:normal !important;color:#000000 !important;text-decoration:none !important;font-weight:normal !important;float:none !important;display:block !important;margin:0 !important;padding:0 !important;}#bn_lone .rc-lone-link{font-family:Tahoma, Arial, sans-serif !important;font-size:12px !important;line-height:normal !important;color:#009a28 !important;font-weight:normal !important;float:none !important;display:block !important;margin:0 !important;padding:0 !important;text-decoration:none !important;border:0 !important;}#bn_lone .rc-lone-price{font-family:Arial, sans-serif !important;font-size:17px !important;font-weight:bold !important;line-height:normal !important;float:none !important;display:block !important;margin:0 !important;padding:0 !important;color:#000000 !important;}#bn_lone .rc-lone-priceold{font-family:Arial, sans-serif !important;font-size:17px !important;font-weight:normal !important;line-height:normal !important;float:none !important;display:block !important;margin:0 !important;padding:0 !important;color:#F0690F !important;text-decoration:line-through !important;}#bn_lone .rc-lone-button{position:absolute !important;right:12px !important;top:65px !important;width:30px !important;height:30px !important;border-radius:50% !important;background:#F32C12 !important;display:block !important;font-size:0 !important;box-shadow:1px 2px 4px rgba(0, 0, 0, 0.3) !important;}#bn_lone .rc-lone-button::after{display:block !important;content:"" !important;background:url(//recreativ.ru/img/gt.svg) no-repeat center center !important;background-size:100% 100% !important;width:54% !important;height:54% !important;margin:23% !important;position:absolute !important;top:0 !important;left:0 !important;}#bn_lone .rc-lone-logo:hover{display:block !important;width:64px !important;}</style></div></div></div><script>(window.admixerAds = window.admixerAds || []).push("admixer_rm_inner");</script>
+
+	<div id="header_overall" class="header_overall">
+		<div class="ho_nav">
+			<a href="https://www.i.ua" class="ho_logo"></a>
+			<ul class="ho_menu ho_menu-main">
+		<li class="ho_menu_item"><a href="https://www.i.ua/">Главная</a></li>
+		<li class="ho_menu_item"><span class="a ho_sections" onclick="i_showSections(this)">Разделы</span></li>
+</ul>
+<ul id="user_sections2_editable" class="ho_menu ho_menu-sections">
+<li class="ho_menu_item -service" cloneclass="ho_menu_item"><i id="user_sections2_editable_control_add" class="icon-ho i_additem" title="Добавить раздел в меню быстрого доступа"></i></li></ul>
+			<ul class="ho_menu ho_menu-account">
+<li class="ho_menu_item">
+				<a class="user" href="https://passport.i.ua/nick/">
+						<span class="user_name">Евгений</span>
+		</a>
+	</li>
+
+<li id="newMail" class="ho_menu_item"><a class="icon-ho ho_mail ho_i_mailico" href="https://mbox.i.ua/?_rand=1590400253" title="новые письма: 0"><i></i></a></li><li class="ho_menu_item"><span class="icon-ho ho_settings ho_i_settings" title="Настройки" onclick="Autoload.call('I_Popup.showMenu', this, 'accountSettingsPopup', {static: true})"></span>
+</li></ul>
+<div id="accountSettingsPopup" class="ho_popup ho_popup-settings" style="display: none;">
+	<ul class="ho_popup_menu">
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/">Паспорт</a></li>
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/form/">Анкетные данные</a></li>
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/passwd/">Сменить пароль</a></li>
+		<li class="ho_popup_menu_item"><a href="http://money.i.ua/">Кошелек</a></li>
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/invite/">Приглашение</a></li>
+		<li class="ho_popup_menu_item"><span class="a" onclick="return i_showFloat(1)">Войти под другим логином</span></li>
+		<li class="ho_popup_menu_item"><a href="https://i.ua/logout.php?_rand=1590400253">Выйти</a></li>
+	</ul>
+</div>
+		</div>
+		<div class="ho_sections_nav" id="sections" style="display: none">
+	<div class="ho_sections_content ho_sections_nav_set">
+		<span class="ho_sections_nav_settings"><span id="header_menu_toggle" class="a" changehtml="Закрыть настройки" onclick="Autoload.call('HeaderMenu.toggleEditMode')">Настройка меню</span></span>
+		<div class="_description">Для добавления или удаления разделов кликните на иконку, которую хотите заменить.</div>
+		<ul id="user_sections_editable" class="ho_user_sections">
+<li class="ho_user_sections_item"><a sectionid="11" class="icon-l i_mail" href="//mbox.i.ua/?_rand=1590400253" title="новые письма: 0"></a></li><li class="ho_user_sections_item"><a sectionid="20" class="icon-l i_prikol" href="https://prikol.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="29" class="icon-l i_perevod" href="https://perevod.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="25" class="icon-l i_photo" href="http://photo.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="30" class="icon-l i_blog" href="http://blog.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="21" class="icon-l i_love" href="http://love.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="32" class="icon-l i_video" href="https://video.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="45" class="icon-l i_finance" href="https://finance.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="26" class="icon-l i_tv" href="https://tv.i.ua/"></a></li><li class="ho_user_sections_item -service" cloneclass="ho_user_sections_item"><i id="user_sections_editable_control_add" class="icon-l i_additem" title="Добавить раздел в избранные" onclick=""></i></li>
+		</ul>
+	</div>
+		<div id="user_sections_popup" class="ho_popup ho_popup-icon_manager" style="display: none">
+		<ul class="ho_user_sections">
+<li class="ho_user_sections_item"><a title="Почта" sectionid="11" class="icon-l i_mail" href="//mbox.i.ua/?_rand=1590400253"></a></li><li class="ho_user_sections_item"><a title="Финансы" sectionid="45" class="icon-l i_finance" href="https://finance.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Карты" sectionid="43" class="icon-l i_map" href="https://map.i.ua/"></a></li><li class="ho_user_sections_item"><a title="TV" sectionid="26" class="icon-l i_tv" href="https://tv.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Погода" sectionid="23" class="icon-l i_weather" href="https://weather.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Гороскоп" sectionid="22" class="icon-l i_goroskop" href="https://goroskop.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Музыка" sectionid="64" class="icon-l i_music" href="http://music.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Радио" sectionid="81" class="icon-l i_radio" href="http://radio.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Кино" sectionid="55" class="icon-l i_kino" href="http://kino.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Перевод" sectionid="29" class="icon-l i_perevod" href="https://perevod.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Органайзер" sectionid="47" class="icon-l i_org" href="http://org.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Файлы" sectionid="56" class="icon-l i_files" href="https://files.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Работа" sectionid="16" class="icon-l i_job" href="http://job.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Каталог" sectionid="24" class="icon-l i_catalog" href="http://catalog.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Закладки" sectionid="36" class="icon-l i_links" href="http://links.i.ua/"></a></li><li class="ho_user_sections_item"><a title="RSS" sectionid="17" class="icon-l i_rss" href="http://rss.i.ua/live/"></a></li><li class="ho_user_sections_item"><a title="Объявления" sectionid="41" class="icon-l i_board" href="http://board.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Магазины" sectionid="31" class="icon-l i_shop" href="http://shop.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Новости" sectionid="48" class="icon-l i_news" href="http://news.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Ответы" sectionid="69" class="icon-l i_otvet" href="http://otvet.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Обои" sectionid="42" class="icon-l i_oboi" href="http://oboi.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Открытки" sectionid="49" class="icon-l i_cards" href="http://cards.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Группы" sectionid="74" class="icon-l i_group" href="http://group.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Народ" sectionid="28" class="icon-l i_narod" href="https://narod.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Приколы" sectionid="20" class="icon-l i_prikol" href="https://prikol.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Знакомства" sectionid="21" class="icon-l i_love" href="http://love.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Фото" sectionid="25" class="icon-l i_photo" href="http://photo.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Блоги" sectionid="30" class="icon-l i_blog" href="http://blog.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Видео" sectionid="32" class="icon-l i_video" href="https://video.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Рецепты" sectionid="59" class="icon-l i_cook" href="http://cook.i.ua/"></a></li>		</ul>
+		<div>
+			<hr>
+			<span id="user_sections_control_delete" class="a">Удалить из меню</span>
+		</div>
+	</div>
+	<div id="user_sections2_popup" class="ho_popup ho_popup-icon_manager" style="display: none">
+		<ul class="ho_user_sections">
+<li class="ho_user_sections_item"><a title="Финансы" sectionid="45" class="icon-ho ho_finance" href="https://finance.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Карты" sectionid="43" class="icon-ho ho_map" href="https://map.i.ua/"></a></li><li class="ho_user_sections_item"><a title="TV" sectionid="26" class="icon-ho ho_tv" href="https://tv.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Погода" sectionid="23" class="icon-ho ho_weather" href="https://weather.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Музыка" sectionid="64" class="icon-ho ho_music" href="http://music.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Радио" sectionid="81" class="icon-ho ho_radio" href="http://radio.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Кино" sectionid="55" class="icon-ho ho_kino" href="http://kino.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Перевод" sectionid="29" class="icon-ho ho_perevod" href="https://perevod.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Приколы" sectionid="20" class="icon-ho ho_prikol" href="https://prikol.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Знакомства" sectionid="21" class="icon-ho ho_love" href="http://love.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Фото" sectionid="25" class="icon-ho ho_photo" href="http://photo.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Блоги" sectionid="30" class="icon-ho ho_blog" href="http://blog.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Видео" sectionid="32" class="icon-ho ho_video" href="https://video.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Рецепты" sectionid="59" class="icon-ho ho_cook" href="http://cook.i.ua/"></a></li>		</ul>
+		<div>
+			<hr>
+			<span id="user_sections2_control_delete" class="a">Удалить из меню</span>
+		</div>
+	</div>
+	<div class="ho_sections_content ho_sections_nav_set">
+		<ul class="ho_site_sections">
+<li class="ho_site_sections_item"><a sectionid="11" class="icon i_mail" href="//mbox.i.ua/?_rand=1590400253" title="новые письма: 0">Почта</a></li><li class="ho_site_sections_item"><a sectionid="45" class="icon i_finance" href="https://finance.i.ua/">Финансы</a></li><li class="ho_site_sections_item"><a sectionid="43" class="icon i_map" href="https://map.i.ua/">Карты</a></li><li class="ho_site_sections_item"><a sectionid="26" class="icon i_tv" href="https://tv.i.ua/">TV</a></li><li class="ho_site_sections_item"><a sectionid="23" class="icon i_weather" href="https://weather.i.ua/">Погода</a></li><li class="ho_site_sections_item"><a sectionid="22" class="icon i_goroskop" href="https://goroskop.i.ua/">Гороскоп</a></li><li class="ho_site_sections_item"><a sectionid="64" class="icon i_music" href="http://music.i.ua/">Музыка</a></li><li class="ho_site_sections_item"><a sectionid="81" class="icon i_radio" href="http://radio.i.ua/">Радио</a></li><li class="ho_site_sections_item"><a sectionid="55" class="icon i_kino" href="http://kino.i.ua/">Кино</a></li><li class="ho_site_sections_item"><a sectionid="29" class="icon i_perevod" href="https://perevod.i.ua/">Перевод</a></li><li class="ho_site_sections_item"><a sectionid="47" class="icon i_org" href="http://org.i.ua/">Органайзер</a></li><li class="ho_site_sections_item"><a sectionid="56" class="icon i_files" href="https://files.i.ua/">Файлы</a></li><li class="ho_site_sections_item"><a sectionid="16" class="icon i_job" href="http://job.i.ua/">Работа</a></li><li class="ho_site_sections_item"><a sectionid="24" class="icon i_catalog" href="http://catalog.i.ua/">Каталог</a></li><li class="ho_site_sections_item"><a sectionid="36" class="icon i_links" href="http://links.i.ua/">Закладки</a></li><li class="ho_site_sections_item"><a sectionid="17" class="icon i_rss" href="http://rss.i.ua/live/">RSS</a></li><li class="ho_site_sections_item"><a sectionid="41" class="icon i_board" href="http://board.i.ua/">Объявления</a></li><li class="ho_site_sections_item"><a sectionid="31" class="icon i_shop" href="http://shop.i.ua/">Магазины</a></li><li class="ho_site_sections_item"><a sectionid="48" class="icon i_news" href="http://news.i.ua/">Новости</a></li><li class="ho_site_sections_item"><a sectionid="69" class="icon i_otvet" href="http://otvet.i.ua/">Ответы</a></li><li class="ho_site_sections_item"><a sectionid="42" class="icon i_oboi" href="http://oboi.i.ua/">Обои</a></li><li class="ho_site_sections_item"><a sectionid="49" class="icon i_cards" href="http://cards.i.ua/">Открытки</a></li><li class="ho_site_sections_item"><a sectionid="74" class="icon i_group" href="http://group.i.ua/">Группы</a></li><li class="ho_site_sections_item"><a sectionid="28" class="icon i_narod" href="https://narod.i.ua/">Народ</a></li><li class="ho_site_sections_item"><a sectionid="20" class="icon i_prikol" href="https://prikol.i.ua/">Приколы</a></li><li class="ho_site_sections_item"><a sectionid="21" class="icon i_love" href="http://love.i.ua/">Знакомства</a></li><li class="ho_site_sections_item"><a sectionid="25" class="icon i_photo" href="http://photo.i.ua/">Фото</a></li><li class="ho_site_sections_item"><a sectionid="30" class="icon i_blog" href="http://blog.i.ua/">Блоги</a></li><li class="ho_site_sections_item"><a sectionid="32" class="icon i_video" href="https://video.i.ua/">Видео</a></li><li class="ho_site_sections_item"><a sectionid="59" class="icon i_cook" href="http://cook.i.ua/">Рецепты</a></li>		</ul>
+	</div>
+	<i class="ho_sections_nav_switcher" onclick="i_showSections();" title="Скрыть меню разделов"></i>
+</div>
+	</div>
+	<div class="header_adv spring2">
+		<div class="header_adv_item">
+<div id="admixer_top_mail" data-zone="2724cbf4-a4a5-49cb-84fb-c8dd977b5901" style="margin: 0px auto; position: relative; overflow: hidden; width: 728px; height: 90px;"><iframe allowfullscreen="true" allowtransparency="true" frameborder="0" hidefocus="true" marginheight="0" marginwidth="0" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" tabindex="-1" webkitallowfullscreen="true" title="iframe" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; display: none;"></iframe><script src="https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=807&amp;height=90&amp;width=728&amp;tld=www.i.ua&amp;ctype=div"></script><div id="mwayss_div_7094690655" class="mwayss_div" style="font-size: 0px; line-height: 0;">         <script>(new Image()).src = 'https://ad.mox.tv/delivery/tracking?hash=NHF2WS8wR0FHK0pVMzVmd2VnUE8yZnFSVGIxNTR0RHV3elBqVXlWQXNDd0tEaVU5UUZUcWJFTzFnVkhjSWJON3JhcG1veEQ3ZHZGbmFNbVArLzJncmJlaTN3aWVuSjFxL2tsek9LWlA0QS9kOWxEZm4xZ0c1d1RHdG1WWWRzWG9RdmpYMkpkakZONE1VMUtQTys5b21GYTdJcVpSS0pDOWhpalJhK0xrOEF5SkFHZFk5bTl1ekM3VnNiSEtkVU5pTW4reWIzZk5vRGQvREJSRkdxUmxQQ0Z6M21GTnRSUmY1b2FId1d3VlUxMzRSVFc3Q0VDSGRqam5sVmVvZndYNDZUcHMyT2R3SUhRS1d5VTdxK0F5RzRVSFBHKzZYeXgzcU9IaEFsbHc3S0pmYXZQUjY5L2tHYVVtdjVkcnQ3UHFvSTRNYmlLbURFcjQzSFBNeWZNQ2MwSCtuYjRzbGgxZFVvM3p3dWJNVFkreE1hZFQ5ckxLRUNxOW5nUWI5UHVpRG02bTBHbHRXYkhlVUp4MEwrKzZDTXJQWC9hYmNvZ1dsVHMvQVpjRTFMRlBMZ0VHbllqd2k4bDJxYW5lNVpPK2FWendyN3VpTG5rbHUyQlBGRkc1ZkoxUE5kVTBnMkZWNkVQK09uQzhrRHlHNjJUQ0N2MTJ0bWFRakwvbW9Bayt1aXc4TGdPVlpCOGN6bVZFUkxnd3JMaXRrYXc4ODNLT2k5SVRRYTdiR3M4U1V1bHBQQTBPZEp1Yk8xVEV0QTd4TGU3Q3J2YnNNOXhMY2l1R1B1cFozSzZUQXhOWmFDelhWd0VPV0NjRFozSDlYNWkrOUhhd1ppV09kREFYSkxleXZhS0svUFRjTkZTOEtJVGJSaytFdmV1MVpUcXBPSmRzTmVnaENsRmdDQ21rZFVyVUFhckVjd3M5RFRicWNVbjNhMHNQYlVBK1JqMzZFWnhMVnZTdnFaRE16aVVqVlpMSUJTMUR5MlY4Qlg3VkJ3NzhUcUZkL2Z3WWx5K3k0UnBaUk9VYXdXeXMxOGwyZUplZHoyODJHR0lNT1dqbVFrNHZ2SmdKM3R1aEppL0lXM1ZYVDRMQS90bVY5WnY4cUZTRg%3D%3D&token=Z1VOalUvZkRubTZDK05UVU9tc1VzUT09';</script><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<div id="adSlot-1" data-google-query-id="CNaEnNTezukCFV2AsgodmUoBcQ" style=""><div id="google_ads_iframe_/21679382043/mt_banners/mt_umh_www.i.ua_banner_728x90_UA_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/21679382043/mt_banners/mt_umh_www.i.ua_banner_728x90_UA_0" title="3rd party ad content" name="google_ads_iframe_/21679382043/mt_banners/mt_umh_www.i.ua_banner_728x90_UA_0" width="970" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="2" data-load-complete="true"></iframe></div></div>
+<script type="text/javascript">
+function showBanner1() {  
+const config = {
+  adUnitPath: '/21679382043/mt_banners/mt_umh_www.i.ua_banner_728x90_UA',
+  slotSizes: [[728, 90], [970, 90], [468, 60]],
+  slotId: 'adSlot-1',
+  refreshTimeout: 30000,
+  targetingKey: 'mt_fln',
+  mappedWeights: ['1', '0.3', '0.1', '0'],
+  passback: () => {
+s = document.createElement('script'),
+                    acid = 'mwayss-7094690655'.split('-')[1],
+                    ac = document.getElementById('mwayss_div_' + acid);
+
+                s.src = '//ad.mox.tv/mox/mwayss_invocation.min.js?act=rollback&banner_id=9544&ch=&token=a654843f408490d8e72afe3eed65a8c6&uid=7094690655';
+
+                Array.prototype.forEach.call(ac.childNodes, function(node) {
+                    if (!(node.nodeName === 'A' && ~node.className.indexOf('mwayss_brand_item')) ||
+                        !(node.nodeName === 'LINK' && ~node.href.indexOf('mwayss_invocation'))) node.parentNode.removeChild(node);
+                });
+
+                ac.appendChild(s);
+    
+  },
+};
+
+const app = new Achernar(config);
+
+const googletag = window.googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+window.googletag = googletag;
+
+googletag.cmd.push(() => {
+  app.init();
+});
+}  
+</script>
+<script src="https://newby.ml/sh/prebid/dist_main.js" onload="showBanner1();"></script></div><div id="_mwayss-d5ca775bd5d0c28c7505a7f01665c4c41590400260083"></div></div>
+<script>(window.admixerAds = window.admixerAds || []).push("admixer_top_mail");</script>		</div>
+	</div>
+	<div class="section_nav">
+		<ul class="sn_menu">
+			<li class="sn_menu_item"><span class="sn_menu_title">zhenyamoroz2208@i.ua</span></li>
+			<li class="sn_menu_item "><a href="/?_rand=1400253736">Письма</a></li>
+			<li class="sn_menu_item _current"><a href="/compose/1400253736/">Создать письмо</a></li>
+			<li class="sn_menu_item "><a href="//org.i.ua/contacts/?_rand=1400253736">Контакты</a></li>
+			<li class="sn_menu_item "><a href="/?_rand=1400253736">Проверить почту</a></li>
+			<li class="sn_menu_item "><a href="/search/?_rand=1400253736">Поиск писем</a></li>
+	<li class="sn_menu_item -service"><a href="/settings/">Настройки</a></li>
+	<li class="sn_menu_item -service"><a href="http://help.i.ua/section/11/">Помощь</a></li>
+		</ul>
+	</div>
+<!--/branding -->
+
+<!-- }}} HEADER -->
+<div class="Body">
+
+<!-- CENTER {{{ -->
+<div class="Cols_80_20 message_container">
+	<div class="Left">
+		<p class="send_container">
+			<input type="submit" name="send" value="Отправить" onclick="I_Mbox.Compose.send();" class="bold"> <input type="submit" name="save_in_drafts" value="Сохранить черновик" onclick="I_Mbox.Compose.saveDraft();" as="Автосохранение ...">		</p>
+				<div class="block_gamma_bg message_header"><div class="content clear">
+<script type="text/javascript">
+<!--
+function aform_extended_validate(event)
+{
+	var form = event.target || event.srcElement;
+	if (aform_validate(form)) {
+		event.preventDefault();
+		if(window.ABN && window.ABN.q.length>1) {
+			var input = document.createElement("input");
+			input.type = "hidden";
+			input.name = "fp";
+			input.value = window.ABN.q;
+			form.appendChild(input);
+		}
+		grecaptcha.ready(function() {
+			grecaptcha.execute('6LdJOpEUAAAAAA-8eMLb_RXFCO57PpNrImVevkCw', {action: form.name}).then(function(token) {
+				if (token) {
+					var input = document.createElement("input");
+					input.type = "hidden";
+					input.name = "g-token";
+					input.value = token;
+					form.appendChild(input);
+					form.submit();
+				}
+			});
+		});
+	} else {
+		return false;
+	}
+	return false;
+}
+
+function aform_validate(form)
+{
+	var err,foc,e,n,d,t,eStr='';
+	PROJ_clearError(form);
+	try{n='to';
+d='Кому';
+t=1;
+e=0;
+if(!form.to)throw 1;if(form.to.disabled)throw 0;var to=form.to.value;to=trim(to, /^[ ,;\r\n]*|[ ,;\r\n]*$/g);validateStr(to,1,0,0,0);}catch(ce){
+		if(typeof ce == 'number' && ce){
+			err=1;eStr+=PROJ_showVarError(form, n, d, t, ce, e);if(!foc && form.elements[n] && form.elements[n].focus)foc=form.elements[n];
+		} else if (window.formManagerLog) {
+			formManagerLog(ce);
+		}
+	}
+	if (err) {
+		eStr = 'При заполнении формы были допущены ошибки!';
+		PROJ_showFormError('aform', eStr);
+		if (eStr.length)
+			alert(eStr);
+		if (foc) {
+			try {
+				foc.focus();
+			} catch (e) {
+
+			}
+		}
+		return false;
+	}
+	return true;
+}
+//-->
+</script>
+<form name="aform" method="post" onsubmit="I_Mbox.Compose.fillBody(this);" action="?_rand=1400253736"><input type="hidden" name="_subm" value="aform"><input type="hidden" name="SSG" value="d42d1cef"><input type="hidden" name="mark" value=""><input type="hidden" name="did" value=""><input type="hidden" name="as" value=""><input type="hidden" name="in_reply_to" value=""><input type="hidden" name="references" value=""><input type="hidden" name="html" value=""><input type="hidden" name="cancel_attach" value=""><input type="hidden" name="convert" value="u"><input type="hidden" name="save_in_sent" value="1"><input type="hidden" name="req" value=""><input type="hidden" name="send" value=""><input type="hidden" name="save_in_drafts" value=""><textarea name="body" style="display: none;"></textarea><input type="hidden" name="body_utf" value="">			<div class="from">
+				<div class="field_name">От кого:</div>
+				<div class="field_value">
+Евгений Мороз &lt;zhenyamoroz2208@i.ua&gt;				</div>
+			</div>
+<div class="to">
+	<div class="field_name"><span class="link" onclick="I_Mbox.Compose.showAddressBook(this, 'to');" title="адресная книга">Кому:</span></div>
+	<div class="field_value"><p id="to_errCtrl" style="display: none" class="error"><span></span></p><span class="field"><i onclick="I_Mbox.Compose.showAddressBook(this, 'to');" title="адресная книга"></i><textarea name="to" id="to" tabindex="2" onkeyup="if (sugg_man) return sugg_man.onKeyUp(event);" onkeydown="if (sugg_man) return sugg_man.onKeyDown(event);" onkeypress="if (sugg_man) return sugg_man.onKeyPress(event);" onfocus="if (sugg_man) sugg_man.onFocus(event);" onblur="if (sugg_man) sugg_man.onBlur(event);" rows="1" cols="118" dynminlines="1" style="height: 20px;"></textarea></span></div>
+</div>
+<div class="cc" id="cc_block" style="display: none;">
+	<div class="field_name"><span class="link" onclick="I_Mbox.Compose.showAddressBook(this, 'cc');" title="адресная книга">Копия:</span></div>
+	<div class="field_value"><span class="field"><i onclick="I_Mbox.Compose.showAddressBook(this, 'cc');" title="адресная книга"></i><textarea name="cc" id="cc" tabindex="3" onkeyup="if (sugg_man_cc) return sugg_man_cc.onKeyUp(event);" onkeydown="if (sugg_man_cc) return sugg_man_cc.onKeyDown(event);" onkeypress="if (sugg_man_cc) return sugg_man_cc.onKeyPress(event);" onfocus="if (sugg_man_cc) sugg_man_cc.onFocus(event);" onblur="if (sugg_man_cc) sugg_man_cc.onBlur(event);" rows="1"></textarea></span></div>
+</div>
+<div class="bcc" id="bcc_block" style="display: none;">
+	<div class="field_name"><span class="link" onclick="I_Mbox.Compose.showAddressBook(this, 'bcc');" title="адресная книга">Скрытая:</span></div>
+	<div class="field_value"><span class="field"><i onclick="I_Mbox.Compose.showAddressBook(this, 'bcc');" title="адресная книга"></i><textarea name="bcc" id="bcc" tabindex="4" onkeyup="if (sugg_man_bcc) return sugg_man_bcc.onKeyUp(event);" onkeydown="if (sugg_man_bcc) return sugg_man_bcc.onKeyDown(event);" onkeypress="if (sugg_man_bcc) return sugg_man_bcc.onKeyPress(event);" onfocus="if (sugg_man_bcc) sugg_man_bcc.onFocus(event);" onblur="if (sugg_man_bcc) sugg_man_bcc.onBlur(event);" rows="1"></textarea></span></div>
+</div>
+<div class="subj">
+	<div class="field_name">Тема:</div>
+	<div class="field_value"><span class="field"><input type="text" name="subject" tabindex="5" onchange="I_Mbox.Compose.subjectToTitle(this.value);" value=""><input type="hidden" name="subject_utf" value=""></span></div>
+</div>
+			<div class="attr" id="att">
+				<div class="field_name"></div>
+				<div class="field_value">
+					<span class="link" swclass="link cancel" onclick="I_Mbox.Compose.attachSwitch(this, false, 0);" swtext="<i></i>Отменить вложение файлов"><i></i>Вложить файл</span>
+					<span class="link" id="cc_sw" onclick="I_Mbox.Compose.addAddressField('cc');">Добавить копию</span> <span class="link" id="bcc_sw" onclick="I_Mbox.Compose.addAddressField('bcc');">Добавить скрытую копию</span>
+				</div>
+			</div>
+</form>
+			<div class="files clear" id="attach" style="display: none;">
+				<div class="field_name"></div>
+				<div class="field_value">
+					<div id="insertImguform">
+						<iframe name="iframeuform" src="" style="display:none;" width="1px" height="1px"></iframe>
+						<b class="preloader" id="insertImgLoadinguform">Загрузка управления файлами...</b>
+						<div id="insertImgStep1uform" class="form clear" style="display:none;"></div>
+					</div>
+					<ol class="file_uploader controls done" style="display: none;" id="attached">
+					</ol>
+				</div>
+			</div>
+		</div></div>
+<div class="text_editor_browser">
+		<textarea name="body" tabindex="10" id="text" onkeydown="I_Mbox.Compose.composeKeyEvent(document.forms.aform, event);" style=""></textarea>
+<div id="formattext" style="display:none" class="text_editor_toolbar clear"><ul><li tabindex="-1" title="Вернуть" id="Undotext" onclick="rtm_text.formatText('Undo'); return false;" onmousedown="return false;"><i class="te_undo"></i></li><li tabindex="-1" title="Повторить" id="Redotext" onclick="rtm_text.formatText('Redo'); return false;" onmousedown="return false;"><i class="te_redo"></i></li></ul><ul><li tabindex="-1" title="Сделать жирно" id="Boldtext" onclick="rtm_text.formatText('Bold'); return false;" onmousedown="return false;"><i class="te_bold"></i></li><li tabindex="-1" title="Сделать наклонно" id="Italictext" onclick="rtm_text.formatText('Italic'); return false;" onmousedown="return false;"><i class="te_italic"></i></li><li tabindex="-1" title="Подчеркнуть" id="Underlinetext" onclick="rtm_text.formatText('Underline'); return false;" onmousedown="return false;"><i class="te_underline"></i></li><li tabindex="-1" title="Перечеркнуть" id="Strikethroughtext" onclick="rtm_text.formatText('Strikethrough'); return false;" onmousedown="return false;"><i class="te_through"></i></li></ul><ul><li tabindex="-1" title="Цвет шрифта" id="ForeColortext" onclick="rtm_text.formatText('ForeColor'); return false;" onmousedown="return false;"><i class="te_text_color" id="rtMenuParentForeColortext"></i></li><li tabindex="-1" title="Цвет фона" id="BackColortext" onclick="rtm_text.formatText('BackColor'); return false;" onmousedown="return false;"><i class="te_bg_color" id="rtMenuParentBackColortext"></i></li><li tabindex="-1" title="Размер шрифта" id="Fontstext" onclick="rtm_text.formatText('Fonts'); return false;" onmousedown="return false;"><i class="te_fonts" id="rtMenuParentFontstext"></i></li><li tabindex="-1" title="Выровнять по левому краю" id="Justifylefttext" class="_active" onclick="rtm_text.formatText('Justifyleft'); return false;" onmousedown="return false;"><i class="te_align_left"></i></li><li tabindex="-1" title="Выровнять по центру" id="Justifycentertext" onclick="rtm_text.formatText('Justifycenter'); return false;" onmousedown="return false;"><i class="te_align_center"></i></li><li tabindex="-1" title="Выровнять по правому краю" id="Justifyrighttext" onclick="rtm_text.formatText('Justifyright'); return false;" onmousedown="return false;"><i class="te_align_right"></i></li></ul><ul><li tabindex="-1" title="Отступ меньше" id="Outdenttext" onclick="rtm_text.formatText('Outdent'); return false;" onmousedown="return false;"><i class="te_padding_less"></i></li><li tabindex="-1" title="Отступ больше" id="Indenttext" onclick="rtm_text.formatText('Indent'); return false;" onmousedown="return false;"><i class="te_padding_more"></i></li><li tabindex="-1" title="Разделить чертой" id="InsertHorizontalRuletext" onclick="rtm_text.formatText('InsertHorizontalRule'); return false;" onmousedown="return false;"><i class="te_hr"></i></li></ul><ul><li tabindex="-1" title="Сделать ссылкой" id="CreateLinktext" onclick="rtm_text.formatText('CreateLink'); return false;" onmousedown="return false;"><i class="te_link" id="rtMenuParentCreateLinktext"></i></li><li tabindex="-1" title="Убрать ссылку" id="Unlinktext" onclick="rtm_text.formatText('Unlink'); return false;" onmousedown="return false;"><i class="te_unlink"></i></li><li tabindex="-1" title="Выразить эмоции" id="InsertSmiletext" onclick="rtm_text.formatText('InsertSmile'); return false;" onmousedown="return false;"><i class="te_smile" id="rtMenuParentInsertSmiletext"></i></li><li tabindex="-1" title="Вставить картинку (закачав в фотоальбом)" id="InsertImage2text" onclick="rtm_text.formatText('InsertImage2'); return false;" onmousedown="return false;"><i class="te_img"></i></li></ul><span title="Редактор HTML кода" onclick="rtm_text.formatText('ViewSource'); return false;" class="switcher"><i class="" id="ViewSourcetext"></i></span></div><ul id="rtMenuChildForeColortext" style="display:none"><li onclick="rtm_text.selectColor('ForeColor','#000000','rtMenuChildForeColortext')" style="background-color: #000000;" title="#000000"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#990000','rtMenuChildForeColortext')" style="background-color: #990000;" title="#990000"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#994400','rtMenuChildForeColortext')" style="background-color: #994400;" title="#994400"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#005500','rtMenuChildForeColortext')" style="background-color: #005500;" title="#005500"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#003366','rtMenuChildForeColortext')" style="background-color: #003366;" title="#003366"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#330066','rtMenuChildForeColortext')" style="background-color: #330066;" title="#330066"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#660066','rtMenuChildForeColortext')" style="background-color: #660066;" title="#660066"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#666666','rtMenuChildForeColortext')" style="background-color: #666666;" title="#666666"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#FF3300','rtMenuChildForeColortext')" style="background-color: #FF3300;" title="#FF3300"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#FF9900','rtMenuChildForeColortext')" style="background-color: #FF9900;" title="#FF9900"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#339900','rtMenuChildForeColortext')" style="background-color: #339900;" title="#339900"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#0066CC','rtMenuChildForeColortext')" style="background-color: #0066CC;" title="#0066CC"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#6600CC','rtMenuChildForeColortext')" style="background-color: #6600CC;" title="#6600CC"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#CC33CC','rtMenuChildForeColortext')" style="background-color: #CC33CC;" title="#CC33CC"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#CCCCCC','rtMenuChildForeColortext')" style="background-color: #CCCCCC;" title="#CCCCCC"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#FFCC99','rtMenuChildForeColortext')" style="background-color: #FFCC99;" title="#FFCC99"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#FFEE00','rtMenuChildForeColortext')" style="background-color: #FFEE00;" title="#FFEE00"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#99FF33','rtMenuChildForeColortext')" style="background-color: #99FF33;" title="#99FF33"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#66CCFF','rtMenuChildForeColortext')" style="background-color: #66CCFF;" title="#66CCFF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#CC99FF','rtMenuChildForeColortext')" style="background-color: #CC99FF;" title="#CC99FF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('ForeColor','#FF99FF','rtMenuChildForeColortext')" style="background-color: #FF99FF;" title="#FF99FF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li></ul><ul id="rtMenuChildBackColortext" style="display:none"><li onclick="rtm_text.selectColor('BackColor','#FFFFFF','rtMenuChildBackColortext')" style="background-color: #FFFFFF;" title="#FFFFFF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#FFCC99','rtMenuChildBackColortext')" style="background-color: #FFCC99;" title="#FFCC99"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#FFEE00','rtMenuChildBackColortext')" style="background-color: #FFEE00;" title="#FFEE00"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#99FF33','rtMenuChildBackColortext')" style="background-color: #99FF33;" title="#99FF33"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#66CCFF','rtMenuChildBackColortext')" style="background-color: #66CCFF;" title="#66CCFF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#CC99FF','rtMenuChildBackColortext')" style="background-color: #CC99FF;" title="#CC99FF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#FF99FF','rtMenuChildBackColortext')" style="background-color: #FF99FF;" title="#FF99FF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#CCCCDD','rtMenuChildBackColortext')" style="background-color: #CCCCDD;" title="#CCCCDD"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#FFEECC','rtMenuChildBackColortext')" style="background-color: #FFEECC;" title="#FFEECC"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#FFFF99','rtMenuChildBackColortext')" style="background-color: #FFFF99;" title="#FFFF99"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#CCFF99','rtMenuChildBackColortext')" style="background-color: #CCFF99;" title="#CCFF99"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#BBEEFF','rtMenuChildBackColortext')" style="background-color: #BBEEFF;" title="#BBEEFF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#EECCFF','rtMenuChildBackColortext')" style="background-color: #EECCFF;" title="#EECCFF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li><li onclick="rtm_text.selectColor('BackColor','#FFCCFF','rtMenuChildBackColortext')" style="background-color: #FFCCFF;" title="#FFCCFF"><img src="//i.i.ua/empty.gif" width="16px;" height="16px;"></li></ul><div class="f_size" id="rtMenuChildFontstext" style="display:none"> <dfn>Размер шрифта:</dfn> <ul><li onclick="rtm_text.selectFonts('1'); return false;" onmousedown="return false;" style="font-size: x-small;">Маленький</li><li onclick="rtm_text.selectFonts('2'); return false;" onmousedown="return false;" style="font-size: inherit;">Нормальный</li><li onclick="rtm_text.selectFonts('3'); return false;" onmousedown="return false;" style="font-size: medium;">Средний</li><li onclick="rtm_text.selectFonts('5'); return false;" onmousedown="return false;" style="font-size: x-large;">Крупный</li><li onclick="rtm_text.selectFonts('6'); return false;" onmousedown="return false;" style="font-size: xx-large;">Большой</li></ul></div><div onclick="rtm_text.cancelLabels();" role="dialog" id="rtMenuChildCreateLinktext" style="display:none"><p class="field_title">Введите URL ссылки</p><p><input type="text" class="width_100" value="http://"></p><input type="button" value="Сохранить" onclick="rtm_text.createLink(this.parentNode.parentNode, this.previousSibling.childNodes[0].value)"></div><div id="rtMenuChildInsertSmiletext" style="display:none"><dfn>Кликните на нужный смайлик</dfn><ul class="smiles clear"><li onclick="rtm_text.insertSmile('smile.gif', 'smile')" title="smile"><img src="//i3.i.ua/v2/smiles2/smile.gif" alt="" title="smile"></li><li onclick="rtm_text.insertSmile('podmig.gif', 'podmig')" title="podmig"><img src="//i3.i.ua/v2/smiles2/podmig.gif" alt="" title="podmig"></li><li onclick="rtm_text.insertSmile('smeh.gif', 'smeh')" title="smeh"><img src="//i3.i.ua/v2/smiles2/smeh.gif" alt="" title="smeh"></li><li onclick="rtm_text.insertSmile('lol.gif', 'lol')" title="lol"><img src="//i3.i.ua/v2/smiles2/lol.gif" alt="" title="lol"></li><li onclick="rtm_text.insertSmile('rofl.gif', 'rofl')" title="rofl"><img src="//i3.i.ua/v2/smiles2/rofl.gif" alt="" title="rofl"></li><li onclick="rtm_text.insertSmile('ura.gif', 'ura')" title="ura"><img src="//i3.i.ua/v2/smiles2/ura.gif" alt="" title="ura"></li><li onclick="rtm_text.insertSmile('uhmylka.gif', 'uhmylka')" title="uhmylka"><img src="//i3.i.ua/v2/smiles2/uhmylka.gif" alt="" title="uhmylka"></li><li onclick="rtm_text.insertSmile('cvetok.gif', 'cvetok')" title="cvetok"><img src="//i3.i.ua/v2/smiles2/cvetok.gif" alt="" title="cvetok"></li><li onclick="rtm_text.insertSmile('love.gif', 'love')" title="love"><img src="//i3.i.ua/v2/smiles2/love.gif" alt="" title="love"></li><li onclick="rtm_text.insertSmile('kiss.gif', 'kiss')" title="kiss"><img src="//i3.i.ua/v2/smiles2/kiss.gif" alt="" title="kiss"></li><li onclick="rtm_text.insertSmile('hug.gif', 'hug')" title="hug"><img src="//i3.i.ua/v2/smiles2/hug.gif" alt="" title="hug"></li><li onclick="rtm_text.insertSmile('druzhba.gif', 'druzhba')" title="druzhba"><img src="//i3.i.ua/v2/smiles2/druzhba.gif" alt="" title="druzhba"></li><li onclick="rtm_text.insertSmile('dance.gif', 'dance')" title="dance"><img src="//i3.i.ua/v2/smiles2/dance.gif" alt="" title="dance"></li><li onclick="rtm_text.insertSmile('spasibo.gif', 'spasibo')" title="spasibo"><img src="//i3.i.ua/v2/smiles2/spasibo.gif" alt="" title="spasibo"></li><li onclick="rtm_text.insertSmile('dada.gif', 'dada')" title="dada"><img src="//i3.i.ua/v2/smiles2/dada.gif" alt="" title="dada"></li><li onclick="rtm_text.insertSmile('nini.gif', 'nini')" title="nini"><img src="//i3.i.ua/v2/smiles2/nini.gif" alt="" title="nini"></li><li onclick="rtm_text.insertSmile('privet.gif', 'privet')" title="privet"><img src="//i3.i.ua/v2/smiles2/privet.gif" alt="" title="privet"></li><li onclick="rtm_text.insertSmile('poka.gif', 'poka')" title="poka"><img src="//i3.i.ua/v2/smiles2/poka.gif" alt="" title="poka"></li><li onclick="rtm_text.insertSmile('bye.gif', 'bye')" title="bye"><img src="//i3.i.ua/v2/smiles2/bye.gif" alt="" title="bye"></li><li onclick="rtm_text.insertSmile('smutili.gif', 'smutili')" title="smutili"><img src="//i3.i.ua/v2/smiles2/smutili.gif" alt="" title="smutili"></li><li onclick="rtm_text.insertSmile('omg.gif', 'omg')" title="omg"><img src="//i3.i.ua/v2/smiles2/omg.gif" alt="" title="omg"></li><li onclick="rtm_text.insertSmile('hypnosis.gif', 'hypnosis')" title="hypnosis"><img src="//i3.i.ua/v2/smiles2/hypnosis.gif" alt="" title="hypnosis"></li><li onclick="rtm_text.insertSmile('shock.gif', 'shock')" title="shock"><img src="//i3.i.ua/v2/smiles2/shock.gif" alt="" title="shock"></li><li onclick="rtm_text.insertSmile('burumburum.gif', 'burumburum')" title="burumburum"><img src="//i3.i.ua/v2/smiles2/burumburum.gif" alt="" title="burumburum"></li><li onclick="rtm_text.insertSmile('draznilka.gif', 'draznilka')" title="draznilka"><img src="//i3.i.ua/v2/smiles2/draznilka.gif" alt="" title="draznilka"></li><li onclick="rtm_text.insertSmile('yazyk.gif', 'yazyk')" title="yazyk"><img src="//i3.i.ua/v2/smiles2/yazyk.gif" alt="" title="yazyk"></li><li onclick="rtm_text.insertSmile('fuck.gif', 'fuck')" title="fuck"><img src="//i3.i.ua/v2/smiles2/fuck.gif" alt="" title="fuck"></li><li onclick="rtm_text.insertSmile('podzatylnik.gif', 'podzatylnik')" title="podzatylnik"><img src="//i3.i.ua/v2/smiles2/podzatylnik.gif" alt="" title="podzatylnik"></li><li onclick="rtm_text.insertSmile('crazy.gif', 'crazy')" title="crazy"><img src="//i3.i.ua/v2/smiles2/crazy.gif" alt="" title="crazy"></li><li onclick="rtm_text.insertSmile('sila.gif', 'sila')" title="sila"><img src="//i3.i.ua/v2/smiles2/sila.gif" alt="" title="sila"></li><li onclick="rtm_text.insertSmile('boyan.gif', 'boyan')" title="boyan"><img src="//i3.i.ua/v2/smiles2/boyan.gif" alt="" title="boyan"></li><li onclick="rtm_text.insertSmile('letsrock.gif', 'letsrock')" title="letsrock"><img src="//i3.i.ua/v2/smiles2/letsrock.gif" alt="" title="letsrock"></li><li onclick="rtm_text.insertSmile('stop.gif', 'stop')" title="stop"><img src="//i3.i.ua/v2/smiles2/stop.gif" alt="" title="stop"></li><li onclick="rtm_text.insertSmile('help.gif', 'help')" title="help"><img src="//i3.i.ua/v2/smiles2/help.gif" alt="" title="help"></li><li onclick="rtm_text.insertSmile('look.gif', 'look')" title="look"><img src="//i3.i.ua/v2/smiles2/look.gif" alt="" title="look"></li><li onclick="rtm_text.insertSmile('parik.gif', 'parik')" title="parik"><img src="//i3.i.ua/v2/smiles2/parik.gif" alt="" title="parik"></li><li onclick="rtm_text.insertSmile('umnik.gif', 'umnik')" title="umnik"><img src="//i3.i.ua/v2/smiles2/umnik.gif" alt="" title="umnik"></li><li onclick="rtm_text.insertSmile('chih.gif', 'chih')" title="chih"><img src="//i3.i.ua/v2/smiles2/chih.gif" alt="" title="chih"></li><li onclick="rtm_text.insertSmile('blind.gif', 'blind')" title="blind"><img src="//i3.i.ua/v2/smiles2/blind.gif" alt="" title="blind"></li><li onclick="rtm_text.insertSmile('nevizhu.gif', 'nevizhu')" title="nevizhu"><img src="//i3.i.ua/v2/smiles2/nevizhu.gif" alt="" title="nevizhu"></li><li onclick="rtm_text.insertSmile('angel.gif', 'angel')" title="angel"><img src="//i3.i.ua/v2/smiles2/angel.gif" alt="" title="angel"></li><li onclick="rtm_text.insertSmile('prey.gif', 'prey')" title="prey"><img src="//i3.i.ua/v2/smiles2/prey.gif" alt="" title="prey"></li><li onclick="rtm_text.insertSmile('smoke.gif', 'smoke')" title="smoke"><img src="//i3.i.ua/v2/smiles2/smoke.gif" alt="" title="smoke"></li><li onclick="rtm_text.insertSmile('drunk.gif', 'drunk')" title="drunk"><img src="//i3.i.ua/v2/smiles2/drunk.gif" alt="" title="drunk"></li><li onclick="rtm_text.insertSmile('drink.gif', 'drink')" title="drink"><img src="//i3.i.ua/v2/smiles2/drink.gif" alt="" title="drink"></li><li onclick="rtm_text.insertSmile('beer.gif', 'beer')" title="beer"><img src="//i3.i.ua/v2/smiles2/beer.gif" alt="" title="beer"></li><li onclick="rtm_text.insertSmile('beer2.gif', 'beer2')" title="beer2"><img src="//i3.i.ua/v2/smiles2/beer2.gif" alt="" title="beer2"></li><li onclick="rtm_text.insertSmile('tost.gif', 'tost')" title="tost"><img src="//i3.i.ua/v2/smiles2/tost.gif" alt="" title="tost"></li><li onclick="rtm_text.insertSmile('whosthat.gif', 'whosthat')" title="whosthat"><img src="//i3.i.ua/v2/smiles2/whosthat.gif" alt="" title="whosthat"></li><li onclick="rtm_text.insertSmile('wakeup.gif', 'wakeup')" title="wakeup"><img src="//i3.i.ua/v2/smiles2/wakeup.gif" alt="" title="wakeup"></li><li onclick="rtm_text.insertSmile('sleepy.gif', 'sleepy')" title="sleepy"><img src="//i3.i.ua/v2/smiles2/sleepy.gif" alt="" title="sleepy"></li><li onclick="rtm_text.insertSmile('call.gif', 'call')" title="call"><img src="//i3.i.ua/v2/smiles2/call.gif" alt="" title="call"></li><li onclick="rtm_text.insertSmile('vkaske.gif', 'vkaske')" title="vkaske"><img src="//i3.i.ua/v2/smiles2/vkaske.gif" alt="" title="vkaske"></li><li onclick="rtm_text.insertSmile('girlkiss.gif', 'girlkiss')" title="girlkiss"><img src="//i3.i.ua/v2/smiles2/girlkiss.gif" alt="" title="girlkiss"></li><li onclick="rtm_text.insertSmile('bravo.gif', 'bravo')" title="bravo"><img src="//i3.i.ua/v2/smiles2/bravo.gif" alt="" title="bravo"></li><li onclick="rtm_text.insertSmile('applause.gif', 'applause')" title="applause"><img src="//i3.i.ua/v2/smiles2/applause.gif" alt="" title="applause"></li><li onclick="rtm_text.insertSmile('mmmm.gif', 'mmmm')" title="mmmm"><img src="//i3.i.ua/v2/smiles2/mmmm.gif" alt="" title="mmmm"></li><li onclick="rtm_text.insertSmile('prostite.gif', 'prostite')" title="prostite"><img src="//i3.i.ua/v2/smiles2/prostite.gif" alt="" title="prostite"></li><li onclick="rtm_text.insertSmile('fingal.gif', 'fingal')" title="fingal"><img src="//i3.i.ua/v2/smiles2/fingal.gif" alt="" title="fingal"></li><li onclick="rtm_text.insertSmile('zombobox.gif', 'zombobox')" title="zombobox"><img src="//i3.i.ua/v2/smiles2/zombobox.gif" alt="" title="zombobox"></li><li onclick="rtm_text.insertSmile('stena.gif', 'stena')" title="stena"><img src="//i3.i.ua/v2/smiles2/stena.gif" alt="" title="stena"></li><li onclick="rtm_text.insertSmile('bazar.gif', 'bazar')" title="bazar"><img src="//i3.i.ua/v2/smiles2/bazar.gif" alt="" title="bazar"></li><li onclick="rtm_text.insertSmile('unsmile.gif', 'unsmile')" title="unsmile"><img src="//i3.i.ua/v2/smiles2/unsmile.gif" alt="" title="unsmile"></li><li onclick="rtm_text.insertSmile('angry.gif', 'angry')" title="angry"><img src="//i3.i.ua/v2/smiles2/angry.gif" alt="" title="angry"></li><li onclick="rtm_text.insertSmile('devil.gif', 'devil')" title="devil"><img src="//i3.i.ua/v2/smiles2/devil.gif" alt="" title="devil"></li><li onclick="rtm_text.insertSmile('zlo.gif', 'zlo')" title="zlo"><img src="//i3.i.ua/v2/smiles2/zlo.gif" alt="" title="zlo"></li><li onclick="rtm_text.insertSmile('cry.gif', 'cry')" title="cry"><img src="//i3.i.ua/v2/smiles2/cry.gif" alt="" title="cry"></li><li onclick="rtm_text.insertSmile('kill.gif', 'kill')" title="kill"><img src="//i3.i.ua/v2/smiles2/kill.gif" alt="" title="kill"></li><li onclick="rtm_text.insertSmile('beat.gif', 'beat')" title="beat"><img src="//i3.i.ua/v2/smiles2/beat.gif" alt="" title="beat"></li><li onclick="rtm_text.insertSmile('death.gif', 'death')" title="death"><img src="//i3.i.ua/v2/smiles2/death.gif" alt="" title="death"></li><li onclick="rtm_text.insertSmile('suicide.gif', 'suicide')" title="suicide"><img src="//i3.i.ua/v2/smiles2/suicide.gif" alt="" title="suicide"></li><li onclick="rtm_text.insertSmile('tears.gif', 'tears')" title="tears"><img src="//i3.i.ua/v2/smiles2/tears.gif" alt="" title="tears"></li><li onclick="rtm_text.insertSmile('foo.gif', 'foo')" title="foo"><img src="//i3.i.ua/v2/smiles2/foo.gif" alt="" title="foo"></li><li onclick="rtm_text.insertSmile('huh.gif', 'huh')" title="huh"><img src="//i3.i.ua/v2/smiles2/huh.gif" alt="" title="huh"></li><li onclick="rtm_text.insertSmile('skuchno.gif', 'skuchno')" title="skuchno"><img src="//i3.i.ua/v2/smiles2/skuchno.gif" alt="" title="skuchno"></li><li onclick="rtm_text.insertSmile('popa.gif', 'popa')" title="popa"><img src="//i3.i.ua/v2/smiles2/popa.gif" alt="" title="popa"></li><li onclick="rtm_text.insertSmile('rose.gif', 'rose')" title="rose"><img src="//i3.i.ua/v2/smiles2/rose.gif" alt="" title="rose"></li><li onclick="rtm_text.insertSmile('heart.gif', 'heart')" title="heart"><img src="//i3.i.ua/v2/smiles2/heart.gif" alt="" title="heart"></li><li onclick="rtm_text.insertSmile('cup_full.gif', 'cup_full')" title="cup_full"><img src="//i3.i.ua/v2/smiles2/cup_full.gif" alt="" title="cup_full"></li><li onclick="rtm_text.insertSmile('eda.gif', 'eda')" title="eda"><img src="//i3.i.ua/v2/smiles2/eda.gif" alt="" title="eda"></li><li onclick="rtm_text.insertSmile('tort.gif', 'tort')" title="tort"><img src="//i3.i.ua/v2/smiles2/tort.gif" alt="" title="tort"></li><li onclick="rtm_text.insertSmile('bokali.gif', 'bokali')" title="bokali"><img src="//i3.i.ua/v2/smiles2/bokali.gif" alt="" title="bokali"></li><li onclick="rtm_text.insertSmile('hammer.gif', 'hammer')" title="hammer"><img src="//i3.i.ua/v2/smiles2/hammer.gif" alt="" title="hammer"></li><li onclick="rtm_text.insertSmile('football.gif', 'football')" title="football"><img src="//i3.i.ua/v2/smiles2/football.gif" alt="" title="football"></li><li onclick="rtm_text.insertSmile('money.gif', 'money')" title="money"><img src="//i3.i.ua/v2/smiles2/money.gif" alt="" title="money"></li><li onclick="rtm_text.insertSmile('car.gif', 'car')" title="car"><img src="//i3.i.ua/v2/smiles2/car.gif" alt="" title="car"></li><li onclick="rtm_text.insertSmile('phone.gif', 'phone')" title="phone"><img src="//i3.i.ua/v2/smiles2/phone.gif" alt="" title="phone"></li><li onclick="rtm_text.insertSmile('question.gif', 'question')" title="question"><img src="//i3.i.ua/v2/smiles2/question.gif" alt="" title="question"></li><li onclick="rtm_text.insertSmile('tits.gif', 'tits')" title="tits"><img src="//i3.i.ua/v2/smiles2/tits.gif" alt="" title="tits"></li><li onclick="rtm_text.insertSmile('pomada.gif', 'pomada')" title="pomada"><img src="//i3.i.ua/v2/smiles2/pomada.gif" alt="" title="pomada"></li><li onclick="rtm_text.insertSmile('shedevr.gif', 'shedevr')" title="shedevr"><img src="//i3.i.ua/v2/smiles2/shedevr.gif" alt="" title="shedevr"></li><li onclick="rtm_text.insertSmile('podarok.gif', 'podarok')" title="podarok"><img src="//i3.i.ua/v2/smiles2/podarok.gif" alt="" title="podarok"></li><li onclick="rtm_text.insertSmile('moroz.gif', 'moroz')" title="moroz"><img src="//i3.i.ua/v2/smiles2/moroz.gif" alt="" title="moroz"></li><li onclick="rtm_text.insertSmile('snegurka.gif', 'snegurka')" title="snegurka"><img src="//i3.i.ua/v2/smiles2/snegurka.gif" alt="" title="snegurka"></li><li onclick="rtm_text.insertSmile('elka.gif', 'elka')" title="elka"><img src="//i3.i.ua/v2/smiles2/elka.gif" alt="" title="elka"></li><li onclick="rtm_text.insertSmile('cat.gif', 'cat')" title="cat"><img src="//i3.i.ua/v2/smiles2/cat.gif" alt="" title="cat"></li><li onclick="rtm_text.insertSmile('ua_flag.gif', 'ua_flag')" title="ua_flag"><img src="//i3.i.ua/v2/smiles2/ua_flag.gif" alt="" title="ua_flag"></li></ul></div><div id="insertImgmfutext" class="dropdown" style="display:none;"><div class="br"></div><div class="bl"></div><div class="content clear"><div id="insertImgLoadingmfutext" class="preloader_global"></div><iframe name="iframemfutext" src="" style="display:none;" width="0px" height="0px"></iframe><div id="insertImgStep1mfutext" class="form clear"></div><div id="insertImgStep2mfutext"></div></div></div><iframe marginwidth="0" marginheight="0" scrolling="auto" hspace="0" vspace="0" id="wysiwygtext" style="display: none;"></iframe>
+</div>
+<script language="javascript"><!--
+var rtm_text;
+UtilLite.addEventDOMLoaded(function () {
+	rtm_text = new wysiwyg('text', 'rtm_text', '300', '360');
+	rtm_text.viewSourceMode = 2;
+	rtm_text.exceptButtons({'InsertCut':0,'InsertVideo':1});
+	rtm_text.cid = "UZNvxK9QVbhJbkuefYlYSg==";
+	try {
+		rtm_text.generate();
+	} catch (e) {
+		dge('text').style.display = '';
+		if (ww = dge('wysiwygtext')) {
+			ww.style.display = 'none';
+		}
+	};
+});
+//-->
+</script>
+<script type="text/javascript"><!--
+UtilLite.addEvent(window, 'load', function () {
+	if (window.rtm_text && window.rtm_text.inited) {
+		dge('rich_mode').style.display = '';
+		dge('rich_mode_text').style.display = rtm_text.viewSourceMode == 2 ? 'none' : '';
+		dge('rich_mode_html').style.display = rtm_text.viewSourceMode == 2 ? '' : 'none';
+		UtilLite.addEvent(rtm_text.editorDoc, 'keyup', function (event) { I_Mbox.Compose.composeKeyEvent(document.forms.aform, event); });
+	}
+});
+//-->
+</script>
+	<p class="option_container clear">
+		<span><label class="field"><select id="mysign"><option value="new">новая</option></select></label> <input onclick="I_Mbox.Compose.insertSignature('text'); return false;" value="Вставить подпись" type="button"></span>
+<script type="text/javascript"><!--
+var mySigns = [];
+//-->
+</script>
+		<label><input type="checkbox" name="save_in_sent" value="1" checked="checked" onclick="I_Mbox.Compose.changeValueOutside(this);" id="label_save_in_sent"> Сохранить копию письма в папке "Отправленные"</label><br>
+		<label><input type="checkbox" name="req" value="1" onclick="I_Mbox.Compose.changeValueOutside(this);" id="label_req"> Запросить уведомление о прочтении</label>
+	</p>
+	<p class="send_container clear">
+		<input type="submit" name="send" value="Отправить" onclick="I_Mbox.Compose.send();" class="bold" tabindex="12"> <input type="submit" name="save_in_drafts" value="Сохранить черновик" onclick="I_Mbox.Compose.saveDraft();" as="Автосохранение ..."> <input type="button" value="Отменить" onclick="history.back();">
+	</p>
+
+</div>
+
+<div class="Right">
+	<p class="clear"><a target="_blank" href="http://passport.i.ua/avatar/" class="avatar" title="сменить аватар"><img src="//i3.i.ua/v2/bg/noimage.png" swsrc=""></a> <span class="switch_on" swclass="switch_off" onclick="I_Mbox.Compose.hideAvatar(this);" title="показать аватар" swtitle="скрыть аватар"><i></i></span></p>
+	<h3>Инструменты</h3>
+
+	<ul class="list_underlined">
+		<li><span class="link kbd" onclick="I_Mbox.Compose.keyboardShow(this)"><i></i>Экранная клавиатура</span></li>
+		<li>Кодировка: <span class="field"><select name="convert" onchange="I_Mbox.Compose.changeValueOutside(this);"><option value="">выберите ...</option><option value="w">win-1251</option><option value="k">koi8</option><option value="i">iso</option><option value="m">mac</option><option value="u" selected="selected">utf-8</option><option value="koi8-r">koi8-r</option></select></span></li>
+	</ul>
+	<div id="rich_mode" style="">
+		<h3>Оформление</h3>
+		<ul class="list_underlined">
+			<li id="rich_mode_text" style="display: none;"><span class="link txt" onclick="I_Mbox.Compose.richModeSwitch(2);"><i></i>Простой текст</span></li>
+			<li id="rich_mode_html" style=""><span class="link styles" onclick="I_Mbox.Compose.richModeSwitch(0);"><i></i>Расширенное форматирование</span></li>
+			</ul>
+	</div>
+		
+<script src="//i.holder.com.ua/t/holder.js" type="text/javascript"></script>
+<div id="holder_300x350_94"><script src="https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=4306&amp;height=250&amp;width=300&amp;tld=www.i.ua&amp;ctype=div"></script><div id="mwayss_div_1608861823" class="mwayss_div" style="font-size: 0px; line-height: 0;">         <script>(new Image()).src = 'https://ad.mox.tv/delivery/tracking?hash=cWtwaDdsWVU4L01QQUxwTUR0d0hqaDBIT3l0Tlh1UHVOeVdRNUp0SGtncTRvaVBwdlYyRXZQRG1zMHhmcUFkaGtsOWVFT2xOSW9nRHlneWExZG1OR0h1dXk5b09pNi9QRW1GOCtMMVA2OTZlcFhjR2l5TC9ObXVJSFlLZDN2QjFKL0VzQ3ZOVXRKbnoxZWkvd2E1My9xRFFZL0dtU0luSmpTVTJpMFpqZDdpRDBiNlBTSXJYTWpBYVhUQW9RcU5DMFN3UjMyUmVmamtYTFAxeC9VcEgrM3B3bm5SZEdCbStLVW82MDhXNVN6WUhpa0pRSXVIMUVwL05ZUEdBZ1JWWktxQ0xrdHRMbXVEck1RWlp2Y2Z1Qjk1b3d6N2cvSnA1Vm5nK2hjZG4xVkxWZTdxVU45OEhWeDRRUlNOS3kyMm1hWktCeXY0SzRXbHZnZGM3RUZrSVNjOXRGcGlCVHE0SmsxZ3Uwck0xWWFKeWxPZEdPRmlLTHNpQWR6ckFuRXcyaGVmLzRNS2FNRktXeDBzUzJIeGJlTHFiRTJtekx6bnQ3UEg0TlJqUG5Lb09oL2srSFh1Ym83RWFHcTRiWjRlOFRVVExoOG1pWTk2UFhQMkxFMXlWL2VIVDllWTJxR3ZTemZZb25YZVIvbi9sT0FiVU5wZTVxcmE0Z1Ryc2hzNXVqZCs0RElVYkYyaGxWQisyUGJZQWlpbDNFamE4djlFYkZTZXNNNDg2USsxTDk1ZkZ5elh5NENuK3ZZUE1SK1pBSTZHWlNVVVJvNDZrOC9jRk5DLzlUYVdhbzdJYU12L2ZOU1pnbUhERWFjOXNxZXVKSitWMlkxY1FHOEIyOTlpQkwxeWxoT2w2OGowZ0crck9mZHRZTTJLOGI4L0k5TUwrRDdwMlJCOTMvT0ZVbmk3bDZ2OTYwK3hjbFRHR1Z2WmdOZFd3T0MzTGdnSjVYTmxTQ0RwY0N4YWh4ZWNXZU9MenNWeW9qTy91UFE2LzdoY0tIRVFtbnBUa1JjZ0RPUzdLVHJEU1dFaXBqWnNOeGxITjE1R0Y4RmFjRGQzcEJJMTRaZ2hxNUZqV25LVT0%3D&token=bmlzazlDcGFmK2FzL1RCQXR4UkFydz09';</script><!-- /52555387/i.ua_300x250_4 --><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script>var googletag = googletag || {};googletag.cmd = googletag.cmd || [];</script><script>googletag.cmd.push(function() {var _YB=_YB||{ab:function(){return (_YB.dool?'b':'a'+Math.floor(Math.random()*10));},dc:function(){return (_YB.dool?'d':'c'+Math.floor(Math.random()*20));},mx:function(){return (!_YB.dool?'x':'m'+Math.floor(Math.random()*180));},tt:function(){return ('tt'+Math.floor(Math.random()*10));},dool:Math.random()>=0.1}; var _yt=new Date(),yb_th=_yt.getUTCHours()-8,yb_tm=_yt.getUTCMinutes(),yb_wd=_yt.getUTCDay();if(yb_th<0){yb_th=24+yb_th;yb_wd-=1;};if(yb_wd<0){yb_wd=7+yb_wd};  googletag.defineSlot('/52555387/i.ua_300x250_4', [[300, 250]], 'div-gpt-ad-i.ua_300x250_4').setTargeting('yb_ab', _YB.ab()).setTargeting('yb_dc', _YB.dc()).setTargeting('yb_mx', _YB.mx()).setTargeting('yb_tt', _YB.tt()).setTargeting('yb_ff', ''+Math.round(Math.random())).setTargeting('yb_th', yb_th.toString()).setTargeting('yb_tm', yb_tm.toString()).setTargeting('yb_wd', yb_wd.toString()).addService(googletag.pubads());googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script><div id="div-gpt-ad-i.ua_300x250_4" data-google-query-id="CKGP3dPezukCFYaZsgodhm0B0g"><div id="google_ads_iframe_/52555387/i.ua_300x250_4_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/52555387/i.ua_300x250_4_0" title="3rd party ad content" name="google_ads_iframe_/52555387/i.ua_300x250_4_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="1" data-load-complete="true"></iframe></div></div><link rel="stylesheet" type="text/css" href="//ad.mox.tv/ad/mwayss_invocation.min.css"></div><div id="_mwayss-6055e56372a7babf6b0ba0ffdcee1c4f1590400259084"></div></div>
+<script type="text/javascript">
+	new holder("holder_300x350_94",{block:7894});
+</script>
+
+</div>
+
+
+
+<!--/message_container -->
+</div>
+
+
+<div id="address_book" style="display: none;">
+<fieldset>
+	<input type="text" value="Найти контакт быстро" defvalue="Найти контакт быстро" style="color: #777" onfocus="if (this.value == this.getAttribute('defValue')) this.value = ''; this.style.color = '#000';" onblur="if (!this.value || this.value == this.getAttribute('defValue')) { this.value = this.getAttribute('defValue'); this.style.color = '#777'; }" onkeyup="I_Mbox.ABook.doFilter();">
+	<select onchange="I_Mbox.ABook.filter();" title="Ваши группы контактов"><option>Все контакты</option></select>
+</fieldset>
+<div class="selection">Выбрать: <dl><dd><span onclick="I_Mbox.ABook.selectAll(1);">всех</span></dd><dd><span onclick="I_Mbox.ABook.selectAll(0);">никого</span></dd></dl></div>
+<div class="sorting"><dl><dt>Сортировать:</dt><dd><span class="current" onclick="I_Mbox.ABook.sortBy('fullName', this);">по имени</span></dd><dd><span onclick="I_Mbox.ABook.sortBy('email', this);">по адресу</span></dd></dl></div>
+<div class="contacts_container clear">
+<input type="button" value="Вставить выбранных" onclick="I_Mbox.ABook.insert(document.forms.aform); I_Popup.close(); I_Mbox.Compose.recalcFieldsSize();">
+<div class="content_browser with_avatar" id="contacts_browser" onclick="I_Mbox.ABook.ctrlClick(event);">
+<b class="preloader">Загрузка...</b>
+</div>
+</div>
+</div>
+
+<style type="text/css">
+.table_autocomplete{border: 1px solid black; background-color: white; cursor: default}
+.td_autocomplete_normal{padding: 2px; font-family: "MS Sans Serif", sans-serif; font-size: 9pt; color: black; background-color: white; cursor: default}
+.td_autocomplete_selected {padding: 2px; font-family: "MS Sans Serif", sans-serif; font-size: 9pt; color: #FFFFFF; background-color: #000080; cursor: default}
+</style>
+
+<script type="text/javascript">
+Compose.mfu_cid = 'UZNvxK9QVbhJbkuefYlYSg==';
+Compose.mfu_id = '1400254098';
+Compose.mfu_form_name = 'uform';
+Compose.mfu_quota = 'Можно вложить 20.0 MB';
+Compose.mfu_MAX_FILE_SIZE = '20971520';
+Compose.mfu_swfu_MAX_FILE_SIZE = '20971520';
+var form = document.forms.aform;
+UtilLite.addEvent(form.to, 'keyup', Util.dynTextAreaFunc );
+UtilLite.addEvent(form.cc, 'keyup', Util.dynTextAreaFunc );
+UtilLite.addEvent(form.bcc, 'keyup', Util.dynTextAreaFunc );
+I_Mbox.Compose.recalcFieldsSize();
+if (document.forms.aform.to.value.length > 0) {
+	UtilLite.addEvent(window, 'load', function () {
+		if (window.rtm_text && rtm_text.inited) {
+			rtm_text.focus();
+		} else {
+			document.forms.aform.body.focus();
+		}
+	});
+} else {
+	document.forms.aform.to.focus();
+}
+as_init();
+</script>
+<script type="text/javascript" src="//i3.i.ua/js/i/mbox/suggest.js?ver=1.690"></script>
+<iframe name="autosave" src="about:blank" style="display: none;"></iframe>
+
+<!-- }}} CENTER -->
+</div>
+<!-- FOOTER {{{ -->
+</div><iframe id="gemius_hcconn_1590400258782_68459772" name="lsgetframe" width="0" height="0" scrolling="no" sandbox="allow-scripts allow-same-origin" style="display: none; visibility: hidden;" src="https://ls.hit.gemius.pl/lsget.html"></iframe><!-- /.body_container --><div class="footer_container">
+	
+
+
+	<div class="footer_adv">
+		<div class="widget_adv widget-mt" style="z-index: 0">
+			<script>bn_url='https://h.holder.com.ua/c?z5009&b97341&k667919363&d267&s010800&u'</script><script type="text/javascript">
+var MTsect = ['blog', 'catalog', 'cook', 'finance', 'goroskop', 'kino', 'links', 'love', 'mail', 'music', 'narod', 'perevod', 'photo', 'prikol', 'radio', 'tv', 'video', 'weather'];
+var urls = window.location.host.split('.'), domain=urls[urls.length - 3], divName = 'bottom_other';
+if(domain.indexOf('mbox')!=-1)
+  domain='mail';
+for(i in MTsect)
+if (domain==MTsect[i]) {
+  divName='bottom_' + domain;
+  break;
+}
+document.write('<div id="' + divName + '" class="mt_adv cols6" style="background-color:transparent; border-color:transparent;"></div>'+
+'<style>.mt'+divName+'.mtr3 table tr td:first-child{border-left:0;}'+
+'.mt'+divName+'.mtr3 table tr td{border-top:0; border-right:0; border-bottom:0;}</style>');
+
+function show_bottom()
+{
+	new MTr(divName, {site:1,format:0,number:6,clickTrack:bn_url});
+}
+if (typeof MTr=="undefined") {
+  if (typeof Autoload == "undefined")
+    document.write('<scr'+'ipt src="//i.mediatraffic.com.ua/js/uho/mt20_3.js"></scr'+'ipt><scr'+'ipt>show_bottom();</scr'+'ipt>');
+  else
+    Autoload.loadJS('//i.mediatraffic.com.ua/js/uho/mt20_3.js', show_bottom);
+} else
+	show_bottom();
+//-->
+</script><div id="bottom_mail" class="mtr3 inner img-top mtbottom_mail" style="background-color:transparent; border-color:transparent;"><div class="prt R B"><a target="_blank" href="https://mediatraffic.com.ua/?parentID=1" class="prt_title"></a></div><table><tbody><tr><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a811547&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u"><img src="" data-src="//i.mediatraffic.com.ua/200/4/7/811547.y25.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a811547&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Жіночі футболки</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a811547&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Одягай під будь-що!</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a811547&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">от 160 грн</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u"><img src="" data-src="//i.mediatraffic.com.ua/200/0/8/263008.y1.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Шланг на 45 м весом 2кг</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Скидки до 60% на шланги</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a842682&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u"><img src="" data-src="//i.mediatraffic.com.ua/200/8/2/842682.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a842682&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Ліхтар для дому та дачі!</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a842682&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Яскравий світильник працює на енергії сонця.</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a842682&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">399 грн</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u"><img src="" data-src="//i.mediatraffic.com.ua/200/1/1/838911.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Выжигает сорняк до корней,</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">чистый огород за сутки!</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a839895&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u"><img src="" data-src="//i.mediatraffic.com.ua/200/9/5/839895.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a839895&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Дорблю в домашних условиях?</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a839895&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Да легко! Просто добавь в молоко обычный...</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a839895&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a841887&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u"><img src="" data-src="//i.mediatraffic.com.ua/200/8/7/841887.y1.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a841887&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Шкіряні кросівки ALDEX</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a841887&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Стильне взуття ніколи не виходить з моди</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1869975ecb94fc&amp;r0&amp;x0&amp;pbottom_mail&amp;a841887&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z5009&amp;b97341&amp;k667919363&amp;d267&amp;s010800&amp;u">Подробнее</a></div></td></tr></tbody></table><style>
+.mtbottom_mail.mtr3{width:100%;height:290px;background-color:#FFFFFF;}
+.mtbottom_mail.mtr3:hover{background-color:#FFFFFF}
+.mtbottom_mail.mtr3 table{border-spacing:2px 1px}
+.mtbottom_mail.mtr3 tr{height:288px;}
+.mtbottom_mail.mtr3 td{background-color:#FFFFFF;border-width:5px;border-color:#c0c0c0;border-style:dotted;;padding:1px;text-align:center!important;width:17%}
+.mtbottom_mail.mtr3 td:hover{background-color:#EEEEEE}
+.mtbottom_mail.mtr3 .mt-img{width:185px;height:185px;border-width:1px;border-color:#000080;border-style:solid;;background-color: #ffffff}
+.mtbottom_mail.mtr3.img-top .mt-img{margin-bottom:2px}
+.mtbottom_mail.mtr3.img-left .mt-img{margin-right:2px}
+.mtbottom_mail.mtr3.img-right .mt-img{margin-left:2px}
+.mtbottom_mail.mtr3.img-top .mt-btn,
+.mtbottom_mail.mtr3.img-left .mt-btn,
+.mtbottom_mail.mtr3.img-right .mt-btn{margin-top:2px}
+.mtbottom_mail.mtr3 .mt-img:hover{width:185px;}
+.mtbottom_mail.mtr3 .mt-hdr a{font-family:Tahoma, Geneva, sans-serif;font-size:16px;color:#000080;font-weight:bold;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-hdr a:hover{font-size:16px;color:#e00;font-weight:normal;font-weight:bold;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-txt a{font-family:Tahoma, Geneva, sans-serif;font-size:16px;color:#ff0080;font-weight:none;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-txt a:hover{font-size:16px;color:#e00;font-weight:none;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-btn{background-color:#008040;padding:4px 8px;font-size:16px;left:50%;-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%);transform:r translateX(-50%);}
+.mtbottom_mail.mtr3 .mt-btn:hover{background-color:#999999;font-size:16px}
+.mtbottom_mail.mtr3 .mt-btn a{color:#ffffff;font-family:Verdana, Geneva, sans-serif;font-weight:bold;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-btn a:hover{color:#333333;font-weight:bold;text-decoration:none;font-style:none;}</style></div><style>.mtbottom_mail.mtr3 table tr td:first-child{border-left:0;}.mtbottom_mail.mtr3 table tr td{border-top:0; border-right:0; border-bottom:0;}</style><script async="" src="//source.mmi.bemobile.ua/cm/cmeter_an.js#tnscm_adn=holder&amp;uid=5e1869975ecb94fc&amp;bc=97341"></script><script async="" type="text/javascript" src="https://source.mmi.bemobile.ua/cm/cm.js"></script><script async="" type="text/javascript" src="https://source.mmi.bemobile.ua/cm/cmeter_an.js#tnscm_adn=holder&amp;uid=5e1869975ecb94fc&amp;bc=153782"></script>						<!--/advertising -->
+		</div>
+		<div class="widget_adv widget-pda"></div>
+	</div>
+
+	<div class="footer_overall">
+		<div class="wrapper">
+			<div class="fo_nav">
+				<div class="fo_sections_nav">
+					<ul class="fo_site_sections"><li class="fo_site_sections_item"><a href="http://mail.i.ua/">Почта</a></li><li class="fo_site_sections_item"><a href="http://job.i.ua/">Работа</a></li><li class="fo_site_sections_item"><a href="http://search.i.ua/">Поиск</a></li><li class="fo_site_sections_item"><a href="http://soft.i.ua/">Программы</a></li><li class="fo_site_sections_item"><a href="http://catalog.i.ua/">Каталог</a></li><li class="fo_site_sections_item"><a href="http://links.i.ua/">Закладки</a></li><li class="fo_site_sections_item"><a href="http://rss.i.ua/">RSS</a></li><li class="fo_site_sections_item"><a href="http://board.i.ua/">Объявления</a></li><li class="fo_site_sections_item"><a href="http://weather.i.ua/">Погода</a></li><li class="fo_site_sections_item"><a href="http://goroskop.i.ua/">Гороскоп</a></li><li class="fo_site_sections_item"><a href="http://tv.i.ua/">Телепрограмма</a></li><li class="fo_site_sections_item"><a href="http://finance.i.ua/">Курсы валют</a></li><li class="fo_site_sections_item"><a href="http://shop.i.ua/">Магазины</a></li><li class="fo_site_sections_item"><a href="http://perevod.i.ua/">Переводчик</a></li><li class="fo_site_sections_item"><a href="http://narod.i.ua/">Народ</a></li><li class="fo_site_sections_item"><a href="http://prikol.i.ua/">Приколы</a></li><li class="fo_site_sections_item"><a href="http://love.i.ua/">Знакомства</a></li><li class="fo_site_sections_item"><a href="http://photo.i.ua/">Фотоальбомы</a></li><li class="fo_site_sections_item"><a href="http://blog.i.ua/">Блоги</a></li><li class="fo_site_sections_item"><a href="http://video.i.ua/">Видео</a></li><li class="fo_site_sections_item"><a href="http://oboi.i.ua/">Обои</a></li><li class="fo_site_sections_item"><a href="http://cards.i.ua/">Открытки</a></li><li class="fo_site_sections_item"><a href="http://map.i.ua/">Карты</a></li><li class="fo_site_sections_item"><a href="http://news.i.ua/">Новости</a></li><li class="fo_site_sections_item"><a href="http://kino.i.ua/">Кино</a></li><li class="fo_site_sections_item"><a href="http://org.i.ua/">Органайзер</a></li><li class="fo_site_sections_item"><a href="http://files.i.ua/">Файлы</a></li><li class="fo_site_sections_item"><a href="http://cook.i.ua/">Рецепты</a></li><li class="fo_site_sections_item"><a href="http://music.i.ua/">Музыка</a></li><li class="fo_site_sections_item"><a href="http://otvet.i.ua/">Ответы</a></li><li class="fo_site_sections_item"><a href="http://group.i.ua/">Группы</a></li><li class="fo_site_sections_item"><a href="http://radio.i.ua/">Радио</a></li></ul>
+				</div><div class="fo_sidebar">
+
+					<div class="section_adv">
+												<span class="_title"><a href="http://radio.i.ua/" class="icon-l i_radio"><i></i>Радио онлайн</a></span>
+						Слушай любимые радиостанции в одном месте					</div>
+				</div>
+			</div>
+
+			<div class="fo_copyright">
+				<div class="counter">
+					<a href="//www.i.ua/" target="_blank" onclick="this.href='//i.ua/r.php?1';" title="Каталог сайтов, поиск в Украине"><img src="//i.i.ua/r/3_1_2.png" border="0" width="88" height="31"></a>&nbsp;				</div>
+				<div class="copyright">I.UA, 2006—2020.</div>
+				<ul class="fo_copyright_nav">
+					<li class="fo_copyright_nav_item"><a href="http://help.i.ua/section/11/">Обратная связь</a></li>
+					<li class="fo_copyright_nav_item"><a href="http://help.i.ua/privacy-policy/">Политика конфиденциальности</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+			<div class="alarm">	<span class="disclaimer_button" onclick="i_closeDisclaimer(this)" title="закрыть">Ok</span>
+	Для удобства пользования сайтом используются Cookies. Подробнее в <a href="https://help.i.ua/privacy-policy/" target="_blank">политике конфиденциальности</a>
+	<br>
+	This website uses cookies to ensure you get the best experience on our website. <a href="https://help.i.ua/privacy-policy/" target="_blank">Learn more</a>
+		</div>
+		</div>
+
+
+
+
+
+<style type="text/css">
+.disclaimer_button {
+	float: right;
+	margin: 4px 0;
+	padding: 5px 5px;
+	background: #f0f0f0;
+	cursor: pointer;
+	display: block;
+}
+</style>
+<img width="1" height="1" src="https://cm.g.doubleclick.net/pixel?google_nid=admixer_dmp&amp;google_cm" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://x01.aidata.io/0.gif?pid=ADMIXER&amp;id=547245f4c08d41738ded507b5b20c742" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://ismatlab.com/cp/api/cm.php?t=547245f4c08d41738ded507b5b20c742&amp;rurl=https%3A%2F%2Finv-nets.admixer.net%2Fadxcm.aspx%3Fssp%3D57161132-C24A-4FA4-9C8B-2D6A6B7DA755%26id%3D%5Baclid%5D" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://cm.g.doubleclick.net/pixel?google_nid=admixer_technologies&amp;google_hm=NTQ3MjQ1ZjRjMDhkNDE3MzhkZWQ1MDdiNWIyMGM3NDI&amp;google_cm" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://pixel.onaudience.com/?partner=205&amp;mapped=547245f4c08d41738ded507b5b20c742&amp;noredirect=1" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://exchange.buzzoola.com/cookiesync/ssp/admixer?uid=547245f4c08d41738ded507b5b20c742" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://s.console.adtarget.com.tr/sync.html?aid=517350" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://ads.adsinspidsp.com/?cmid=18&amp;sid=136&amp;user_id=547245f4c08d41738ded507b5b20c742" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://ads.betweendigital.com/match?bidder_id=43070&amp;callback_url=%2F%2Finv-nets.admixer.net%2Fadxcm.aspx%3Fssp%3D70C88C54-8654-4219-A50A-E344F86A4A28%26id%3D${USER_ID}" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=8167273d-0350-4192-a2a7-6e2a0fb7cfff&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=18&amp;profile=36dba250-021e-4192-bb34-f2ee916251dd&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=44b79aa5-6d98-4282-b061-968a02126bc6&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;size=350x240&amp;adv=N%2FA&amp;dsp=UMH+Digital&amp;ts=637259970568382641&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=8167273d-0350-4192-a2a7-6e2a0fb7cfff&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=5e5ec4a4-287f-4613-8d3b-354b1602dcd2&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=18&amp;profile=a01bdf0b-f125-40f1-9022-c7f2f7f7f847&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=44b79aa5-6d98-4282-b061-968a02126bc6&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;size=350x240&amp;adv=N%2FA&amp;dsp=UMH+Digital&amp;ts=637259970568382641&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=5e5ec4a4-287f-4613-8d3b-354b1602dcd2&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=9b1b0305-7d25-4d27-94d9-2aab9ca411f2&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=18&amp;profile=a30acb44-18f1-45ca-ba85-5b440b44c7df&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=44b79aa5-6d98-4282-b061-968a02126bc6&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;size=350x240&amp;adv=N%2FA&amp;dsp=UMH+Digital&amp;ts=637259970568382641&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=9b1b0305-7d25-4d27-94d9-2aab9ca411f2&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=f742cb4d-d761-4791-8285-5efe7567c557&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=18&amp;profile=8df08fbb-d83b-40e6-a788-390159bb4be9&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=50ffdcf3-dfec-4e73-b3be-2ab4df1205b6&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;size=970x90&amp;adv=Criteo+RU&amp;dsp=Criteo+RU&amp;ts=637259970568382641&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=f742cb4d-d761-4791-8285-5efe7567c557&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=c2ff041e-df23-4d0e-b9e7-a0b3cab25f4a&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=18&amp;profile=45e1c560-b605-4ab3-8c1a-822d47b1c6b0&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=50ffdcf3-dfec-4e73-b3be-2ab4df1205b6&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;size=728x90&amp;adv=Criteo+RU&amp;dsp=Criteo+RU&amp;ts=637259970568382641&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=c2ff041e-df23-4d0e-b9e7-a0b3cab25f4a&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_view.aspx?item=4e00c568-50b8-4274-aa28-bb1ae66375bd&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=4&amp;profile=bfbbe424-c2fc-4913-a7b4-14919180969d&amp;zone=10c147c0-92a2-4910-a618-1fbaf92467d1&amp;device=28&amp;rule=367981d1-53b6-4dd6-8a3e-50db6709e57c&amp;requestId=5123e5d5-3abc-42bd-9612-be0e2d319516&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;sw=[e=screen.width]&amp;sh=[e=screen.height]&amp;adv=Recreativ&amp;dsp=UMH+Digital&amp;ts=637259970568382641&amp;ap=MC4zNjc1NTY%3D&amp;asign=-1769688208&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=2&amp;crid=4e00c568-50b8-4274-aa28-bb1ae66375bd&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=&amp;sf=0" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_view.aspx?item=336a63ea-3065-46b9-94d0-4adc23604607&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=4&amp;profile=69b34ed2-477f-41bf-9e1f-77199856e1a5&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=96c82bec-b531-4b18-9dca-c68c264fac72&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;sw=[e=screen.width]&amp;sh=[e=screen.height]&amp;size=728x90&amp;adv=Mediawayss&amp;dsp=UMH+Digital&amp;ts=637259970568382641&amp;ap=MC4zNjc1NTY%3D&amp;asign=1079352730&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=336a63ea-3065-46b9-94d0-4adc23604607&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=&amp;sf=0" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_view.aspx?item=336a63ea-3065-46b9-94d0-4adc23604607&amp;cc=UA%2F30%2F703448&amp;am-uid=547245f4c08d41738ded507b5b20c742&amp;cet=9&amp;profile=69b34ed2-477f-41bf-9e1f-77199856e1a5&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=96c82bec-b531-4b18-9dca-c68c264fac72&amp;requestId=9cb8a278-a9ec-424a-af24-c6038ff5ea3b&amp;page=mbox2.i.ua%2Fcompose%2F1400254098%2F&amp;sw=[e=screen.width]&amp;sh=[e=screen.height]&amp;size=728x90&amp;adv=Mediawayss&amp;dsp=UMH+Digital&amp;ts=637259970568382641&amp;ap=MC4zNjc1NTY%3D&amp;asign=1079352730&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=336a63ea-3065-46b9-94d0-4adc23604607&amp;pvid=96bda8ce-f9c4-482d-bef0-580360cf233a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=&amp;sf=0" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets.admixer.net/logcz.aspx?zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets.admixer.net/logcz.aspx?zone=10c147c0-92a2-4910-a618-1fbaf92467d1" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"></body></html>
