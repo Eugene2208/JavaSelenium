@@ -1,0 +1,2006 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Входящие -&nbsp;I.UA&nbsp;</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta name="google-site-verification" content="HShIi9AqQMLaZPv7XOyqYVcwWYfPY-kJbUWtVTQkXkQ">
+
+<link id="dynamic-favicon" rel="icon" href="//i3.i.ua/css/i2/favicon_16.ico" type="image/x-icon">
+<link rel="shortcut icon" href="//i3.i.ua/css/i2/favicon_16.ico" type="image/x-icon">
+<!--[if !IE]--><link rel="stylesheet" type="text/css" media="all" href="//i3.i.ua/css/i2/blue/sprite/mail.y2016369a.css"><!--[endif]-->
+<!--[if gte IE 8]><link rel="stylesheet" type="text/css" media="all" href="//i3.i.ua/css/i2/blue/sprite/mail_ie.y2016369a.css" /><![endif]-->
+<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="all" href="//i3.i.ua/css/i2/blue/sprite/mail_ie7.y2016369a.css" /><![endif]-->
+<script async="async" src="//stats.g.doubleclick.net/dc.js"></script><script async="async" src="//kpmediagaua.hit.gemius.pl/xgemius.js"></script><script type="text/javascript">
+<!--
+window.JS_ERROR_NOTIFY = 'MTE5ODYzMjI=';
+var lmJsVersion = 1.690;
+var lmJsPath = '//i3.i.ua/js/';
+var JS_LANG_ID = 1;
+var I_VER2 = true;
+var I_SSL = true;
+var SSG = '7b4feaa9';
+//-->
+</script>
+<script type="text/javascript" src="//i3.i.ua/js/util.ya033ba43.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/JSHttpRequest.y989b751f.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/global.y18bbae35.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/autoload.yffdd94c6.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/mbox/mbox2.y88dc6a1d.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/popupdiv.y2ddeb664.js"></script>
+<script type="text/javascript" src="//i3.i.ua/js/i/mbox/updiv.y3e27618f.js"></script>
+<script type="text/javascript" async="" id="Admixer" data-inv="//inv-nets.admixer.net/" data-r="always" data-bundle="desktop" src="https://cdn.admixer.net/scripts3/loader2.js"></script><script type="text/javascript">
+(function() {
+
+	var branding = {
+			padTop:130,
+			bgColor:'#fff',
+			fixed:true,
+			hwAlco:false,
+			hwMed:false,
+			iuaNew:false
+		};
+	
+	function addEvent(e,t,f) {
+		if (e.addEventListener) {
+			e.addEventListener(t, f, false);
+		} else if (e.attachEvent) {
+			e.attachEvent('on'+t, f);
+		}
+	}
+	
+	function removeEvent(e,t,f) {
+		if (e.removeEventListener) {
+			e.removeEventListener(t, f, false);
+		} else if (e.detachEvent) {
+			e.detachEvent('on'+t, f);
+		}
+	}
+	
+	function merge() {
+		var options, name, copy, target=arguments[0] || {};
+		for (i = 1; i < arguments.length; i++ )
+			if ((options = arguments[i]) != null)
+				for (name in options)
+					if (options.hasOwnProperty(name) && options[name] !== undefined)
+						target[name] = options[name];
+		return target;
+	}
+
+	function GEBCN(cn){
+		if(document.getElementsByClassName) // Returns NodeList here
+			return document.getElementsByClassName(cn);
+
+		cn = cn.replace(/ *$/, '');
+
+		if(document.querySelectorAll) // Returns NodeList here
+			return document.querySelectorAll((' ' + cn).replace(/ +/g, '.'));
+
+		cn = cn.replace(/^ */, '');
+
+		var classes = cn.split(/ +/), clength = classes.length;
+		var els = document.getElementsByTagName('*'), elength = els.length;
+		var results = [];
+		var i, j, match;
+
+		for(i = 0; i < elength; i++){
+			match = true;
+			for(j = clength; j--;)
+				if(!RegExp(' ' + classes[j] + ' ').test(' ' + els[i].className + ' '))
+					match = false;
+			if(match)
+				results.push(els[i]);
+		}
+
+		// Returns Array here
+		return results;
+	}
+
+	function addClass (o, c) {
+		var re = new RegExp("(^|\\s)" + c + "(\\s|$)", "g");
+		if (re.test(o.className)) return
+		o.className = (o.className + " " + c).replace(/\s+/g, " ").replace(/(^ | $)/g, "");
+	}
+
+	function getStyle(e,s){
+		if (e.currentStyle) { return e.currentStyle[s]||''; }
+		else if (window.getComputedStyle) { return window.getComputedStyle(e,null)[s]||''; }
+	}
+
+	addEvent(window,"message", catchMsg);
+	
+	function catchMsg(e) {
+		if (typeof e.data == 'string') {
+			var str = e.data;
+			if (str.indexOf('admBranding_padTop') != -1) {
+				branding.padTop = str.split('_')[str.split('_').length-1]; 
+			}
+			if (str.indexOf('admBranding_bgColor') != -1) {
+				branding.bgColor = str.split('_')[str.split('_').length-1];
+			}
+			if (str.indexOf('admBranding_fixed') != -1) {
+				branding.fixed = str.split('_')[str.split('_').length-1];
+			}
+			if (str.indexOf('admBranding_hwAlco') != -1) {
+				branding.hwAlco = str.split('_')[str.split('_').length-1];
+				branding.hwAlco = (branding.hwAlco=='true')?true:false;
+			}
+			if (str.indexOf('admBranding_hwMed') != -1) {
+				branding.hwMed = str.split('_')[str.split('_').length-1];
+				branding.hwMed = (branding.hwMed=='true')?true:false;
+			}
+			if (str.indexOf('admBranding_iuaNew') != -1) {
+				branding.iuaNew = str.split('_')[str.split('_').length-1];
+				branding.iuaNew = (branding.iuaNew=='true')?true:false;
+			}
+			if (e.data == 'admix_branding') {
+				loadBranding();
+				removeEvent(window,"message", catchMsg);
+			}
+		}
+	}
+	
+	function loadBranding() {
+		var html_brnd,
+			html_brnd_first,
+			topId = ['admixer_async_681667001',  // weather
+					'admixer_async_1388268464',  // video
+					'admixer_async_395934906',  // tv
+					'admixer_async_1382177623',  // radio
+					'admixer_async_1115304362',  // prikol
+					'admixer_async_1036325645',  // perevod
+					'admixer_async_1071860055',  // otvet
+					'admixer_async_2022697699',  // news
+					'admixer_async_697525821',  // narod
+					'admixer_async_1419050558',  // music
+					'admixer_async_1890157712',  // map
+					'admixer_async_98527678',  // mail
+					'admixer_async_884978609',  // love
+					'admixer_async_393312103',  // links
+					'admixer_async_1871637314',  // job
+					'admixer_async_1764799217',  // goroskop
+					'admixer_async_1714031575',  // cook
+					'admixer_async_1974191118',  // board
+					'admixer_async_1023898800',  // blog
+					'admixer_async_68886793', // finance
+					'admixer_async_168746454', // kino
+					'admixer_async_536713179',  // inner
+					'admixer_top_weather',  // weather
+					'admixer_top_video',  // video
+					'admixer_top_tv',  // tv
+					'admixer_top_radio',  // radio
+					'admixer_top_prikol',  // prikol
+					'admixer_top_perevod',  // perevod
+					'admixer_top_otvet',  // otvet
+					'admixer_top_news',  // news
+					'admixer_top_narod',  // narod
+					'admixer_top_music',  // music
+					'admixer_top_map',  // map
+					'admixer_top_mail',  // mail
+					'admixer_top_love',  // love
+					'admixer_top_links',  // links
+					'admixer_top_job',  // job
+					'admixer_top_goroskop',  // goroskop
+					'admixer_top_cook',  // cook
+					'admixer_top_board',  // board
+					'admixer_top_blog',  // blog
+					'admixer_top_finance',  // finance
+					'admixer_top_kino',  // kino
+					'admixer_top_inner'];  // inner
+					
+		for (var i=0; i<topId.length; i++) {
+			if (document.getElementById(topId[i])) {
+				html_brnd = document.getElementById(topId[i]);
+				break;
+			}
+		}
+		
+		var partition = window.location.hostname.split('.')[0];
+		
+		if (branding.iuaNew) {
+
+			var partitions_new = ['weather','finance','perevod','map','tv','goroskop','prikol'];
+			
+			var isNewPartition = (function() {
+				for (var i=0; i < partitions_new.length; i++) {
+					if (partitions_new[i] == partition) {
+						return true;
+					}
+				}
+				return false;
+			})();
+			
+			if (isNewPartition) {
+				
+				var bOffset = 47;
+				
+				if (html_brnd) {
+					if (html_brnd.firstChild) {
+						html_brnd_first = html_brnd.firstChild;
+						merge(html_brnd_first.style, {'max-width':'100%','max-height':'100%','min-width':'100%','min-height':'100%'});
+					}
+				} else {
+					console.log('Function loadBranding stopped');
+					console.log('Place holder id for TOP banner is not found in topId array');
+					return;
+				}
+				
+				if (typeof I_VER3 !== 'undefined') {
+					
+					if (GEBCN('body_container')[0]) {
+						var body_cont = GEBCN('body_container')[0];
+					}
+					
+					addClass(document.body, 'iua_branding');
+					document.body.style.overflowX = 'hidden';
+					
+					if (GEBCN('header_adv')[0]) {
+						var header_adv_cont = GEBCN('header_adv')[0];
+						header_adv_cont.style.display = 'none';
+					}
+					
+					if (GEBCN('header_container').length) {
+						merge(GEBCN('header_container')[0].style, {'position':'absolute','width':'100%','z-index':2});
+					}
+					
+					if (GEBCN('page')[0]) {
+						var page_cont = GEBCN('page')[0];
+						merge(page_cont.style, {'position':'relative','z-index':1});
+						var contWidth = getStyle(page_cont, 'width'); 
+						if (~contWidth.indexOf("px")) {
+							contWidth = +contWidth.slice(0,contWidth.length-2)+8;
+						}
+					}
+					
+					body_cont.style.top = (bOffset+parseInt(branding.padTop)) + 'px';
+					
+					if (document.getElementById('section_nav')) {
+						document.getElementById('section_nav').style.zIndex = 1;
+					}
+					
+					if (GEBCN('footer_container').length) {
+						merge(GEBCN('footer_container')[0].style, {'top':parseInt(branding.padTop)+20+ 'px', 'z-index':1});
+					}
+					
+					merge(html_brnd.style, {'position':'fixed','top':bOffset+'px','width':'100%','height':'100%','overflow': 'hidden','z-index':0});
+					document.body.appendChild(html_brnd);
+					
+					$(window).scroll(function () {
+						if ($(window).scrollTop() >= bOffset) {
+							$(html_brnd).css({'top':0+'px', 'position':'fixed'});
+						} else {
+							$(html_brnd).css({'top':bOffset-$(window).scrollTop()+'px', 'position':'absolute'});
+						}
+					});
+					
+					function addHealthWarning() {
+						var hwDiv = document.createElement('DIV');
+						GEBCN('page')[0].appendChild(hwDiv);
+						merge(hwDiv.style, {
+							'position':'relative',
+							'width':'1100px',
+							'height':'142px',
+							'margin':'0 auto',
+							'min-width':'1100px',
+							'max-width':'1100px',
+							'background-color':'#fff',
+							'background-image': (branding.hwAlco ? 'url(//i.holder.com.ua/h/1/2/282_pf2_1.jpg)' : branding.hwMed ? 'url(//i.holder.com.ua/h/5/6/266_pf1_1.jpg)' : ''),
+							'background-repeat':'no-repeat',
+							'background-position':'center top',
+							'background-size':'contain',
+							'z-index':1
+						});
+						
+					}
+					
+					if (branding.hwAlco || branding.hwMed) {
+						addHealthWarning();
+					}
+						
+				}
+					
+			}
+				
+		} else {
+				
+			if (html_brnd) {
+				if (html_brnd.firstChild) {
+					html_brnd_first = html_brnd.firstChild;
+					merge(html_brnd_first.style, {'max-width':'100%','max-height':'150px','min-width':'100%','min-height':'150px'});
+				}
+			} else {
+				console.log('Function loadBranding stopped');
+				console.log('Place holder id for TOP banner is not found in topId array');
+				return;
+			}
+			
+			merge(html_brnd.style, {'width':'100%','height':'150px','max-width':'100%','max-height':'150px','min-width':'100%','min-height':'150px','margin':'0px auto'});
+			if (GEBCN('header_adv').length) {
+				GEBCN('header_adv')[0].style.padding = '0px';
+			}
+			if (GEBCN('header_adv_item').length) {
+				merge(GEBCN('header_adv_item')[0].style, { 'width':'100%', 'border':'none' });
+			}
+			if (GEBCN('widget_adv').length) {
+				merge(GEBCN('widget_adv')[0].style, { 'width':'100%', 'border':'none' });
+			}
+			
+		}
+		
+	}
+})();
+</script><script type="text/javascript">
+<!--
+if (window.frPr)
+	window.frPr();
+var i_user = 1;
+var username = 'Евгений';
+//-->
+</script>
+<script charset="utf-8" src="https://cdn.admixer.net/scripts3/0edd7dbfd3145011e4ef.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/2e618849ee13451c8cf1.b.js"></script><iframe title="iframe" style="display: none;"></iframe><script async="" src="//i.mediatraffic.com.ua/js/uho/mt20_3.js"></script><script async="" src="https://h.holder.com.ua/s?ta&amp;b7834&amp;c1&amp;r42853310&amp;dholder_300x350_34&amp;hhttps%3A//mbox2.i.ua/%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76"></script><script async="" src="https://h.holder.com.ua/s?ta&amp;b2057&amp;p1&amp;c1&amp;r0.42853310&amp;dholder_640x360_2057&amp;hhttps%3A//mbox2.i.ua/%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76"></script><script async="true" type="text/javascript" src="https://inv-nets.admixer.net/dsp.aspx?sender=admixer&amp;rct=4&amp;v=2.0&amp;data=%7B%22id%22%3A%22ec0b7316-fe25-971a-670c-30eab85cf042%22%2C%22site%22%3A%7B%22page%22%3A%22https%253A%252F%252Fmbox2.i.ua%252F%253F_rand%253D1886473649%2526phcode%253Db35a5de28b12c554d745645ace984d76%22%2C%22ref%22%3A%22https%253A%252F%252Fwww.i.ua%252F%22%2C%22sf%22%3A0%7D%2C%22device%22%3A%7B%22ua%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F81.0.4044.138%20Safari%2F537.36%22%2C%22sr%22%3A%221536x864%22%7D%2C%22labels%22%3A%7B%22rtb_rta%22%3A%22%22%7D%2C%22imp%22%3A%5B%7B%22id%22%3A%22e9393c6c-2ad3-a2f7-59d2-8734969d67cb%22%2C%22tagid%22%3A%2210c147c0-92a2-4910-a618-1fbaf92467d1%22%2C%22ext%22%3A%7B%22ph%22%3A%22admixer_rm_inner%22%2C%22pos%22%3A1%7D%2C%22sender%22%3Anull%7D%2C%7B%22id%22%3A%224f9b7701-3c29-4fca-480b-6c77d55f4542%22%2C%22tagid%22%3A%222724cbf4-a4a5-49cb-84fb-c8dd977b5901%22%2C%22ext%22%3A%7B%22ph%22%3A%22admixer_top_mail%22%2C%22pos%22%3A1%7D%2C%22sender%22%3Anull%7D%5D%2C%22allimps%22%3A2%7D&amp;rnd=5416691414988257&amp;cpv=5511e615-8eb7-76a2-0a4b-71a3541213a1&amp;am-uid=null&amp;3rd=true"></script><script async="" type="text/javascript" src="https://pa.tns-ua.com/viewability/cds.js"></script><script async="async" charset="windows-1251" src="//t.holder.com.ua/s?v3&amp;s1&amp;pbottom_mail&amp;m6&amp;r56677792&amp;c1"></script><script async="true" type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script><script async="true" type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/13eacf6cee6bddf36c40.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/0c041d0472a1e9937f43.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/41a864b609924a98ff78.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/74f4cdef0798513d6ef8.b.js"></script><script charset="utf-8" src="https://cdn.admixer.net/scripts3/dafea4539efafbf32fa2.b.js"></script><style type="text/css">.mtr3{margin:auto;z-index:1}.mtr3 a{line-height:1.1!important;}.mtr3,.mtr3::after,.mtr3::before{box-sizing:content-box!important;}.mtr3.img-top{text-align:center}.mtr3.img-left,.mtr3.img-right{text-align:left}.mtr3.inner{position:relative}.mtr3.pop-in{position:absolute}.mtr3.T,.mtr3 .prt.T{top:0}.mtr3.B,.mtr3 .prt.B{bottom:0}.mtr3.L,.mtr3 .prt.L{left:0}.mtr3.R,.mtr3 .prt.R{right:0}.mtr3.hor{width:100%}.mtr3.ver{height:100%}.mtr3 table{width:100%;border-collapse: initial!important;cursor:pointer}.mtr3 td{vertical-align:top!important;position: relative;}.mtr3 .mt-hdr,.mtr3 .mt-txt{display:block;line-height:0.8!important}.mtr3 .mt-hdr a,.mtr3 .mt-txt a{border-style:none!important}.mtr3 .mt-img{position:relative;height:auto;display:inline-block;z-index:10;overflow: hidden}.mtr3 .mt-img:hover{z-index:15}.mtr3.img-left .mt-img{float:left}.mtr3.img-right .mt-img{float:right}.mtr3 .mt-img img{width:100%;height:auto;}.mtr3 .mt-btn{display:inline-block;float:none;position:absolute;white-space:nowrap;bottom:3px}.mtr3 .prt{position:absolute;z-index:11}.mtr3 .prt .prt_title{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAqCAYAAABMW14yAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwtJREFUeNrsmzFMU1EUhm8NTp1tnYx2NiWuAosMIo40QStamjahiwwoUxMJJh1lwKUkhVKBIklpUJHWAUUjMLk0znUgLHXD1EWT6t/E2NR7bu+D+zDtO9/Y+9pe+t/3n7/nUJcQoiY6kMMLF9tin2cEwwKwAMx/o6v5gVpNvyRUKhXh9Xpt2VixUBDXBwa0r3e5XFrXnXu9JM5e7j3VD/nH54/i68275u8Aj8cjHkxMGN9wf/81Sx++oy3oXihkfFPBYJBrgC5+v18EhoaMbmp4+BYLYIVoNGpsQ4+np4Xb7WYBrAC/9vkuGdnQnZERZ6cgFeVy+fcH7ZOuxeNxEYmc7E6IRiLk61erVSN3BpVGrCYmVbKx7Q7Y2XlXj552+XYgECDXCltbbEFgNZuVPo7TCf+2I3q+KRbF0bcjFgDMPp21xb9jYzFyLZVKcRH+Wwe+1E+kDPg3fNwqKOA3Bgela6VSSeTW11kA3RMZDoctv95oaJQssC82NjiGNoMTiUQk42pPT93PrTAWk9sPCv6jqSkWQMbK8vKx/FwWPdFTkrG5+Yq/iFHgZCKby4Cf634xU1lWlkhcLECLbA4/H78/rhU9YVlU9NzefssCqEjOJcm12xodzcmHk3SdyeUc0Yo4kQA4oXu7u9K1VrMCWFRvXx/Z8kjNz7MAOuTzeXJNNSuARVHRU1XgWYAmnszMkP0h1ayAsigU9k6PnkYFAKuKtCKbFcCaqOi5tvZcOAkjAqj6Q7JZgcqanBA9jQug6g8BzAoaoyesycnR07gAQNUfapwVcPS0SQBVf+jPrEAVPVHInRI9bRGgVXzErABWREXPuWRSOBGjAqj6Q5gVUGNLPGcxs8gCmEA1u6VOP56DQs4CGEDVHzL5HBaAADESY0Rd0EtyWvS0VQDwLJPRvjadTgsnY4sAqv4QR89TEADojBOdGj0b+edfExcW6BO5v7ev/cKJRKLlNVaip5X3NsX3lyui69MH6drPwwMj74GflfCvJDvRghgWoG1qwPtO/MMOrpzvbod9/hJgAJdIGMi/wvmOAAAAAElFTkSuQmCC);margin:0;background-repeat:no-repeat;background-size:contain;content:"";display:inline-block;height:10px;line-height:10px;width:23px;border-top:1px solid #000}</style></head>
+
+<body>
+	<div class="body_container">
+<div id="bmcounter">
+<script type="text/javascript" language="javascript"><!--
+iS='<img src="//r.i.ua/s?u100&p0&n'+Math.random();
+iD=document;if(!iD.cookie)iD.cookie="b=b; path=/";if(iD.cookie)iS+='&c1';
+try{
+iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)
++"&w"+screen.width+'&h'+screen.height;
+}catch(e){}
+iT=iR=iD.referrer.replace(/^.*\/\//, '');iH=window.location.href.replace(/^.*\/\//, '');
+((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);
+if(iT!=iH.substring(0,iI))iS+='&f'+escape(iR);
+iS+='&r'+escape(iH);
+iD.write(iS+'" border="0" width="1" height="1" />');
+bmQ='//c.bigmir.net/?s134156&t6&n'+Math.random();
+bmD=document;
+if(bmD.cookie)bmQ+='&c1';
+try{
+bmS=screen;bmQ+='&d'+(bmS.colorDepth?bmS.colorDepth:bmS.pixelDepth)+"&r"+bmS.width;
+}catch(e){}
+bmF = bmD.referrer.replace(/^.*\/\//, '');
+if(bmF.indexOf('.i.ua')==-1)bmQ+='&f'+escape(bmF);
+UtilLite.addEvent(window, 'load', function () {
+	var img = dge('bmcounter').appendChild(dce('IMG'));
+	img.border=0;
+	img.width=1;
+	img.height=1;
+	img.src=bmQ;
+});
+
+function ILoadScript(src){var t='script',gt=iD.createElement(t),s=iD.getElementsByTagName(t)[0];gt.setAttribute('async','async');gt.src=src; s.parentNode.insertBefore(gt,s);}
+var pp_gemius_identifier = new String('1vYwRCuDZ31P3rDTWe_gUtVprfGN0cO2V4Jk3H6nxS..R7');
+function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+ILoadScript('//kpmediagaua.hit.gemius.pl/xgemius.js');
+
+/*var tns_already, tnscm_adn = tnscm_adn || [];
+(function(c,m){if(c.indexOf&&c.indexOf(m)<0){c.unshift(m);}}(tnscm_adn,"inline_cm"));
+if (!tns_already) {
+	tns_already=1;
+
+	UtilLite.addEvent(window, 'load', function () {
+		var i=new Image();
+		i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=i.ua&j=1&nocache="+Math.random();
+		ILoadScript("http://source.mmi.bemobile.ua/cm/cm.js");
+	});
+}*/
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34374057-1']);
+_gaq.push(['_setDomainName', '.i.ua']);
+_gaq.push(['_addOrganic', 'go.mail.ru', 'q']);
+_gaq.push(['_addOrganic', 'nigma.ru', 's']);
+_gaq.push(['_addOrganic', 'search.qip.ru', 'query']);
+_gaq.push(['_addOrganic', 'aport.ru', 'r']);
+_gaq.push(['_addOrganic', 'webalta.ru', 'q']);
+_gaq.push(['_addOrganic', 'search.livetool.ru', 'text']);
+_gaq.push(['_addOrganic', 'poisk.ngs.ru', 'q']);
+_gaq.push(['_addOrganic', 'search.tyt.by', 'query']);
+_gaq.push(['_addOrganic', 'search.ukr.net', 'search_query']);
+_gaq.push(['_addOrganic', 'liveinternet.ru', 'q']);
+_gaq.push(['_addOrganic', 'meta.ua', 'q']);
+_gaq.push(['_addOrganic', 'gogo.ru', 'q']);
+_gaq.push(['_trackPageview']);
+UtilLite.addEvent(window, 'load', function () {
+	ILoadScript('//stats.g.doubleclick.net/dc.js');
+});
+//--></script><img src="//r.i.ua/s?u100&amp;p0&amp;n0.29242619233624967&amp;c1&amp;d24&amp;w1536&amp;h864&amp;fwww.i.ua/&amp;rmbox2.i.ua/%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76" border="0" width="1" height="1"><img border="0" width="1" height="1" src="//c.bigmir.net/?s134156&amp;t6&amp;n0.0782075195382328&amp;c1&amp;d24&amp;r1536"></div><div id="admixer_rm_inner" data-zone="10c147c0-92a2-4910-a618-1fbaf92467d1" style="z-index: 9999; margin: 0px auto; position: relative; overflow: hidden; width: 0px; height: 0px;"><iframe allowfullscreen="true" allowtransparency="true" frameborder="0" hidefocus="true" marginheight="0" marginwidth="0" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" tabindex="-1" webkitallowfullscreen="true" title="iframe" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; display: none;"></iframe><script src="https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=2483&amp;height=300&amp;width=400&amp;tld=www.i.ua&amp;ctype=div"></script><div id="mwayss_div_5447046994" class="mwayss_div" style="font-size: 0px; line-height: 0;"><script src="https://ad.mox.tv/mox/../js/ima2/2/inview.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/ima2/2/vast-client.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/ima2/2/ima.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/moxplayer/moxplayer.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/mercury/mercury.min.js"></script>
+<link rel="stylesheet" href="https://ad.mox.tv/mox/../js/moxplayer/moxplayer.css">
+<div id="adSlot_369_2483_15903940675ecb7cd34b8b9"></div>
+<!--delete in the future-->
+<style>
+  .mox__logo, .mox__contextmenu-logo {
+    display: none!important;
+  }
+</style>
+<!--/delete in the future-->
+<script>
+  (function(window) {
+    'use strict';
+
+// delet dis
+    var highestAvailableWindow = window;    
+
+    while (highestAvailableWindow.parent && highestAvailableWindow !== highestAvailableWindow.parent) {
+    	try {
+    		highestAvailableWindow.parent.mwayss;
+
+    		highestAvailableWindow = highestAvailableWindow.parent;
+    	} catch(e) {
+    		break;
+    	}
+    }
+
+    var registry = highestAvailableWindow.mwayss;
+// til dis
+
+    var banner = Object.keys(registry.banners).filter(function(banner) {
+      return registry.banners[banner].zone_id === '2483';
+    })[0];
+
+    var selector = (
+      typeof registry.banners[banner].dynamic_selector !== 'undefined' ?
+        registry.banners[banner].dynamic_selector :
+        '#adSlot_369_2483_15903940675ecb7cd34b8b9'
+    );
+
+    var imaConfig = {
+      adSlot: {
+        placement: {
+          targetNode: selector,
+          context: document,
+          cachingEndpoint: 'https://ad.mox.tv/delivery/unit-selector/caching?zone_id=2483&hash={selector:base64}&ref={referer}',
+        },
+        stage: {
+          mainAxis: 'horizontal',
+          proscenium: {
+            stylesMirroring: 'enabled',
+            position: 'center center',
+            states: {
+              initial: 'collapsed' || 'collapsed',
+              final: 'collapsed' || 'collapsed',
+            },
+            minDimensions: {
+              width: 300,
+              height: 225,
+            },
+            maxDimensions: {
+              width: +('disabled' === 'enabled' ? undefined : '400') || 640,
+              height: +('disabled' === 'enabled' ? undefined : '300') || 360,
+            },
+            uiElements: {
+              controls: {
+                close: {
+                  appearanceDelay: '1' || '3',
+                  position: ('right' || 'right') + ' ' + ('top' || 'top'),
+                  outside: 'outside' !== 'inside',
+                  inverse: false,
+                  visible: 'enabled' !== 'disabled',
+                },
+              },
+              properties: {},
+            },
+            properties: {
+              animated: {
+                in: {
+                  type: 'roll',
+                  duration: 0.2,
+                  timingFunction: 'ease-in',
+                },
+                out: {
+                  type: 'roll',
+                  duration: 0.2,
+                  timingFunction: 'ease-out',
+                },
+              },
+            },
+          },
+          properties: {filled: '#000'},
+        },
+      },
+      playback: {
+        tagsList: {
+          pre: [
+            '//ad.mox.tv/delivery/rtb/video?data=QldKUG5iaXp4blBWRFhOUFVhWnBMcml5d25vNjJlNWp5czd5Rll1TitSS05uUHhUb2RWcUFPRi9YUlo4UHhySldZUldKdTBOT25DcGJVZG84THdWU2ZXU3hoWGI3OWFkYTVYSHNkRDNxR242bDBHV3N0aExMSmN4M1BJTFBnVHZid0g1YWl5OEVFWjJhdWd5T1RoQTYvNlVTQUFOUm9ZV255R2RnbVNnMnNkN0EvU1FEbjdkTHpod0hzM242dXh0SWRGRGUrTjJlOGRrYmdCQ0ErdENGbjRkeE5pcFU1Qm9kMVZDd0NZamg5MWVJdmN4dUovTnU4b0ZBWGFLU2ZzS1VSeWhySGlELzVnaTdicFlHTTVxRlVhSUFWdCtWeVpSb1liMURTZ1dsejlNeG8rVmVCMUNIZHRWT2ZZMDgwMjV3UFkza2o1NUpzY0lGTElNWVkzaVp1eEF1NW1UZ2FDamhlaFlCYUtBY0JkVjlVdlRhUUViVGlLcHVvdHVzWUVhUE5YZnUxM21mWXdFV0xDNVhVTTkzdDVYeUtjSGJCcU5SSDRTRmhxbTlJR0JLMGROeHlWU3pKSFg0RE1rRkc5U0dBSWdublhLSmQzOUp5cmV3dVdrVjQ0OEkrNzFkQ2RQWnF0Ri8rbUlrZnAxOEdVd25pS1VJUWhQSHFZdTdoZWRlUVA2YVhvRE9YUGJMdXMvN3ZaQ3AyZ0ljeVAxZXZnNHArTFUwSHIzdFgvbHV3WXoyY3N6NE53Q3IvZGJ1U2dyaUZ3clhuUUM5eVA1SEVtNjZqaFRNWTRtVlNEZ002TUhkL1FsdFRabC9UR2hrd1VQSWxLenIrUmRYV3NrT3hjcGJjT2NsZy9kY29GMjNyaWx3WTBhSnBzMkZ4eitkSytHUExDSDh4cXVTdVozQ0pENkFFSWN5bWZvMGJLbkVzTGo3VUtUNDROWGlTOWVUMFRramo0YlVCYlJXUmFzOCs2UEt2NlIxZ1pUWXRubXlzQ2VZMXNnSzdXZ3QrYlNZYzhW', 
+'//ad.mox.tv/delivery/rtb/video?data=dUpHamd3L2lkRlh6S1p3WVV5SjhSZmNUN054aENROVRvMnQxaEVuVXErSC9zR1piVkVhTk45VDBWSjdEK016UTZ4OCtwZkVWTUplcHJWOUhOdVNIc1NwK3BIUUJsRnlxZ3IwN1dRUWp3T1NaYWMrWVJNUVB3K3g4QjlXTUttMjRhb1drc0IrVU9rY2dwV283WGc3M3dyY0JLWjJvckFXMEVhbmVTcit2dEM3RHZUTHYySCsvRWlVK3JldzhUMVdrRTNWbTVqOTRTd2E3Q2lkdFpTVGlOMmZQbU53cHEzbUZISXpXNmFOV1phNGFzOTVrS0cwQW0vQzNDZ1MwU2U4cFcxNkdPSjZsQ21sUFZyQUI4YXNLcGpUUTZhRDlxckhCUTlUbEp3NjdlZlZTcXpYcHJ0UVhUajVVMlpHSDZoNWx1eW9lWXZERGxkVHV1ejJuaUZCSWswRkRHb01GSUtXZmtDc0NZMThzVGdCT3J3d2dmck5kOW1ZUkk5dnVOc1RPOXQ4WDFzU0ZtbHBlR2ZrRm5YUVRwWTZSdmgzU2ZZckdXYkdkZVZ3Y2w3NEJLcTJSRHB3TFhaWUVKbmphbC9SWGlMOGVPem1GdXJRYjNzYUNQU3hZdWQ3VTl2YWtWZTdleEZWOGNkQ3A3dlV1ODR4Yyt0L1F6Nzg4M1dHc2NxUVVydzZHMEM2djVRaHRmZndlUUxlUmJvTFZZYlJ2bitvbXI4RWVtenhKSXRjNUFqV1pEb2Y1QS9Gd0NwRWw4djlzK3B4TitOUk9abEcvNlMrcW43NW9pZjB4TW1wcnMwUmo5MGJ1M25CYmZUVFFvWGhLNUZrRnJWVW5IR3FmYlpBYmFwLzkvT0dSSkQyTkxJMFZ3UFkzSDdiSkZWT3cwQWtSUzBTSTBkcEJObUZNMm5MVk1Qa2VYZVBYT2V2cDZUQWlpMGdET0NqQWxKdTFEL3dESWRJVmxJMitQcDJuN2hnVWFBVGRpWHRDRGZhM0hrZmNEeHlMVm0rWDJic240NHRQ', 
+'//ad.mox.tv/delivery/rtb/video?data=TmpmNmM4NitscTEzWEIyeXp0aEkrNDFCZStpVGhsSldYY3ZBSnlib0dMMGhodHNTcHcxelE0aEZOWG9aSU9MWlBiMGtBWjR5UDRMMWFURGJYa0RaQm5qRmUzTFpobmhPNUg0ZmU2L0x3NGw4ZS94cTJ5OUpPSnJoR2gvMkdVdnVaYVhvWlUxZjRjQVlVdVZjdHRpS201bzFjcmJaQ1ZjTmNkeVNUV01HN085Y1RWd25iaEFyQldDNi81YUtEYml3bGFYVGV4ZUpOcFY0R3Z2WjJkeklTdkdrR091N0hXN2hoMFpFdkZWV2svZVBkV0lkMkVLbWZBYXlNdmdPR0lra3lqR1E4VDh6VDJLb2RYU0o3VEtYcEp1SWM5ZFBDN1ZjbmM3bmlmeTJVQmFRY3kxWHZNd0F1Z3ZDS1BGampSVUVsdCtyTytqOWhGMW9hSlh6MXAxN2g3S2ZHNXZCYkpOcVpYRENOMW81c25WclhTVkE3YUhFMEVXeTdrbVhuN0NIK0sxdFBBRytLR1MxQ05HaWRuNUdEQVRKZUNSQmhNZUptQ2FEb2dwNVR4NWJZZ1U5emZrMVA1WnNzZWpqSDQwTnRDcHBGYm9YMEszZlh0UVBVbzhoR1lJSzkxVWNDb0tjMEZ2dGVNNGM4dVNyeWUxVkdFVzh2Y0MydFhPSjRFYkpVQ083em1kU01uR05YQms3L1locUsrV1ZJaUV2d0FTUDZCOVdhM2VpdzA3S2pSUnltaEVYbXdPc3VtaHN6L0VmdCs4N1lZUENDMCtCazg0VWZ0RVFrbmNiSndMQmVnN3lVeEErQVExTlBZZ202aTlzK1A4aFM2ZXNyd2hNenJQKzhjcWZNY0IybGFJNU5KYloyeDQzd1V3MjR0R3orSjZlVWdScTloY1B0SmhLazdyRVhPb29WaWJMcEhPRWFGS3cxWElmekE5clI5YndtRTZwdkZ1OURmYzhocDA4MHd5MHNJNDgvc2RISlJ1WlpLcmg0OW1kam5rRnE4aGlyZFh0SDByaGJoTGx4MGhqb1k2RlZ4VmhhUT09',
+            '',
+            '',
+          ],
+          mid: [''],
+          post: ['' || ''],
+        },
+        strategy: {
+          linear: {
+            maxRotations: '1' || '1',
+          },
+        },
+        ad: {
+          strategies: {
+            resolveVASTAdTag: {},
+            preloadMediaFile: {onReady: {}},
+            startAd: {},
+            volume: {},
+          },
+          videoPlayer: {properties: {}},
+          autoSkip: {
+            // probability: 0,
+            probability: '0' || '0.2',
+            range: ['12' || '5', '30' || '60'],
+          },
+          timeouts: {
+            resolve: 5,
+            preload: 6,
+          },
+        },
+        naturalVideo: {
+          initialization: 'after ad' || 'initial',
+          playlist: [
+            {
+              file: '',
+              title: '',
+            },
+            {},
+            {
+              file: (JSON.stringify({}) === '{}' || '' !== '') && '' === '' && 'slider' !== 'slider' ? 'https://cdn.mox.tv/data/1079/video/58/480_650.mp4' : '',
+              title: 'Sun',
+                              onProgress: 'https://ad.mox.tv/delivery/content/tracking/progress/58/Q3RLMWN6UGQzeW8yejVyTXN4R05FTTExL1plT2psZWZqT0RkY0QwRVhyUWlwS2w1SnNFZU1xU01uVEpZNVFreGVCenZNSll0bVo2QmRHenJOenRjazY1eEZuQ1VNZ3J1dzJ0Y21HdlFuNE16ck8rZ0tuN0QrWDFBMHEvQ3VTNUVnd1RUOHRaSWRzcHVVMm9MdHduR0xCZXI2dk4xZ2J3Mzk3UkE1TE9GVUVDS3dzaUR4OFEvbHRoRmZoS3k1WXhJMjlhZWFVOUZCdWI3SzdOL3hCdWJVT0E5T1JDaUVlNm4wOGc3dWFyWEo1bzcrZ3p0RkJ6NWJ6WGJwdU5zZW5Xcg%3D%3D',
+                onEnded: 'https://ad.mox.tv/delivery/content/tracking/end/58/Q3RLMWN6UGQzeW8yejVyTXN4R05FTTExL1plT2psZWZqT0RkY0QwRVhyUWlwS2w1SnNFZU1xU01uVEpZNVFreGVCenZNSll0bVo2QmRHenJOenRjazY1eEZuQ1VNZ3J1dzJ0Y21HdlFuNE16ck8rZ0tuN0QrWDFBMHEvQ3VTNUVnd1RUOHRaSWRzcHVVMm9MdHduR0xCZXI2dk4xZ2J3Mzk3UkE1TE9GVUVDS3dzaUR4OFEvbHRoRmZoS3k1WXhJMjlhZWFVOUZCdWI3SzdOL3hCdWJVT0E5T1JDaUVlNm4wOGc3dWFyWEo1bzcrZ3p0RkJ6NWJ6WGJwdU5zZW5Xcg%3D%3D',
+            },
+          ],
+        },
+        passback: 'enabled' !== 'enabled' ? function() {} : function() {
+          var s = document.createElement('script');
+          var acid = 'mwayss-5447046994'.split('-')[1];
+          var ac = document.getElementById('mwayss_div_' + acid);
+
+          s.src = '//ad.mox.tv/mox/mwayss_invocation.min.js?act=rollback&banner_id=-666&ch=&token=14365eba2b5e22800bda8b74a8df7d8c&params=ZndhWjhoNmZTVmVaVFJKT2hBU0lUNG1oYUVPbE0vem81TUhpWm1zdDFYeVdveGtiYUd6c2p3M3ZVQndqZ0p5WnJicEFlRVQvbEUyMWsvT3N6dFZVY2hBd1VqaEVINGJxVjdSUURYdlJHVC90MWFmQTRzbjNaNStxVWo4S0oxRi8%3D&uid=5447046994';
+
+          Array.prototype.forEach.call(ac.childNodes, function(node) {
+            if (!(node.nodeName === 'A' && ~node.className.indexOf('mwayss_brand_item')) || !(node.nodeName === 'LINK' && ~node.href.indexOf('mwayss_invocation'))) {
+              node.parentNode.removeChild(node);
+            }
+          });
+
+          ac.appendChild(s);
+
+          console.log('passback\nplacement_id: ' + this.analytics.placementID);
+        },
+      },
+      analytics: {
+        log: 'disabled' !== 'disabled',
+        placementID: 2483,
+        gaTrackingID: '',
+      },
+    };
+
+    var interval = setInterval(function() {
+      if (!window.IMA || !window.Moxplayer) return;
+
+      clearInterval(interval);
+
+      var ima = new window.IMA(imaConfig);
+
+      ima.once('loaded', function(event) {
+        var playback = ima.getPlayback();
+
+        var trackedEvents = ['AdLoaded', 'AdStarted', 'AdClickThru', 'AdError'];
+        var completeEvents = ['AdVideoComplete', 'AdSkipped', 'AdStopped'];
+
+        playback.on(trackedEvents, function(event) {
+          var eventName = event.getName();
+          var eventData = null;
+
+          if (eventName === 'AdStarted') {
+            setTimeout(function() {
+              eventName = 'AdProgress';
+              eventData = {elapsed: 3000};
+
+              emit(eventName, eventData);
+            }, 3000);
+
+            eventData = playback._activeAd.getDimensions();
+          } else if (eventName === 'AdClickThru') {
+            eventData = {url: event.getData().url};
+          }
+
+          emit(eventName, eventData);
+        });
+
+        playback.once(completeEvents, emit.bind(null, 'AdComplete', null));
+      });
+    }, 50);
+
+    var emit = function(eventName, eventData) {
+      try {
+        var message = {
+          provider: 'moxtv',
+          event: {
+            id: '2483',
+            name: eventName,
+            data: eventData,
+          },
+        };
+
+        var target = window;
+
+        while (target) {
+          target.postMessage(message, '*');
+
+          target = target === window.top ? null : target.parent;
+        }
+      } catch (e) {
+        // ..
+      }
+    };
+
+    if ('' === 'inViewport') {
+      imaConfig.adSlot.placement.position = {
+        inViewport: {
+          beforeChild: '' || 'last',
+        },
+      };
+    } else {
+      imaConfig.adSlot.placement.position = {
+        constant: {
+          beforeChild: '' || 0,
+        },
+      };
+    }
+
+    switch ('slider') {
+      case 'slider': {
+        imaConfig.adSlot.stage.mainAxis = 'vertical';
+        imaConfig.adSlot.stage.properties.fixed = {
+          position: ('left' || 'right') + ' ' + ('bottom' || 'bottom'),
+          margin: ['' || '0', '' || '0'],
+        };
+
+        break;
+      }
+      case 'inBanner': {
+        imaConfig.adSlot.stage.properties.filled = {color: '#000'};
+        imaConfig.adSlot.stage.properties.stretched = {};
+      }
+      case 'richVideo': {
+        imaConfig.adSlot.stage.proscenium.states.initial = 'expanded';
+        imaConfig.adSlot.stage.proscenium.states.final = 'expanded';
+
+        break;
+      }
+      default: {
+        // ..
+      }
+    }
+
+    if ('' !== '') {
+      imaConfig.adSlot.stage.properties.filled = {color: '#000'};
+      imaConfig.adSlot.stage.properties.parallax = {
+        initialOffset: 'px',
+      };
+    }
+
+    if ('onReady' === 'inViewport') {
+      imaConfig.playback.ad.strategies.resolveVASTAdTag = {
+        inViewport: {
+          offset: '500' || '300',
+        },
+      };
+    } else {
+      imaConfig.playback.ad.strategies.resolveVASTAdTag = {onReady: {}};
+    }
+
+    if ('onReady' === 'inViewport') {
+      imaConfig.playback.ad.strategies.startAd = {
+        inViewport: {
+          offset: '200' || '-50%',
+        },
+      };
+    } else {
+      imaConfig.playback.ad.strategies.startAd = {onReady: {}};
+    }
+
+    if ('onHover' === 'onReady') {
+      imaConfig.playback.ad.strategies.volume = {
+        onReady: {
+          level: '0.2' || '0.4',
+          transition: {
+            type: 'smooth',
+            duration: 1.5,
+          },
+        },
+      };
+    } else {
+      imaConfig.playback.ad.strategies.volume = {
+        onHover: {
+          level: '0.2' || '0.4',
+          transition: {
+            type: 'smooth',
+            duration: 1.5,
+          },
+        },
+      };
+    }
+
+    if ('enabled' !== 'disabled') {
+      imaConfig.adSlot.stage.proscenium.uiElements.controls.volume = {
+        size: 20,
+        margin: 10,
+        position: 'left bottom',
+      };
+    }
+
+    // if ('disabled' === 'enabled') {
+    //   imaConfig.adSlot.stage.proscenium.uiElements.brandIcon = {
+    //     position: ('left' || 'left') + ' ' + ('top' || 'top'),
+    //     outside: 'outside' !== 'inside',
+    //     url: 'https://mox.tv/?utm_source=mox.tv_branding',
+    //   };
+    // }
+
+    if ('enabled' === 'enabled') {
+      imaConfig.adSlot.stage.proscenium.uiElements.caption = {
+        position: ('center' || 'center') + ' ' + ('top' || 'top'),
+        outside: 'outside' !== 'inside',
+        text: 'advertisement',
+      };
+    }
+
+    switch ('30') {
+      case '10': {
+        if (imaConfig.adSlot.stage.proscenium.uiElements.brandIcon) {
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.height = 10;
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.margin = 3;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.caption) {
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.fontSize = 10;
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.margin = 3;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.controls.close) {
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.size = 10;
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.margin = 2;
+        }
+
+        break;
+      }
+      case '30': {
+        if (imaConfig.adSlot.stage.proscenium.uiElements.brandIcon) {
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.height = 20;
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.margin = 5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.caption) {
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.fontSize = 15;
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.margin = 5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.controls.close) {
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.size = 30;
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.margin = 6;
+        }
+
+        break;
+      }
+      default: {
+        if (imaConfig.adSlot.stage.proscenium.uiElements.brandIcon) {
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.height = 15;
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.margin = 5.5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.caption) {
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.fontSize = 12;
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.margin = 5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.controls.close) {
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.size = 20;
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.margin = 2;
+        }
+      }
+    }
+
+    if ('disabled' === 'enabled') {
+      imaConfig.adSlot.stage.properties.sticky = {
+        reconfigure: {
+          adSlot: {
+            stage: {
+              proscenium: {
+                maxDimensions: {
+                  // width: 354,
+                  // height: 199,
+                  width: 400,
+                  height: 300,
+                },
+                uiElements: {
+                  controls: {
+                  close: {
+                      size: 20,
+                      margin: 2,
+                      outside: false,
+                      visible: true,
+                    },
+                    volume: {size: 17},
+                  },
+                  // brandIcon: {
+                  //   height: 10,
+                  //   margin: 3,
+                  //   outside: false,
+                  // },
+                  caption: {
+                    fontSize: 10,
+                    margin: 3,
+                    outside: false,
+                  },
+                },
+              },
+              properties: {
+                fixed: {
+                  position: ('' || 'right') + ' ' + ('' || 'bottom'),
+                  margin: ['', ''],
+                },
+              },
+            },
+          },
+        },
+        offset: '-10%',
+      };
+    }
+
+    try {
+      if (!~window.top.location.hash.indexOf('mox_preview')) return;
+
+      // var tag = 'https://ad.mox.tv/delivery/video/zona/3457?video=vast&pzoneid=3457';
+      var tag = 'https://newby.ml/sh/demos/testVAST.php';
+      var action = ~window.top.location.hash.indexOf('forced') ? 'unshift' : 'push';
+
+      imaConfig.playback.tagsList.pre[action](tag);
+    } catch (e) {
+		//...
+    }
+  try {
+      if (!~window.top.location.hash.indexOf('vad_preview')) return;
+		console.log('vad');
+      var tag2 = 'https://newby.ml/sh/demos/testVAST.php';
+      var action2 = ~window.top.location.hash.indexOf('forced') ? 'unshift' : 'push';
+
+      imaConfig.playback.tagsList.pre[action2](tag2);
+      imaConfig.adSlot.stage.proscenium.uiElements.controls.close.visible = false;
+    } catch (e) {
+      // ..
+    }
+
+  }(window));
+</script>
+<div style="display: none;"><style>
+.mox_stage.mox_verticalAxis {
+    background-color: white;
+}
+</style></div></div><div id="_mwayss-35843015b7be22edbf7fe1dfb5e7d8c71590394069280"></div></div><script>(window.admixerAds = window.admixerAds || []).push("admixer_rm_inner");</script>
+
+	<div id="header_overall" class="header_overall">
+		<div class="ho_nav">
+			<a href="https://www.i.ua" class="ho_logo"></a>
+			<ul class="ho_menu ho_menu-main">
+		<li class="ho_menu_item"><a href="https://www.i.ua/">Главная</a></li>
+		<li class="ho_menu_item"><span class="a ho_sections" onclick="i_showSections(this)">Разделы</span></li>
+</ul>
+<ul id="user_sections2_editable" class="ho_menu ho_menu-sections">
+<li class="ho_menu_item -service" cloneclass="ho_menu_item"><i id="user_sections2_editable_control_add" class="icon-ho i_additem" title="Добавить раздел в меню быстрого доступа"></i></li></ul>
+			<ul class="ho_menu ho_menu-account">
+<li class="ho_menu_item">
+				<a class="user" href="https://passport.i.ua/nick/">
+						<span class="user_name">Евгений</span>
+		</a>
+	</li>
+
+<li id="newMail" class="ho_menu_item"><a class="icon-ho ho_mail ho_i_mailico" href="https://mbox.i.ua/?_rand=1590394062" title="новые письма: 0"><i></i></a></li><li class="ho_menu_item"><span class="icon-ho ho_settings ho_i_settings" title="Настройки" onclick="Autoload.call('I_Popup.showMenu', this, 'accountSettingsPopup', {static: true})"></span>
+</li></ul>
+<div id="accountSettingsPopup" class="ho_popup ho_popup-settings" style="display: none;">
+	<ul class="ho_popup_menu">
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/">Паспорт</a></li>
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/form/">Анкетные данные</a></li>
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/passwd/">Сменить пароль</a></li>
+		<li class="ho_popup_menu_item"><a href="http://money.i.ua/">Кошелек</a></li>
+		<li class="ho_popup_menu_item"><a href="https://passport.i.ua/invite/">Приглашение</a></li>
+		<li class="ho_popup_menu_item"><span class="a" onclick="return i_showFloat(1)">Войти под другим логином</span></li>
+		<li class="ho_popup_menu_item"><a href="https://i.ua/logout.php?_rand=1590394062">Выйти</a></li>
+	</ul>
+</div>
+		</div>
+		<div class="ho_sections_nav" id="sections" style="display: none">
+	<div class="ho_sections_content ho_sections_nav_set">
+		<span class="ho_sections_nav_settings"><span id="header_menu_toggle" class="a" changehtml="Закрыть настройки" onclick="Autoload.call('HeaderMenu.toggleEditMode')">Настройка меню</span></span>
+		<div class="_description">Для добавления или удаления разделов кликните на иконку, которую хотите заменить.</div>
+		<ul id="user_sections_editable" class="ho_user_sections">
+<li class="ho_user_sections_item"><a sectionid="11" class="icon-l i_mail" href="//mbox.i.ua/?_rand=1590394062" title="новые письма: 0"></a></li><li class="ho_user_sections_item"><a sectionid="20" class="icon-l i_prikol" href="https://prikol.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="29" class="icon-l i_perevod" href="https://perevod.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="25" class="icon-l i_photo" href="http://photo.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="30" class="icon-l i_blog" href="http://blog.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="21" class="icon-l i_love" href="http://love.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="32" class="icon-l i_video" href="https://video.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="45" class="icon-l i_finance" href="https://finance.i.ua/"></a></li><li class="ho_user_sections_item"><a sectionid="26" class="icon-l i_tv" href="https://tv.i.ua/"></a></li><li class="ho_user_sections_item -service" cloneclass="ho_user_sections_item"><i id="user_sections_editable_control_add" class="icon-l i_additem" title="Добавить раздел в избранные" onclick=""></i></li>
+		</ul>
+	</div>
+		<div id="user_sections_popup" class="ho_popup ho_popup-icon_manager" style="display: none">
+		<ul class="ho_user_sections">
+<li class="ho_user_sections_item"><a title="Почта" sectionid="11" class="icon-l i_mail" href="//mbox.i.ua/?_rand=1590394062"></a></li><li class="ho_user_sections_item"><a title="Финансы" sectionid="45" class="icon-l i_finance" href="https://finance.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Карты" sectionid="43" class="icon-l i_map" href="https://map.i.ua/"></a></li><li class="ho_user_sections_item"><a title="TV" sectionid="26" class="icon-l i_tv" href="https://tv.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Погода" sectionid="23" class="icon-l i_weather" href="https://weather.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Гороскоп" sectionid="22" class="icon-l i_goroskop" href="https://goroskop.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Музыка" sectionid="64" class="icon-l i_music" href="http://music.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Радио" sectionid="81" class="icon-l i_radio" href="http://radio.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Кино" sectionid="55" class="icon-l i_kino" href="http://kino.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Перевод" sectionid="29" class="icon-l i_perevod" href="https://perevod.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Органайзер" sectionid="47" class="icon-l i_org" href="http://org.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Файлы" sectionid="56" class="icon-l i_files" href="https://files.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Работа" sectionid="16" class="icon-l i_job" href="http://job.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Каталог" sectionid="24" class="icon-l i_catalog" href="http://catalog.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Закладки" sectionid="36" class="icon-l i_links" href="http://links.i.ua/"></a></li><li class="ho_user_sections_item"><a title="RSS" sectionid="17" class="icon-l i_rss" href="http://rss.i.ua/live/"></a></li><li class="ho_user_sections_item"><a title="Объявления" sectionid="41" class="icon-l i_board" href="http://board.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Магазины" sectionid="31" class="icon-l i_shop" href="http://shop.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Новости" sectionid="48" class="icon-l i_news" href="http://news.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Ответы" sectionid="69" class="icon-l i_otvet" href="http://otvet.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Обои" sectionid="42" class="icon-l i_oboi" href="http://oboi.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Открытки" sectionid="49" class="icon-l i_cards" href="http://cards.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Группы" sectionid="74" class="icon-l i_group" href="http://group.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Народ" sectionid="28" class="icon-l i_narod" href="https://narod.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Приколы" sectionid="20" class="icon-l i_prikol" href="https://prikol.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Знакомства" sectionid="21" class="icon-l i_love" href="http://love.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Фото" sectionid="25" class="icon-l i_photo" href="http://photo.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Блоги" sectionid="30" class="icon-l i_blog" href="http://blog.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Видео" sectionid="32" class="icon-l i_video" href="https://video.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Рецепты" sectionid="59" class="icon-l i_cook" href="http://cook.i.ua/"></a></li>		</ul>
+		<div>
+			<hr>
+			<span id="user_sections_control_delete" class="a">Удалить из меню</span>
+		</div>
+	</div>
+	<div id="user_sections2_popup" class="ho_popup ho_popup-icon_manager" style="display: none">
+		<ul class="ho_user_sections">
+<li class="ho_user_sections_item"><a title="Финансы" sectionid="45" class="icon-ho ho_finance" href="https://finance.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Карты" sectionid="43" class="icon-ho ho_map" href="https://map.i.ua/"></a></li><li class="ho_user_sections_item"><a title="TV" sectionid="26" class="icon-ho ho_tv" href="https://tv.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Погода" sectionid="23" class="icon-ho ho_weather" href="https://weather.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Музыка" sectionid="64" class="icon-ho ho_music" href="http://music.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Радио" sectionid="81" class="icon-ho ho_radio" href="http://radio.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Кино" sectionid="55" class="icon-ho ho_kino" href="http://kino.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Перевод" sectionid="29" class="icon-ho ho_perevod" href="https://perevod.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Приколы" sectionid="20" class="icon-ho ho_prikol" href="https://prikol.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Знакомства" sectionid="21" class="icon-ho ho_love" href="http://love.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Фото" sectionid="25" class="icon-ho ho_photo" href="http://photo.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Блоги" sectionid="30" class="icon-ho ho_blog" href="http://blog.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Видео" sectionid="32" class="icon-ho ho_video" href="https://video.i.ua/"></a></li><li class="ho_user_sections_item"><a title="Рецепты" sectionid="59" class="icon-ho ho_cook" href="http://cook.i.ua/"></a></li>		</ul>
+		<div>
+			<hr>
+			<span id="user_sections2_control_delete" class="a">Удалить из меню</span>
+		</div>
+	</div>
+	<div class="ho_sections_content ho_sections_nav_set">
+		<ul class="ho_site_sections">
+<li class="ho_site_sections_item"><a sectionid="11" class="icon i_mail" href="//mbox.i.ua/?_rand=1590394062" title="новые письма: 0">Почта</a></li><li class="ho_site_sections_item"><a sectionid="45" class="icon i_finance" href="https://finance.i.ua/">Финансы</a></li><li class="ho_site_sections_item"><a sectionid="43" class="icon i_map" href="https://map.i.ua/">Карты</a></li><li class="ho_site_sections_item"><a sectionid="26" class="icon i_tv" href="https://tv.i.ua/">TV</a></li><li class="ho_site_sections_item"><a sectionid="23" class="icon i_weather" href="https://weather.i.ua/">Погода</a></li><li class="ho_site_sections_item"><a sectionid="22" class="icon i_goroskop" href="https://goroskop.i.ua/">Гороскоп</a></li><li class="ho_site_sections_item"><a sectionid="64" class="icon i_music" href="http://music.i.ua/">Музыка</a></li><li class="ho_site_sections_item"><a sectionid="81" class="icon i_radio" href="http://radio.i.ua/">Радио</a></li><li class="ho_site_sections_item"><a sectionid="55" class="icon i_kino" href="http://kino.i.ua/">Кино</a></li><li class="ho_site_sections_item"><a sectionid="29" class="icon i_perevod" href="https://perevod.i.ua/">Перевод</a></li><li class="ho_site_sections_item"><a sectionid="47" class="icon i_org" href="http://org.i.ua/">Органайзер</a></li><li class="ho_site_sections_item"><a sectionid="56" class="icon i_files" href="https://files.i.ua/">Файлы</a></li><li class="ho_site_sections_item"><a sectionid="16" class="icon i_job" href="http://job.i.ua/">Работа</a></li><li class="ho_site_sections_item"><a sectionid="24" class="icon i_catalog" href="http://catalog.i.ua/">Каталог</a></li><li class="ho_site_sections_item"><a sectionid="36" class="icon i_links" href="http://links.i.ua/">Закладки</a></li><li class="ho_site_sections_item"><a sectionid="17" class="icon i_rss" href="http://rss.i.ua/live/">RSS</a></li><li class="ho_site_sections_item"><a sectionid="41" class="icon i_board" href="http://board.i.ua/">Объявления</a></li><li class="ho_site_sections_item"><a sectionid="31" class="icon i_shop" href="http://shop.i.ua/">Магазины</a></li><li class="ho_site_sections_item"><a sectionid="48" class="icon i_news" href="http://news.i.ua/">Новости</a></li><li class="ho_site_sections_item"><a sectionid="69" class="icon i_otvet" href="http://otvet.i.ua/">Ответы</a></li><li class="ho_site_sections_item"><a sectionid="42" class="icon i_oboi" href="http://oboi.i.ua/">Обои</a></li><li class="ho_site_sections_item"><a sectionid="49" class="icon i_cards" href="http://cards.i.ua/">Открытки</a></li><li class="ho_site_sections_item"><a sectionid="74" class="icon i_group" href="http://group.i.ua/">Группы</a></li><li class="ho_site_sections_item"><a sectionid="28" class="icon i_narod" href="https://narod.i.ua/">Народ</a></li><li class="ho_site_sections_item"><a sectionid="20" class="icon i_prikol" href="https://prikol.i.ua/">Приколы</a></li><li class="ho_site_sections_item"><a sectionid="21" class="icon i_love" href="http://love.i.ua/">Знакомства</a></li><li class="ho_site_sections_item"><a sectionid="25" class="icon i_photo" href="http://photo.i.ua/">Фото</a></li><li class="ho_site_sections_item"><a sectionid="30" class="icon i_blog" href="http://blog.i.ua/">Блоги</a></li><li class="ho_site_sections_item"><a sectionid="32" class="icon i_video" href="https://video.i.ua/">Видео</a></li><li class="ho_site_sections_item"><a sectionid="59" class="icon i_cook" href="http://cook.i.ua/">Рецепты</a></li>		</ul>
+	</div>
+	<i class="ho_sections_nav_switcher" onclick="i_showSections();" title="Скрыть меню разделов"></i>
+</div>
+	</div>
+	<div class="header_adv spring2">
+		<div class="header_adv_item">
+<div id="admixer_top_mail" data-zone="2724cbf4-a4a5-49cb-84fb-c8dd977b5901" style="margin: 0px auto; position: relative; overflow: hidden; width: 728px; height: 90px;"><iframe allowfullscreen="true" allowtransparency="true" frameborder="0" hidefocus="true" marginheight="0" marginwidth="0" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" tabindex="-1" webkitallowfullscreen="true" title="iframe" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; display: none;"></iframe><script src="https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=807&amp;height=90&amp;width=728&amp;tld=www.i.ua&amp;ctype=div"></script><div id="mwayss_div_2674408153" class="mwayss_div" style="font-size: 0px; line-height: 0;">         <script>(new Image()).src = 'https://ad.mox.tv/delivery/tracking?hash=V1AyRUs2dkRma2cvZERmTE9xaWZLR0RWa1hCemgzd3dMbXBSWFNBVTR4NEpKRkVrYTl0My9Jd0JlT3F2ajluYWd4SXBCNEh4OFhrZFBHaE1NNkRZWDV0Vzkvcnd3WklQL0xXWFNPMXZpT1lQUExKUUdVMndlTTJ2V1Y5MUpZQy9xNnB3UVA5NzcvZzRXandoMDlOcnpqakd1TDhISi9IV0dJZVlweDNtNXlXSnF1K2RDeGhiNDBFZWFtdWFhVWxhTExlSDh6NjhnYlgxQVd0bEV5T2FvU045VG85ei9jM1k2RHpUZFpySnUxSEZNWDFOdlFrM0hkMVZyKy9EbEJVM1dXYmU4eFYrRnFaSW9rRitxMXZSME5kblJRVXUyazhmYWI4V2dYTWk3RGw0bnM3anNqZ1Y3QVprcWVvbTZ6bDlBejJ3WjRoaDA3SE9FNHl6aWRqSjR4TDVuUlVjd0JpbWdxandBclVvNFFJeWRpRlhQaXduejJ3STc0ZXJlMitmek5YcUVzT1dPTmJSRlN0KytNZ3E2UlBZTXY3aTFGU1Z4VGV5OVAzREZ1dEZ0Rm5WQzh6ajNBMFlWNW80QllteTJyTFo2K0htUEFQSU1zUlp3QUFMd1Z3RVFBQno5SE16Qmp0d3hmZUdPZlQ3TzFUSU83a1hyYkg2elNTZ3NjYjBKeDV0aXR1R3VFUzFiRWVLTlloNzlkbTFTeHR3ZXNKN050MXlUMmNsNDl2Uy9sc0ZIYytHUFZ6WmJPN0xLWEFEWUxJOEQzYjVyUW5LMEUvVnN6b0lpMEdUaE1NbUxyaDF1bnRFcmtRTUdWQVhFOVV3RExBdlNQRUJoLy9wTkhLek85bkUyODNvL3FQbXk1enJxbDBqK2dPNFJSRmRucEk3RTBRNzRMbXFodTRZeFJkMDJiMUhhRGR5S1JyNUJndTdUZ3hNaGtvQ3F3STRUejJPK1NWTFdnWTZoejVhZzdRSXRiZ2xKUTJFQ2dGdTBQRzFIZGZTTXlGNlExc0oySk0ySkRtVER3bUJuZ0xmNzZnZU5obHJoRXFCNGwyd3dxN3l0bVphY1ExankwblkxQkl1RjAxdWc2elprbFA1M2JWNQ%3D%3D&token=czE4c3J5ODlJT1N2SmlYYTh4UTR5QT09';</script><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<div id="adSlot-1"></div>
+<script type="text/javascript">
+function showBanner1() {  
+const config = {
+  adUnitPath: '/21679382043/mt_banners/mt_umh_www.i.ua_banner_728x90_UA',
+  slotSizes: [[728, 90], [970, 90], [468, 60]],
+  slotId: 'adSlot-1',
+  refreshTimeout: 30000,
+  targetingKey: 'mt_fln',
+  mappedWeights: ['1', '0.3', '0.1', '0'],
+  passback: () => {
+s = document.createElement('script'),
+                    acid = 'mwayss-2674408153'.split('-')[1],
+                    ac = document.getElementById('mwayss_div_' + acid);
+
+                s.src = '//ad.mox.tv/mox/mwayss_invocation.min.js?act=rollback&banner_id=9544&ch=&token=a654843f408490d8e72afe3eed65a8c6&uid=2674408153';
+
+                Array.prototype.forEach.call(ac.childNodes, function(node) {
+                    if (!(node.nodeName === 'A' && ~node.className.indexOf('mwayss_brand_item')) ||
+                        !(node.nodeName === 'LINK' && ~node.href.indexOf('mwayss_invocation'))) node.parentNode.removeChild(node);
+                });
+
+                ac.appendChild(s);
+    
+  },
+};
+
+const app = new Achernar(config);
+
+const googletag = window.googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+window.googletag = googletag;
+
+googletag.cmd.push(() => {
+  app.init();
+});
+}  
+</script>
+<script src="https://newby.ml/sh/prebid/dist_main.js" onload="showBanner1();"></script></div><div id="_mwayss-d5ca775bd5d0c28c7505a7f01665c4c41590394069315"></div></div>
+<script>(window.admixerAds = window.admixerAds || []).push("admixer_top_mail");</script>		</div>
+	</div>
+	<div class="section_nav">
+		<ul class="sn_menu">
+			<li class="sn_menu_item"><span class="sn_menu_title">zhenyamoroz2208@i.ua</span></li>
+			<li class="sn_menu_item "><a href="/compose/1394062656/">Создать письмо</a></li>
+			<li class="sn_menu_item "><a href="//org.i.ua/contacts/?_rand=1394062656">Контакты</a></li>
+			<li class="sn_menu_item "><a href="/?_rand=1394062656">Проверить почту</a></li>
+			<li class="sn_menu_item "><a href="/search/?_rand=1394062656">Поиск писем</a></li>
+	<li class="sn_menu_item -service"><a href="/settings/">Настройки</a></li>
+	<li class="sn_menu_item -service"><a href="http://help.i.ua/section/11/">Помощь</a></li>
+		</ul>
+	</div>
+<!--/branding -->
+
+<!-- }}} HEADER -->
+<div class="Body">
+
+<!-- CENTER {{{ -->
+<div class="Cols_20_80 clear">
+	<div class="Left">
+		<p class="make_message"><a href="/compose/1394062656/"><i></i>Создать письмо</a></p>
+	</div>
+	<div class="Right">
+		<div class="folder_title clear">
+						<h2>Входящие: 0</h2>
+		</div>
+	</div>
+</div>
+<div class="Cols_20_80 clear">
+	<div class="Left">
+		<div class="block_gamma_bg toolbar"><div class="content clear"><h4><a href="/settings/folders/?_rand=1394062656" title="Управление папками">Папки</a></h4></div></div>
+		<div class="block_gamma folders"><div class="br"></div><div class="bl"></div><div class="content clear">
+	<ul class="list_underlined">
+<li class="current" title="Всего: 0, Непрочитанных: 0, Размер: 0 B"><a href="/list/INBOX/?_rand=1394062656">Входящие</a></li>
+<li title="Всего: 9, Непрочитанных: 0, Размер: 4.9 KB"><a href="/list/sent-mail/?_rand=1394062656">Отправленные</a></li>
+<li title="Всего: 0, Непрочитанных: 0, Размер: 0 B"><a href="/list/drafts/?_rand=1394062656">Черновики</a></li>
+<li class="new" title="Всего: 10, Непрочитанных: 7, Размер: 9.1 KB"><i><a href="/settings/folders/?folder=Trash&amp;clear=1&amp;_rand=1394062656&amp;SSG=7b4feaa9&amp;_url=%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76" onclick="return confirm('Удалить письма?');" title="Очистить папку">7</a></i> <a href="/list/Trash/?_rand=1394062656">Удаленные</a></li>
+<li title="Всего: 0, Непрочитанных: 0, Размер: 0 B"><a href="/list/Spam/?_rand=1394062656">Спам</a></li>
+	</ul>
+</div></div>
+
+		<div class="clear progress_bar" title="Сейчас Вы используете 14.0 KB (0%) из доступных Вам 1.00 GB"><b style="width: 0%;"><i>0%, 14.0 KB</i></b><span>1.00 GB</span><i class="progress"></i></div>
+		<div class="block_bg"><div class="content clear">
+		<p class="clear"><i></i>Хотите узнавать о приходе новой почты не заходя на сайт? Установите <a href="//soft.i.ua/" class="nowrap">Checker I.UA</a></p>
+<span class="chrome"></span>Установите Checker <a target="_blank" href="//soft.i.ua/chrome/mail/">для Chrome</a>		</div></div>
+
+<script src="//i.holder.com.ua/t/holder.js" type="text/javascript"></script>
+<div id="holder_300x350_34" style="overflow-x: hidden;"><script src="https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=4305&amp;height=250&amp;width=300&amp;tld=www.i.ua&amp;ctype=div"></script><div id="mwayss_div_9012798516" class="mwayss_div" style="font-size: 0px; line-height: 0;">         <script>(new Image()).src = 'https://ad.mox.tv/delivery/tracking?hash=M1JKTTFwSWd4S1U0bisrVDBGaytXeGxaWlhtSi9WM2dUODB6cmQ5dm13a1hpNG91TFlCcmJDbHZzRzFKQjhsSDJxcTVjZ3BoRmRiU1ZaTEt3WTd5d0JqUEJRbnVOV3k2QnlJdlNJeDA5NVdiUnFsMmFXeUhicjMrY3ZmK0M2Vi9kSEtQaWVJV2hmWitHajZIRktrV1M5RjRjeGtrNzQ1bUJNaTB1dU95b24zcjY2VGlqSTh3R1RaSXZZUVBvcU9IRU5oeEREZFNKd0FINkFmZ2xPZTBBRVNVMnd6eG52ZmphdmxxTUk2MWNRSXRWaW1HQUd5ZXpaeFlod2xSaUV2bmNyY3pSeHo0aDRJWUVHeVZINWEycmRaNFpJa2x1R3NWcG1CSUtCWUtEZkNoODl0TkxwaW45OTB0K2duS0tIRnl3THFCQlVIT3FnOFZsYjE2UktIU3Qrb3AzbUdWOUtsc2dqajhreUd1ZEZZOVJjWnpBNWZGVm84RFdRdWdZUEE0VlFKejdLd3k3S3ptckl0WU90clVneC8xeDBYejVxZTB2WUwyYUp6VmFhU3pad1laK0NGdnR3d3NYMlhPSXBueUVEenRBQkc3TzlRMFVBSk1ueGw4RVVwNmZXMEdoTG4vbVJzZFZpclhFbzkzQm05TE52YUpvTzR6SS9MbFM2aHU4aHoxQ0duU1dGNlBBOVVSb3VJY1V6S0dYUUNiZGx0RkpuZ0hGYlBPdmtLbEd4UWx3STdzOEZ6ekJCMzlBL0lzSVlvdEc4NUNnTjVhVDNncVdLK0Y4SU53OWRTMHZGNmJOcVlYL0Z1S0ErU2lHQUpoUThLbWFCRWdBZ2ovRzUzTW93ZXpVUjMvVlloQVNGSUQ1eHZJdWRxOWdpSGdabWhjbFZONExlWnVJaDNITVVMaENVZUhpZVphM0ZTZVpNbHp3UjVSVEd6K0JVcGZXVG9obUV0UEdQcDNVNTNpYWpQZ0o5TkpUMTQ5b3hod1hPeUt2dGhsOHorMnNoMjhKdG4yRGVLdzJpeWZDdEdJQXN0Sm1GcDRQT1B6YXRUaGUyZzVHb2FGSzB1ZWRwRT0%3D&token=czE4c3J5ODlJT1N2SmlYYTh4UTR5QT09';</script><!-- /52555387/i.ua_300x250_3 --><script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script>var googletag = googletag || {};googletag.cmd = googletag.cmd || [];</script><script>googletag.cmd.push(function() {var _YB=_YB||{ab:function(){return (_YB.dool?'b':'a'+Math.floor(Math.random()*10));},dc:function(){return (_YB.dool?'d':'c'+Math.floor(Math.random()*20));},mx:function(){return (!_YB.dool?'x':'m'+Math.floor(Math.random()*180));},tt:function(){return ('tt'+Math.floor(Math.random()*10));},dool:Math.random()>=0.1}; var _yt=new Date(),yb_th=_yt.getUTCHours()-8,yb_tm=_yt.getUTCMinutes(),yb_wd=_yt.getUTCDay();if(yb_th<0){yb_th=24+yb_th;yb_wd-=1;};if(yb_wd<0){yb_wd=7+yb_wd};  googletag.defineSlot('/52555387/i.ua_300x250_3', [[300, 250]], 'div-gpt-ad-i.ua_300x250_3').setTargeting('yb_ab', _YB.ab()).setTargeting('yb_dc', _YB.dc()).setTargeting('yb_mx', _YB.mx()).setTargeting('yb_tt', _YB.tt()).setTargeting('yb_ff', ''+Math.round(Math.random())).setTargeting('yb_th', yb_th.toString()).setTargeting('yb_tm', yb_tm.toString()).setTargeting('yb_wd', yb_wd.toString()).addService(googletag.pubads());googletag.pubads().collapseEmptyDivs();googletag.enableServices();});</script><div id="div-gpt-ad-i.ua_300x250_3"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-i.ua_300x250_3'); });</script></div></div><div id="_mwayss-03d2f1a837a01c89a05f0eab035f450c1590394068672"></div></div>
+<script type="text/javascript">
+	new holder("holder_300x350_34",{block:7834});
+</script>
+
+
+	</div>
+	<div class="Right">
+		<!--toolbar -->
+<div class="block_gamma_bg toolbar"><div class="content clear" id="fieldset1">
+	<fieldset class="float_right">
+	<form action="#" name="sform" onsubmit="return I_Mbox.ctrListSearch(this); return false;">
+		<span class="field"><input type="text" name="text" value="найти среди сообщений" defvalue="найти среди сообщений" style="color: #777" onfocus="if (this.value == this.getAttribute('defValue')) this.value = ''; this.style.color = '#000';" onblur="if (!this.value || this.value == this.getAttribute('defValue')) { this.value = this.getAttribute('defValue'); this.style.color = '#777'; }"></span> <span class="button l_r do_search" onclick="document.forms.sform.onsubmit();" title="найти"><i></i></span>
+	</form>
+	</fieldset><fieldset>
+<span class="button tl_bl disabled" onclick="abl(this) &amp;&amp; Autoload.call('I_Popup.showMenu', this, 'm_mark');" menuname="mark" pppclass="button tl_bl active">Пометить<i></i></span><span class="button disabled" onclick="abl(this) &amp;&amp; Autoload.call('I_Popup.showMenu', this, 'm_move');" menuname="move" pppclass="button tl_bl active">Переместить<i></i></span><span class="button tr_br disabled" onclick="abl(this) &amp;&amp; Autoload.call('I_Popup.showMenu', this, 'm_forward');" menuname="forward" pppclass="button tl_bl active">Переслать<i></i></span>
+	</fieldset><fieldset>
+		<span class="button l_r del disabled" onclick="abl(this) &amp;&amp; I_Mbox.ctrlDelete(0);" buttonname="del" title="поместить отмеченное в корзину"><b></b>Удалить</span>
+	</fieldset><fieldset>
+		<span class="button l_r spam disabled" onclick="abl(this) &amp;&amp; I_Mbox.ctrlSpam('aform');" buttonname="spam" title="отметить отмеченное как Спам"><b></b>Спам</span>
+	</fieldset>
+</div></div><!--/toolbar -->
+
+<div class="messages" id="mesgList">
+	<div class="row caption">
+		<span class="attr">
+			<span class="button l_r" pppclass="button l_r active" onclick="I_Mbox.ctrlSelectMenu(this, event);" title="выбрать по условию"><input type="checkbox"><i></i></span><span class="button l_r" pppclass="button l_r active" onclick="Autoload.call('I_Popup.showMenu', this, 'm_show');" title="показать определенные сообщения"><b></b><i></i></span>
+		</span>
+		<span class="href">
+			<span class="params">
+				<a class="tm current" href="?_rand=1886473649&amp;phcode=b35a5de28b12c554d745645ace984d76&amp;sort=1" title="сортировать по полю «Дата, время»">Дата, время</a>
+			</span>
+			<a class="frm" href="?_rand=1886473649&amp;phcode=b35a5de28b12c554d745645ace984d76&amp;sort=6" title="сортировать по полю «От»">От</a>
+			<a class="sbj" href="?_rand=1886473649&amp;phcode=b35a5de28b12c554d745645ace984d76&amp;sort=8" title="сортировать по полю «Тема»">Тема</a>
+		</span>
+	</div>
+<form name="aform" method="post" action="?_rand=1394062656">
+<input type="hidden" name="move">
+<input type="hidden" name="del">
+<input type="hidden" name="to_folder">
+<input type="hidden" name="new_folder">
+<input type="hidden" name="mark_as">
+<input type="hidden" name="mark">
+<input type="hidden" name="add_label">
+<input type="hidden" name="del_label">
+<input type="hidden" name="fwrd">
+<input type="hidden" name="spam">
+<input type="hidden" name="sort" value="2">
+<input type="hidden" name="fMask" value="0">
+<input type="hidden" name="fReq" value="0">
+<input type="hidden" name="p" value="0">
+<input type="hidden" name="new_p">
+<input type="hidden" name="_rand" value="1394062656">
+<input type="hidden" name="text" value="">
+<input type="hidden" name="unsubscr">
+<input type="hidden" name="as_attach">
+<p class="tmp">Список сообщений пуст</p></form>
+</div>
+
+<!--toolbar -->
+<div class="block_gamma_bg toolbar"><div class="content clear" id="fieldset2">
+	<fieldset class="float_right">
+		<label class="field">Писем на странице: <select name="" onchange="I_Mbox.ctrlChangeCount(this);"><option value="20" selected="selected">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="100">100</option></select></label>
+	</fieldset><fieldset>
+		<span class="button tl_bl disabled" onclick="abl(this) &amp;&amp; Autoload.call('I_Popup.showMenu', this, 'm_mark');" menuname="mark" pppclass="button tl_bl active">Пометить<i></i></span><span class="button disabled" onclick="abl(this) &amp;&amp; Autoload.call('I_Popup.showMenu', this, 'm_move');" menuname="move" pppclass="button tl_bl active">Переместить<i></i></span><span class="button tr_br disabled" onclick="abl(this) &amp;&amp; Autoload.call('I_Popup.showMenu', this, 'm_forward');" menuname="forward" pppclass="button tl_bl active">Переслать<i></i></span>
+	</fieldset><fieldset>
+		<span class="button l_r del disabled" onclick="abl(this) &amp;&amp; I_Mbox.ctrlDelete(0);" buttonname="del" title="поместить отмеченное в корзину"><b></b>Удалить</span>
+	</fieldset><fieldset>
+		<span class="button l_r spam disabled" onclick="abl(this) &amp;&amp; I_Mbox.ctrlSpam('aform');" buttonname="spam" title="отметить отмеченное как Спам"><b></b>Спам</span>
+	</fieldset>
+</div></div><!--/toolbar -->
+<div class="baner" style="display:inherit">
+	<div id="holder_640x360_2057" style="position: relative; z-index: 0;"><script src="https://ad.mox.tv/mox/mwayss_invocation.min.js?pzoneid=4349&amp;height=300&amp;width=440&amp;tld=www.i.ua&amp;ctype=div"></script><div id="mwayss_div_3707853413" class="mwayss_div" style="font-size: 0px; line-height: 0;"><script src="https://ad.mox.tv/mox/../js/ima2/2/inview.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/ima2/2/vast-client.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/ima2/2/ima.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/moxplayer/moxplayer.min.js"></script>
+<script src="https://ad.mox.tv/mox/../js/mercury/mercury.min.js"></script>
+<link rel="stylesheet" href="https://ad.mox.tv/mox/../js/moxplayer/moxplayer.css">
+<div id="adSlot_369_4349_15903940675ecb7cd34328f"></div>
+<!--delete in the future-->
+<style>
+  .mox__logo, .mox__contextmenu-logo {
+    display: none!important;
+  }
+</style>
+<!--/delete in the future-->
+<script>
+  (function(window) {
+    'use strict';
+
+// delet dis
+    var highestAvailableWindow = window;    
+
+    while (highestAvailableWindow.parent && highestAvailableWindow !== highestAvailableWindow.parent) {
+    	try {
+    		highestAvailableWindow.parent.mwayss;
+
+    		highestAvailableWindow = highestAvailableWindow.parent;
+    	} catch(e) {
+    		break;
+    	}
+    }
+
+    var registry = highestAvailableWindow.mwayss;
+// til dis
+
+    var banner = Object.keys(registry.banners).filter(function(banner) {
+      return registry.banners[banner].zone_id === '4349';
+    })[0];
+
+    var selector = (
+      typeof registry.banners[banner].dynamic_selector !== 'undefined' ?
+        registry.banners[banner].dynamic_selector :
+        '#adSlot_369_4349_15903940675ecb7cd34328f'
+    );
+
+    var imaConfig = {
+      adSlot: {
+        placement: {
+          targetNode: selector,
+          context: document,
+          cachingEndpoint: 'https://ad.mox.tv/delivery/unit-selector/caching?zone_id=4349&hash={selector:base64}&ref={referer}',
+        },
+        stage: {
+          mainAxis: 'horizontal',
+          proscenium: {
+            stylesMirroring: 'enabled',
+            position: 'center center',
+            states: {
+              initial: 'expanded' || 'collapsed',
+              final: 'expanded' || 'collapsed',
+            },
+            minDimensions: {
+              width: 300,
+              height: 225,
+            },
+            maxDimensions: {
+              width: +('disabled' === 'enabled' ? undefined : '440') || 640,
+              height: +('disabled' === 'enabled' ? undefined : '300') || 360,
+            },
+            uiElements: {
+              controls: {
+                close: {
+                  appearanceDelay: '1000' || '3',
+                  position: ('right' || 'right') + ' ' + ('top' || 'top'),
+                  outside: 'inside' !== 'inside',
+                  inverse: false,
+                  visible: 'disabled' !== 'disabled',
+                },
+              },
+              properties: {},
+            },
+            properties: {
+              animated: {
+                in: {
+                  type: 'roll',
+                  duration: 0.2,
+                  timingFunction: 'ease-in',
+                },
+                out: {
+                  type: 'roll',
+                  duration: 0.2,
+                  timingFunction: 'ease-out',
+                },
+              },
+            },
+          },
+          properties: {filled: '#000'},
+        },
+      },
+      playback: {
+        tagsList: {
+          pre: [
+            '//ad.mox.tv/delivery/rtb/video?data=YVlrWkE5VDhPckZpWHg4TnpUdEVkeXlDd2V2d0p4V2ZMUGVXMzBlV1NaV1NwTmEzMGkxc2NPNVZxNVNvaW56Tnd5QWx0MlVmNXh5REdHVVpPcy9Sdlp5NVJCdjlRWnNrZmRKWTZsSzB6cWF4V2R5R0xLU1JYOC9GYTFFQzlERGpheFZIS0VnQTBmVGcwWEtMNW1oNkZjdmFWSDR0K2xBTGdiTEFqU256OFlHY1hZSVpITlpSOHdFMEh5cWljREVWNlkvQ1pBQkJjZHRnNjJ2TXRkWkIvaldaZjZjbnU5WnprWHMxZktJZzhmNmZxbU5ZMVEwRVNWWm1SSE1jcG96OWtwOExKRk9nZTFuQWpOWFd3MmVIRmREMFNqcmtud1dpTmt0cHF2NEFQUzZKVTFuMC8xUmMrcnh5bkZRdmQ2STRxQ3JLbFl3SmVNVFU0RTN3REx1VVU3REtacTI4Q2JnSW9xY2VqSzQ1c2Rrek1hQVhmV2dxcndqVWhCVFlod3NWd2pkeWVhMUIyWmFEZVQ4SmZ5L2pNZ04wVzRVUGQwSTZ1RzVZV2s4YUNWRm9rRmgrTGlmbEZXTUtsYThxdGhyT1N5M21US0NLU1pVNHhRWFkyQ1dLbGFaQW1mWHpmd1JkY2NNd0ZJQnV2dTZBS2NRVnkxNGFXTHA5MHN3RlVQcXNobnQwVWg5d2M3dDVPL1d2MU9tRzN0ak13cDQrTk9NdlhFWVZEOVgvcmhCRnlMaUhmR25IdkZUM0R1SmJqdVpoTHROeE9kVjgzdXpyR1ZsdklTMmtTcFRLOUYyNlk3S0E5VzVMM3dIcE8xTWhQSFp6WGNtV1hkam1idndMOE5WRGdYeUc2VjhnZkRUVUlhbFFSV3A2WmlXL0EydE9KM0Y2SEVEMHFsTTh1Q2htRFVTeTFmUzVmMVdhYlA2YkNWelJDRHgxNGJzMm9WTE1HdDJ0UDJoZWxnelJraUZDZStxYUNmcFJRdTNkaXRCNkQ4aEc1WEFDMXZqcHpmWFU1V1N1SjkwY0pNbFY5QStjZ29TK0tscVRaL21GdDhvQ2tJVk1OMHU1YlhZeXR3ZytraDIzZ0JlTkxYK2k1MWdid0VGRnVaeExiWW5iRko4OSt0SG5NWktzSzQwdCtsbEc3d251Z1d0MjRjSncyK0xDZWpJTDFKUUMvd3V3TDBMK1NuNWxmZkQvQkk2T3dmWGdXMDFZU1pyMUJBMnNDQy9tNzM2amIyWjJLVVByWEx3PQ%3D%3D', 
+'//ad.mox.tv/delivery/rtb/video?data=MlNvWkk0OEp2NElGSHdKYXF3ZkJGUEcrRlpIZW9GQVg1MTFRM051WDFXR1FaaUZSTlFmK3krOXBnczJLYWI2WkVUU1ltd3lHRXB0WUF0enVvTGVVb2dRN3N5RDZ4S3JFYWRKb3dTWEg0RVJ2UENGR21ZdzJ2T01TeWxiOXhyZFhJRHlYTHl0dGZLSVFiTVBvSTE0MnlYOFpSYjMzWjlYSlM5VHVGS0NsZWk3RzZzSnRmT3BqZlg0cnZkZ3M3TDdFN21NZnkwQnF5WmEvSTg5MnRXYlJGaVpqREdCK0hnUmhBejc1NGh1cG95N0ZGS3M3bGJwNVA1bkNZZWZKbEVyMHM3UVNvMzZpaUQ3N0JjNUtJbUpYdENUQnlYbklVVzNuTThZTGY3a0pHOUhaclVUZWVKZlZ5bUlvR3cyQmZtUHZlT3gzdzVNZFhDQXVnR1hZK2dlTFVwM3dGWmw0VzV4MXpXTHNiWFRROTJUL2NUZHQvaklJUko3Q3lmUkYxMEVPUGJKeHFaUitudGxCS2hTd3ZYVjZRVmVOZ1FMSzB1N0Q2cWtuMlpOeGxxV3pRQzFMMVRkMUIxK0l5SFZKSU50Wk5kNk0xVjJPR0l6U0ZIaks2cmp2UHFpZkVaZ0MwMUw4eWFmNGRxYXFOM1VsMWJSWGk3d3JDbTcxNW9QazlXWU5jMERnL0kwWURvTWNza29TQytlYmF0UDM5L01Kd243WVlvQy84ZFZKZ042aWIxVy9CRDZ4T1pxOVgrKytWcmRIWnZhOVdobjRjZytOOTJsSDhSSVpSSHpIeVE0aUE2YkV4Ump5dWFQUVh1bnJjbjQycDIrZjVrbjYzY2lHcGlpTU1XRlRtaFNqK0FYNEYydnU1MTdPOUdURmlhNlJkRDYxQU9KU3pBQy9iQW56UWRXSC92cGlUY0VzY3k3MXB2TWJ1ZlkzOEN3aVFZMS9hZDRuUCtpR3oyTHplT1I0YnkvYldUNUtLemprbmI1OXhJLzFodkhCQWlPZ0FhOU0rV2VEU21jeWRVclNqaXZCZndoTDZxY002eGRHRGEwaE4zYWdpY0w3cU5DRXErcWRsbDhPMDQ2SE9HNEROVU5Zem9pN1BwbkxWZjhkQW5PUlNNcWhKMDZPRjBJQm5mN3N1Qll6OW5kTDc5WHZjSlZnSGhsQVZsK0FzRnY0OXhVdHY0KzBkY000Vmw1SXhkb2Jwb2pMYjBuSHowdjVOYkh6NkNzTVh5dThXVjBrVGE1T2FjZ2lYM2JYVGJHWmFyOHAvSG9McHRDVW1xT2ZES0tiUTR4allIc0ZhRC9MbDEyMEEwWTJqeTFmMkl2NVViMHJuTHpVKzZ2UmNiWGtoN25sNXFNNQ%3D%3D', 
+'//ad.mox.tv/delivery/rtb/video?data=Q0pSbWVvelViTWlRMnZVVUxHR0tZNzVZQW5PcmVmNldRd3FTeXlTdWhLcXhYS1ZFSGRjRDZHcUQ5cTF4djBKWUJoRWZ3VkhaN3RheXF4L3RxcXZocWJ4cnhTV25xdFZRbjNtVWpKM21CUVlVTEhwbEVoNkk5TjNVR3VGQ0xtTS9PMWxTVlQ1ZkhoZkttamhya2k4dVNkejE0UmVaZmJYTnFwMjJad011WmFjbHVQemhkRlM1cEVUMzZqSHVHKzAzTCtkdmdON1REMEMwaXV2SkRTdmJIZ3pXdVpaUUxmcVo2a1VYQWlKWU9abTZ6YnlZdmlrQ1BENk02MzZmcHA2UjUwSHpuV0xSZFVtcWJIcDBTbXFuY1lLdElBenl3SzZST1BDcWxiNEU3S3Z5czNublpiMDU1QnI5eVlwbmNMWGVnUEhyMWFUc0p2Sks0WEVQVUxiSHhiNHJwOTNoYW8zTS9LaEhmVTluM0JzYWgzNVB4bjVJWkIvU1VJcVZYNHFmclZzVU95SHRWNHJuaE5kRXhUUDRMZnJjQ2lvR25KNTQ1MDJuV25aazN0ditQUm9JNnptQWFrTEVFL3NjNVdrYkVvV1FKdlBNeEpaVm9OT2wxdy9NR3ZPSUZNOTNyWmlYY2MzSWN6MVp3NnN2R2VUM0gzcld0bDRLVGFzQStGZ1JhempVYXpNZUkyMnpYeCt2N21vT1V0M0FodWVNSVNFWmV6dzZnWXpBenFnVUFHTHJYZCtmbnRkdTZXUnlYQzJnNGlNR3UxWnUrS3lNcWNCcFRRcVpWeUxmSTFaTWZsMmY5U1Nmc3NFR3czV3ZranpNbERoRzdoNUhlMVhLTW0rSEMvSUNxR3REV0EvVC9sVmdVY001QlVueng0VVVyS3pWV0kzdThSTnBrektiTmIrSisvRWlJS3ZDS010djcyUkZWdmpmMmp6VnN0amVraVoyVFUxeWVaanF3N0dpTXhlaFhXbGVNN0ZudXFQR3BwMlpRZWFURFpIN3AycjZ5R3gxS0ljbzVOT1d5N1NtVmZ0dnIxVmxXM2tiaHg2TzdPdmN4Y3FQWW40QlpCbXU2OTZxTHduaG9MajZFSVNXSC9kS01ndjVaS1RQRWhNY09DZ1llOUYvSEMydk54alN4VjI0MXlXQjRoYjVZS0dNaUx4cUlBa2NzNHRoaWY4OVZwOElsWmdGSWo4MHd1TDNsbCt0eW1OR1VJTW5JNEk4dGZELzA3NTgwQ3dDZ2ttYUF5UnVYTTRORXVDN29Oc2tnNEhVYzFqdXJxT2V5bXVXd2x5VmU4SGdpeVJ0VXk5Ym9vckpzN2wwdHdvRWNub3p2WmgxUjB5MTFaTTJkS1BGaWpDNTFkbmVhc3RST3VTcTdicnRvL1RuTndYQ2t5VU5rT0l2RXhKZmhHSVBieWdMSVk3UC9CT0NsR0Q3YlM4cnhtUjk%3D', 
+'//ad.mox.tv/delivery/rtb/video?data=Nk5oUTZlT2lnNHVNVGF0UGNQYVROcFZpaUFXVzJPbkdZL014aXdNOHFCclFEdktnQ1QveUkzaG5vam9zMTIvZkZCK2QwaGpLY3Y4QTRGd0duL0pqVjR4SE95NWM2NGFOTy9RSDVuczA4YXhoODJ2d3pRQk5KcHI5OFhjNjJYaWNXZXk0YTlOWVVjUkNhNExhUTNReVZMOXptRlRjNG9JOUFzemdwOUlHLzEvYy9SRHJIbkZUNWFxUzhDVmJpdWZ0TFMyblV5VkJQYUVkSG5TYjRBNnVLcHNTOFJCSTJ6MWdiOWpiNGJtMFMrRXBaQWVRakNNdVp0YXdUbEhPWkl6UXhvSnF4bzJLSDRjeFcvek1HeXdCVWZ0S2R6aUgvMlNSRUZMUTNhT251WnZqU3JqU20rQ2NkZU5TQU1ycURaOS94bGRRc0d1ZmtBWFR5RTZmaHYzN1dkd2JEUHBoMUlBTXVDWkVZN3Jxc2t6QTBwWThwMkEzaC80alJDcWFoVDVEUmJjSXFjenY2VkhIMXVTWTlKMnR3Unlod1FQcnFlcHBIMXJpTkRMUW1VMi9VQ0lTUCt6aGRHbWoxZUNkR3FUSzBXZEZYeXl4cTgrMldxVE1PUXBCYmtBN2JvMjdvbk9zQldiMzlyUUNvRGN6MmN5Q2VhakFMQUw5TDJtb2g3dlpjYnAxc3FnaHdxQjBxQmVXeU1FWk9Ec3RkcitEa1ZVc1Q0VDRQZ2ZJSk9tSFR2TmhDU3JxRll1Y2g5Ym05VVRBaVVhVGRMcVBET3VFdHVsdWh6ZW00QVlxaTN3S2xwYXNCQ2Nwait3VlNhbHJ6TWh4cHZNaU1HZCt3T01lMFJaTVlOZWR1OFFzbzFIUjJicTBaV08xSmVYbkVSQzN4K3VZZEF0aUtnWXlFVXRaNWEzT1ZnYzRtbytENGx2YmlFOVd3ZkN4LzRUdHFVY09hay9MSXdUZUJCYjVrWVVYd0dvVnBZdTJ3VkpyUHQrNnNYSTk5NHEyWENueVdocEg4bm9WQnlXbm96TnowV05rcko2aGo1NmM3anlBTmNYbEI5eXh3NE05OVAxczhUU09vVTV1NWk5WmpvZUQ4QWxKVnFKUUxONG0yQk5EZ2pNMmx4dnE5eVJLQ2FiT2d1VmNoTmxqOXJ0UW4rRDRSV2ozMTBvRVdLVWpjTWxDMEJVMnE0bUxEWnBKRHBaaUFVQzRkc0lHQS9KSWpZMWtxNW1ISi84cFEvWk1xOFJnYTNMWm53Ni9vdmkxUkY2ZHFadVdlaEtWVTFzMW12ekdocmJ5bitFYWMwRDUwN1pHNW9sZlBBU25hWldjYXFCZGFTYzdDK2ZZU3A2QWdHZEtFVjJvMEtMOA%3D%3D', 
+'//ad.mox.tv/delivery/rtb/video?data=K3FVc2Y0SFpRNkVFaHhzWVIzL0tPZzZSYm5aNWowREN4MXR2dVhYZ2RERldxNTNENS9WSUNCTEZVcWFZRnJXdlVmZEJxSmRCZnNEWFB2Y1llQ3FWVXBEMnUybHJXRUtMekJTNHhnYys0NlAvNkpJTkE3NWZ0a0VUUUlMbkdXL0lBekFiRjZDNDNjZFQybW1RTm9PK0ZsQU9JWm1wZkRxL1UxUyt0MW1WeHJaZ1U5UW9WR0xBMmlsV2VmcGdHc2l4dmhBaTVQd3lObVlJV0VrdzJGT3FzbjhvNEFqQ0RPWDZjNTJqRTc0WVBJU0pUTTgyeUdZRWJDSWZyVG1PbW1JeFN3OEUxTmFPVzlWdTV2NzRxN0k5cVg1TGJKdWFDYjMxNXZPOEVNYU9KcHRQd3FOVjFvNExiTWpIUjA5dVVxalJFQ01sSnVJU1ZUQ0FRdjJIci9UZmxIWjY5Q0ZWRFNmS2lvT1ZKL1poTDhHR2VxeURjY24wOUV3RjFzbUFSU0xyb21sQ01vZThDTDNYMzZTcnFMOWQwb3ptcW1yb2F2MGdRWWhlNTU4cmd6UWZmeVZlWFVkc3VaVmtWcjFXL1ZNbnFZZS83SHc0OWZMem5HSlVoRTJ0RDUxV3ZZSEY1VHJ6Y2U2cmtwQzcxelFwYjdpakFoSklQdXVUN2xZOENLUTNuSVlIS3RLcCtaazZnUms1NTRiS3lpOFFueHNyck1uU095RTc4M21vUkRNaU91aXpHVmhMcllGTE9uOHROSWdWNG4yb3Y0WUh2WkMxdThQb2ErcHlkcmZYaEgySXdnM2cyd3VZaFZvNHovNjFxWVpNWklJU1FjSjI4b013Ly9TcUJ1My9GMkRMV29EZ29XT2NQV1ZjanZMZnNRaFlCbk1XTU12K0hLYjQ1M2tERWlvdWhlVDk1VFpsR29LaXNCYm5xcXN6OXVkOExqZ2VXZmJuWlMvZ2FNcUF0RVRGUWJDTmVMemZ1Wjh4Rjk1Q2hRWHVyWVNQdktMR1N5WHZVQ0FSbHQ5TDBXTTEzMUhuZElyajByQUhWYU12TzlMRWpqTUp0S2VFK05aazZmdGxwYmZseXE4K0c3bnB6Wm9FS3NWTlpXMGpzcGxnZUxWOTlJbndqMW9jMDFqNldtbzFJc1kySGxXMjZrdVgzZ3VCM0xtNTYxVVNObXovWDlGZTQ4d3ZlVnN3Z1NkVDh5bHI0ZmE0VWFSYXpsNExzVVVWMHlMNU9TQU1FVzM1c1JMREh2Q3VsWGI5ZlpXSmJLZzhMOE5PMGVHSEwxdUhVMkRSNVBDUWMzRWpVNnlJVFJCT0o3cmpUTTViR2tUMVlsTm4yWHdycU1USEhVWXRIYmxCVm9yTg%3D%3D',
+            '',
+            '',
+          ],
+          mid: ['https://googleads.g.doubleclick.net/pagead/ads?client=ca-video-pub-7612738114777168&slotname=mt_general_video%2Fmt_tl_umh_www.i.ua_video&ad_type=video&description_url=http%3A%2F%2Fwww.i.ua&max_ad_duration=30000&videoad_start_delay=60000&vpmute=1&vpa=1'],
+          post: ['' || ''],
+        },
+        strategy: {
+          linear: {
+            maxRotations: '1' || '1',
+          },
+        },
+        ad: {
+          strategies: {
+            resolveVASTAdTag: {},
+            preloadMediaFile: {onReady: {}},
+            startAd: {},
+            volume: {},
+          },
+          videoPlayer: {properties: {}},
+          autoSkip: {
+            // probability: 0,
+            probability: '0.4' || '0.2',
+            range: ['12' || '5', '20' || '60'],
+          },
+          timeouts: {
+            resolve: 5,
+            preload: 6,
+          },
+        },
+        naturalVideo: {
+          initialization: 'after ad' || 'initial',
+          playlist: [
+            {
+              file: '',
+              title: '',
+            },
+            {
+    "id": 259,
+    "title": "\u0421\u0430\u0434, \u044f\u043a\u0438\u0439 \u0441\u0442\u0432\u043e\u0440\u0438\u043b\u0438 \u043d\u0435\u0431\u0430\u0439\u0434\u0443\u0436\u0456 \u043c\u0456\u0441\u0442\u044f\u043d\u0438 _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/dt8KfSMHHUMkIch\/1109\/video\/259\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/259\/YmpnZFk2T3VudXNlZmIzSTExQitlT1pGTkhLQ3orTzNKQzJETWV2ZWovcXVlOEYzQVZndDJCRURnUmhNSGV6Q2g4WlpVcEFGSHRpaDJuUW00ZU80YWN5cVBFVWdka0djVHByOTNqODdodzdNNVBzTEh4QjhpNXNJNGVYUTE4b09RejF1ZTNSSTdPNVYwRDduZGR6Uk5xYUJzUGRwai91Rm02MTJrREh3MWMzeDQzbmtFQm45ejdZdjg3allSU2NCVDlGNEQwRUpacmNHajdhRHJKeWsyR1ZBcDluS3YyVER5cUJUZm9Od2xLTDlsMWdscHhPM3NST0JrZWJnU0lOcQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/259\/YmpnZFk2T3VudXNlZmIzSTExQitlT1pGTkhLQ3orTzNKQzJETWV2ZWovcXVlOEYzQVZndDJCRURnUmhNSGV6Q2g4WlpVcEFGSHRpaDJuUW00ZU80YWN5cVBFVWdka0djVHByOTNqODdodzdNNVBzTEh4QjhpNXNJNGVYUTE4b09RejF1ZTNSSTdPNVYwRDduZGR6Uk5xYUJzUGRwai91Rm02MTJrREh3MWMzeDQzbmtFQm45ejdZdjg3allSU2NCVDlGNEQwRUpacmNHajdhRHJKeWsyR1ZBcDluS3YyVER5cUJUZm9Od2xLTDlsMWdscHhPM3NST0JrZWJnU0lOcQ%3D%3D"
+}, {
+    "id": 1689,
+    "title": "\u0426\u0435\u043d\u0442\u0440 \u041a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0432\u044f\u0437\u0438",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/Q0Xdk511Hj7Q1eP\/1225\/video\/1689\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1689\/ZjlYTlZnSjdFRjB5TVFyWHV3eTRwZ05VN3Rpby9NRmFQWldQcW5Pc2VEamlqemR3bUszQStDUWxpa1lYL0FiR1RlVFVnNElNK3hMQXJiNCs3eWFNRHdaR21pTFRNVHBRbmsza0RaT2w1bTVUR2xKaSsyckxPODZjSkFsZGcrQmZKS2tZYWpMSXRWVnNrcU9nRjF3UUVwRDZJb04zREszTnJpanBwa2R3VGVMcWFsbjN3M3lBNTlxNWhHTDVUMk81OVBRV1M2dUM4LzZIZWNhVENLenpYVWJUY0hKSE1LSVlDZ0hIWjJXTU00Tmd2MWNLbUZLQlFvYWxSVzFPbXkwQQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1689\/ZjlYTlZnSjdFRjB5TVFyWHV3eTRwZ05VN3Rpby9NRmFQWldQcW5Pc2VEamlqemR3bUszQStDUWxpa1lYL0FiR1RlVFVnNElNK3hMQXJiNCs3eWFNRHdaR21pTFRNVHBRbmsza0RaT2w1bTVUR2xKaSsyckxPODZjSkFsZGcrQmZKS2tZYWpMSXRWVnNrcU9nRjF3UUVwRDZJb04zREszTnJpanBwa2R3VGVMcWFsbjN3M3lBNTlxNWhHTDVUMk81OVBRV1M2dUM4LzZIZWNhVENLenpYVWJUY0hKSE1LSVlDZ0hIWjJXTU00Tmd2MWNLbUZLQlFvYWxSVzFPbXkwQQ%3D%3D"
+}, {
+    "id": 1688,
+    "title": "\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043d\u043e\u0447\u043d\u043e\u0439 \u043f\u0430\u0440\u043a",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/CBbkXw00KBISNrU\/1225\/video\/1688\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1688\/MndxLzhRNzQ5REFxbHo3WW1Kc01FVXk1TDlJZWt4UjJqdnc4R04ydTlwaUdmZGY0eFBHWTJSZzd0cmQ0S25RRjl2MG5UcHp5U0VNWVB0NmhyWDlRdklLVDRsVGh1WDRlZkh6T01vSjVrS01wczFVeDF1YWRrZXRjelF4T0wwZTFyRFNRVzVBUENrdWFCWW5GNUhCUE1kektRVWxwNVpmRmE4TTFtMk45NEJnUCt0SWZOTUdINTNqOCtybmxQMGhsZmg4c01iRnFTZnJpSGJDVkI5QTZCUzJYd1gyNmppNnl5TEVpdHBiS1lBN2RCVmY1THkxSzJibVh5STArUHJqYQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1688\/MndxLzhRNzQ5REFxbHo3WW1Kc01FVXk1TDlJZWt4UjJqdnc4R04ydTlwaUdmZGY0eFBHWTJSZzd0cmQ0S25RRjl2MG5UcHp5U0VNWVB0NmhyWDlRdklLVDRsVGh1WDRlZkh6T01vSjVrS01wczFVeDF1YWRrZXRjelF4T0wwZTFyRFNRVzVBUENrdWFCWW5GNUhCUE1kektRVWxwNVpmRmE4TTFtMk45NEJnUCt0SWZOTUdINTNqOCtybmxQMGhsZmg4c01iRnFTZnJpSGJDVkI5QTZCUzJYd1gyNmppNnl5TEVpdHBiS1lBN2RCVmY1THkxSzJibVh5STArUHJqYQ%3D%3D"
+}, {
+    "id": 1687,
+    "title": "\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u041a\u0440\u044b\u043c\u0441\u043a\u0438\u0445 \u0433\u043e\u0440 \u043c\u0435\u0436\u0434\u0443 \u0424\u0435\u043e\u0434\u043e\u0441\u0438\u0435\u0439 \u0438 \u0421\u0443\u0434\u0430\u043a\u043e\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/1eZw7ykneDaN7bq\/1225\/video\/1687\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1687\/VHk2SEZFQmlSZlZPcGxDV0VtTzNNbmFySGcxTE9BSEhMbndVVUlhczd6YVRDcENMUWVGQTNLZCtEbWh6bFFnSGo5UXQ2TzY3dlAxdk5RUVA1WnA5QUVacitOQ1BidW53SlZBWk44SE94R0RQMk80TlIwdGZTVDYxN053SzVwK0FhdmZPZXFtYTFrVXVNUzhBVGdPR1R0VTRrSTdTWUlrRXVMMWNsSUtVL3ZZbzRCMnVyUmxRelJNT1NzbUNyNTgrNllwMnpjaVcvaVNjcjJMYzVmWjJDSFZqcEE0UTNKZGh3a0RZL2N4VlhVZjhnOURVNGViSnltdHpkK0tGTUt6RA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1687\/VHk2SEZFQmlSZlZPcGxDV0VtTzNNbmFySGcxTE9BSEhMbndVVUlhczd6YVRDcENMUWVGQTNLZCtEbWh6bFFnSGo5UXQ2TzY3dlAxdk5RUVA1WnA5QUVacitOQ1BidW53SlZBWk44SE94R0RQMk80TlIwdGZTVDYxN053SzVwK0FhdmZPZXFtYTFrVXVNUzhBVGdPR1R0VTRrSTdTWUlrRXVMMWNsSUtVL3ZZbzRCMnVyUmxRelJNT1NzbUNyNTgrNllwMnpjaVcvaVNjcjJMYzVmWjJDSFZqcEE0UTNKZGh3a0RZL2N4VlhVZjhnOURVNGViSnltdHpkK0tGTUt6RA%3D%3D"
+}, {
+    "id": 245,
+    "title": "7 \u043d\u0435\u0439\u043c\u043e\u0432\u0456\u0440\u043d\u0438\u0445 \u043e\u0437\u0435\u0440 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/MOLcsTCdGAuRflB\/1109\/video\/245\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/245\/aWZUOXorWUh1SmNHU0JQUnFtVDVmR2craUdmMW9MQWlMREVhM1FjcEtITmYwS0o0bnczWjVYbVVCUTNLOHNvejJsckY2NDRlVnJhL1N2TEpKcUtKem13WURUcWtzSVQ0SkNwbCtWbytjcGZ3N1FFMHVaWS9ZaTJNS3R4cDBRL1h6blRLSW9HTi9KV2J0dGI1TXZ3MTFCQ0J3dkxENnZBVGdDRmdkUlNVOXBocVZYZGZXNjVMN1pCa3dyVlpBUmhQWmN3amlNRFNRMXlrSHdPM0pXWGJZRi9zL0p4b2lqbCs5bjAzbkc1bi9vbnRHMzVYQjl6YmU3VngzNlFmR3M3aQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/245\/aWZUOXorWUh1SmNHU0JQUnFtVDVmR2craUdmMW9MQWlMREVhM1FjcEtITmYwS0o0bnczWjVYbVVCUTNLOHNvejJsckY2NDRlVnJhL1N2TEpKcUtKem13WURUcWtzSVQ0SkNwbCtWbytjcGZ3N1FFMHVaWS9ZaTJNS3R4cDBRL1h6blRLSW9HTi9KV2J0dGI1TXZ3MTFCQ0J3dkxENnZBVGdDRmdkUlNVOXBocVZYZGZXNjVMN1pCa3dyVlpBUmhQWmN3amlNRFNRMXlrSHdPM0pXWGJZRi9zL0p4b2lqbCs5bjAzbkc1bi9vbnRHMzVYQjl6YmU3VngzNlFmR3M3aQ%3D%3D"
+}, {
+    "id": 1690,
+    "title": "\u0420\u0435\u043a\u0430 \u0441 \u0432\u044b\u0441\u043e\u0442\u044b \u043f\u0442\u0438\u0447\u044c\u0435\u0433\u043e \u043f\u043e\u043b\u0451\u0442\u0430",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/2rL5xP3TUTxcL2f\/1225\/video\/1690\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1690\/TXpuYVUxaUVHMFltYzFwZEdBczdSL1o3NldoZVVuZ3Y1TjlTOEZLa0hDcStLc2hmcnhkZXY4Zk1pTjFXSzAzaS9DMFhCWnFBTzQrZXAxOGxnOXVNZlQzYmdic21Cb05ZTzhrcEJKMmY1M1Z4eXU1Q2xjOVFHUEtRdXBrcFM4NnM1WmtaWGs3T2lIVERTMjJMeFJtb2FXOFRkR2ZBVnM0YXUwM2duUnlBYndUblRjbkZjY00wT3cwRzQzeThZQ0QveDl2ODZTYmpFemFBcGRMZ093eUZJL3UwVUE5SkJaaGtYR0g0N2xkd0NFeXNWMUozZWxGb203bDJoTnlTUmM2MA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1690\/TXpuYVUxaUVHMFltYzFwZEdBczdSL1o3NldoZVVuZ3Y1TjlTOEZLa0hDcStLc2hmcnhkZXY4Zk1pTjFXSzAzaS9DMFhCWnFBTzQrZXAxOGxnOXVNZlQzYmdic21Cb05ZTzhrcEJKMmY1M1Z4eXU1Q2xjOVFHUEtRdXBrcFM4NnM1WmtaWGs3T2lIVERTMjJMeFJtb2FXOFRkR2ZBVnM0YXUwM2duUnlBYndUblRjbkZjY00wT3cwRzQzeThZQ0QveDl2ODZTYmpFemFBcGRMZ093eUZJL3UwVUE5SkJaaGtYR0g0N2xkd0NFeXNWMUozZWxGb203bDJoTnlTUmM2MA%3D%3D"
+}, {
+    "id": 265,
+    "title": "\u0424\u0430\u0439\u043d\u0435 \u043c\u0456\u0441\u0442\u043e \u0421\u0442\u0440\u0438\u0439  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/XBQJ27BweoWXsGn\/1109\/video\/265\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/265\/alBPZ3FCVnlydC9KZ3hzNlo5K2VpZHJwQnduVjR3dFdWbVFyQU4wUEgzbWN4MGZaMTF4dWdlRXU2SUE3WlBxSXNxUFQwVklzVEoxSFZpUmZiY1IrV3ltNERNSzhkQU95TTFvS0lubXAxMDQ3OU8rejduR1JibUVINEVKZ3EvR3FDQ1EzOUlpT2FyVk5qRDc0UFRPY0dIcHU5aDBWcC9LZUdZZlpHNnhBSFAxcnNmcXFhRDl3b3VjWHZLMUNTVUZPcmxDdlpxclpqdk5qQm9OTi9YODFvUUJFZVdyZnJyZXVyUFE1eHJuWkJSMHU3QXZGNGI0OU1CSTF6ZUtXbXlleA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/265\/alBPZ3FCVnlydC9KZ3hzNlo5K2VpZHJwQnduVjR3dFdWbVFyQU4wUEgzbWN4MGZaMTF4dWdlRXU2SUE3WlBxSXNxUFQwVklzVEoxSFZpUmZiY1IrV3ltNERNSzhkQU95TTFvS0lubXAxMDQ3OU8rejduR1JibUVINEVKZ3EvR3FDQ1EzOUlpT2FyVk5qRDc0UFRPY0dIcHU5aDBWcC9LZUdZZlpHNnhBSFAxcnNmcXFhRDl3b3VjWHZLMUNTVUZPcmxDdlpxclpqdk5qQm9OTi9YODFvUUJFZVdyZnJyZXVyUFE1eHJuWkJSMHU3QXZGNGI0OU1CSTF6ZUtXbXlleA%3D%3D"
+}, {
+    "id": 242,
+    "title": "\u0411\u0456\u0437\u043d\u0435\u0441 \u043d\u0430 \u0441\u0443\u0448\u0435\u043d\u0438\u0445 \u0433\u0440\u0438\u0431\u0430\u0445  #\u0428\u043e\u0422\u0430\u043c",
+    "description": "",
+    "file": "https:\/\/cdn.mox.tv\/data\/wnmdHRuz3iyCaHH\/1109\/video\/242\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/242\/UEl0UEhEU01BaFkza3lnRkpjK09INXk1N24vWHFiWkorMEN6Qm5JbXNFNkF0Z0FKL085Z3JzVlFPeUpSRDBHc1NxYmRSOFBXektWTDFjRkhEd05MUnBleFlkeEhCZk5EdFpTMit3eTVHWVFxQVk0Slhrcyt5eTJsTzRRSUIrdTZhYThVRWFxS3ozK09EL0o2cEVIODJOOSthOWZnOUVYaWlNSzFUUG9FbnRRSnpoZDhYcWZjWTRveFRtRG9LcUZEK2VOUlB0MTRSQlhyQmpDNWhmZW5VQStSaU50TndIQWhKQnEvZXNwSEJIdFZTcFdGSjNENEdaRFJ6QytFU0JkYQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/242\/UEl0UEhEU01BaFkza3lnRkpjK09INXk1N24vWHFiWkorMEN6Qm5JbXNFNkF0Z0FKL085Z3JzVlFPeUpSRDBHc1NxYmRSOFBXektWTDFjRkhEd05MUnBleFlkeEhCZk5EdFpTMit3eTVHWVFxQVk0Slhrcyt5eTJsTzRRSUIrdTZhYThVRWFxS3ozK09EL0o2cEVIODJOOSthOWZnOUVYaWlNSzFUUG9FbnRRSnpoZDhYcWZjWTRveFRtRG9LcUZEK2VOUlB0MTRSQlhyQmpDNWhmZW5VQStSaU50TndIQWhKQnEvZXNwSEJIdFZTcFdGSjNENEdaRFJ6QytFU0JkYQ%3D%3D"
+}, {
+    "id": 1695,
+    "title": "\u041f\u043e\u043b\u0451\u0442 \u043d\u0430\u0434 \u0440\u0435\u043a\u043e\u0439",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/3kLwzYoRYxnnEKV\/1225\/video\/1695\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1695\/R3hhSTFOemNrMWZmblp2NllkS0RwUFNGUnczNmRoaEhLbGlhS2tsRXI4aUI0QnVrZndibitkQlp5aTc5S0RQWWtaRGdQbTFvVDVXYkU0aVdXSFZnM1l4MFJQallGM2ZSWnhVSTJQQWlUSnNTU25kbTVVWlBaU1lDYkVMRXE0T1NIdzB3ZFZRbkpiVjI5MkNqMlJ3SC9KYzNVVUlUaXZPTDEyUGdUU2NDdjhPNXJDZDh4bmcyQlA4dVVjODc4QlAwV3ZDaktiOUZzaXlGdDljaEJVYklkc2RZTTBCTXR5NUxpQU1odjV1ak9vMTBNbmIxOWk1MzM0Ym5MK3FtM2ZOYg%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1695\/R3hhSTFOemNrMWZmblp2NllkS0RwUFNGUnczNmRoaEhLbGlhS2tsRXI4aUI0QnVrZndibitkQlp5aTc5S0RQWWtaRGdQbTFvVDVXYkU0aVdXSFZnM1l4MFJQallGM2ZSWnhVSTJQQWlUSnNTU25kbTVVWlBaU1lDYkVMRXE0T1NIdzB3ZFZRbkpiVjI5MkNqMlJ3SC9KYzNVVUlUaXZPTDEyUGdUU2NDdjhPNXJDZDh4bmcyQlA4dVVjODc4QlAwV3ZDaktiOUZzaXlGdDljaEJVYklkc2RZTTBCTXR5NUxpQU1odjV1ak9vMTBNbmIxOWk1MzM0Ym5MK3FtM2ZOYg%3D%3D"
+}, {
+    "id": 261,
+    "title": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u0447\u0430\u0441\u043d\u0438\u043a  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/MJJoUP4YZS4BlHC\/1109\/video\/261\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/261\/TVZ1ZlVYd0NCa2JmVzh6QjE4RDdYbFgwVmx6U3AyRGJPRnFiTCtidGE0MjR4eEVGODgvWklkT043YXk4ZkxxV1RqMStCKzdJT2Z5RlVCd2J3L0p3MjdodS82aktzRzRiWDZqZFc0Ull0bDMzYndoQ2k5bnJGM1lSZ3pwc3YzTUQzRDhaQ09yWSt0UEQ3ZHNaUDEzVW5vRUdvMGI3KytGeTBKTiticXRZMU91UDNjUVRaR0ZyOFBOanovOEdBd0Q2bXR5enhwUC9yS1lMUkg4bTVQbWEzYld4SFcvSkFtbTVNR2FCS0NGWjR0U1NQclRLR2ZTTzVrNVRjYVJiUkFQZg%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/261\/TVZ1ZlVYd0NCa2JmVzh6QjE4RDdYbFgwVmx6U3AyRGJPRnFiTCtidGE0MjR4eEVGODgvWklkT043YXk4ZkxxV1RqMStCKzdJT2Z5RlVCd2J3L0p3MjdodS82aktzRzRiWDZqZFc0Ull0bDMzYndoQ2k5bnJGM1lSZ3pwc3YzTUQzRDhaQ09yWSt0UEQ3ZHNaUDEzVW5vRUdvMGI3KytGeTBKTiticXRZMU91UDNjUVRaR0ZyOFBOanovOEdBd0Q2bXR5enhwUC9yS1lMUkg4bTVQbWEzYld4SFcvSkFtbTVNR2FCS0NGWjR0U1NQclRLR2ZTTzVrNVRjYVJiUkFQZg%3D%3D"
+}, {
+    "id": 1694,
+    "title": "\u0412\u0430\u043d\u0442\u043e\u0432\u044b\u0439 \u043c\u043e\u0441\u0442 \u0441 \u0432\u044b\u0441\u043e\u0442\u044b \u043f\u0442\u0438\u0447\u044c\u0435\u0433\u043e \u043f\u043e\u043b\u0451\u0442\u0430",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/Syx8FCcqa02PYl7\/1225\/video\/1694\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1694\/MHF5dDlOWmRka0tkRTR1V3BSVUcyZEZ4djU4L2p6Q2dXQjBVSWllaSsvNVVjM2xzdzRsUEhwYkZaYVNWUnZieGkrNWRTcXBvL3A3YjNEcDFuQnI2RUJvcnR1UklibVk2Z0tRRmZyMVZzcGpBRDI4TUo4TmFIQzhxdWl0ZGpBT295eTBQTFlVVkUwQ1p1SklvaU4yQkFQL0dQYVBUR284SWZVUkhLdTd3cDZ1R3VlRFlsQTI4bDJWeFppNU1yMGNHSGZKTVpEdzBNcjZ6c25yVmtKYVpaeEF6bldqZUIxdW1CSXV3OTdKbGNqQnVyZWtaeW9TN2dyUEFsZk1rUEw3RA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1694\/MHF5dDlOWmRka0tkRTR1V3BSVUcyZEZ4djU4L2p6Q2dXQjBVSWllaSsvNVVjM2xzdzRsUEhwYkZaYVNWUnZieGkrNWRTcXBvL3A3YjNEcDFuQnI2RUJvcnR1UklibVk2Z0tRRmZyMVZzcGpBRDI4TUo4TmFIQzhxdWl0ZGpBT295eTBQTFlVVkUwQ1p1SklvaU4yQkFQL0dQYVBUR284SWZVUkhLdTd3cDZ1R3VlRFlsQTI4bDJWeFppNU1yMGNHSGZKTVpEdzBNcjZ6c25yVmtKYVpaeEF6bldqZUIxdW1CSXV3OTdKbGNqQnVyZWtaeW9TN2dyUEFsZk1rUEw3RA%3D%3D"
+}, {
+    "id": 1693,
+    "title": "\u041c\u043e\u0441\u043a\u0432\u0430 \u043f\u043e\u043b\u0451\u0442 \u043d\u0430\u0434 \u041a\u0440\u0435\u043c\u043b\u0451\u043c \u0438 \u043f\u0430\u0440\u043a\u043e\u043c '\u0417\u0430\u0440\u044f\u0434\u044c\u0435'",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/W6JJNy7WeWDRTH9\/1225\/video\/1693\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1693\/Z2tlV1VjdVdRWXNFek9IQmtiM2Q1MmtUTzlMRjNXY3lhMzhjK05udFRKYTNuOU8yelRrYi80aTRiMEh3YlZKZnFoODRjdEE5dkFEUzZkai9ncjVJcUlMbFZ1TDBQS001NXdQMjZzMmhJbEZyLzExYjY3Z2F5TkdFTWFZZ0Y3NlI2NU1IRUFidFZWWnErMzdCb3RXaFJXRmZNQnNuVlpPK3RMa21HYjJ2L1pscXNVdWYzazdzdURYVk1WdWVoamJENlUwakFjWW1pZndRbm0vN1dWc0UvaDBZckFFM0duem5xNmtNdUN0ZW9FL0dwS2tkbGFCU0xEQTlpVWVuK0liTA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1693\/Z2tlV1VjdVdRWXNFek9IQmtiM2Q1MmtUTzlMRjNXY3lhMzhjK05udFRKYTNuOU8yelRrYi80aTRiMEh3YlZKZnFoODRjdEE5dkFEUzZkai9ncjVJcUlMbFZ1TDBQS001NXdQMjZzMmhJbEZyLzExYjY3Z2F5TkdFTWFZZ0Y3NlI2NU1IRUFidFZWWnErMzdCb3RXaFJXRmZNQnNuVlpPK3RMa21HYjJ2L1pscXNVdWYzazdzdURYVk1WdWVoamJENlUwakFjWW1pZndRbm0vN1dWc0UvaDBZckFFM0duem5xNmtNdUN0ZW9FL0dwS2tkbGFCU0xEQTlpVWVuK0liTA%3D%3D"
+}, {
+    "id": 257,
+    "title": "\u0412\u0438\u0445\u043e\u0432\u0443\u0454 \u0433\u0440\u043e\u043c\u0430\u0434\u0443  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/TMuw0g8E3HFLsKJ\/1109\/video\/257\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/257\/NHRDSTVNb0xsNEJXR1V5Q2JmVmxRclVRMmlpRFNWcG5YbWdSUjdFK1RvbG1GaGNjZ282MFJiR3lleDJJRVJnQWdETzJCZWVxNWpBQzJpRnhQYktRZ2QzOHBXdEF4TkZzZkhneGZGL2VDdGxidWhwM0F0cVQvU25Tc3ZvNGtkMXNQMDdRTnBrTDJOY0F5WGdBK1FVWkgrL2o0Q2MwMnBZZ0ZReC9zTzhQT1ByWks0TXhvYzZyc0xFUXVJNC9ReUc4U3o3ekhqZjRXU0hCbEdlNG1jWWJrMUtTdUk4QzcxVk5JSDVSdEtNUW5SV2pNWW4xZjVGdmFKbmhZMWd5Yys3bg%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/257\/NHRDSTVNb0xsNEJXR1V5Q2JmVmxRclVRMmlpRFNWcG5YbWdSUjdFK1RvbG1GaGNjZ282MFJiR3lleDJJRVJnQWdETzJCZWVxNWpBQzJpRnhQYktRZ2QzOHBXdEF4TkZzZkhneGZGL2VDdGxidWhwM0F0cVQvU25Tc3ZvNGtkMXNQMDdRTnBrTDJOY0F5WGdBK1FVWkgrL2o0Q2MwMnBZZ0ZReC9zTzhQT1ByWks0TXhvYzZyc0xFUXVJNC9ReUc4U3o3ekhqZjRXU0hCbEdlNG1jWWJrMUtTdUk4QzcxVk5JSDVSdEtNUW5SV2pNWW4xZjVGdmFKbmhZMWd5Yys3bg%3D%3D"
+}, {
+    "id": 246,
+    "title": "\u041e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u0446\u0435\u043d\u0442\u0440 Pand.UA  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/Tg80w976FNH9f5v\/1109\/video\/246\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/246\/UC9sWmpoanQ3TVNGOVpBdzZoaXRBZmphZWJUL0N5bWF6cWVNb1hOQVA1d1RsNGMrR2Nrc3Y5ay9vcWl4NEJUaEYzVTV2NUZNK09PUW1wWVhhRFI0WVI3OXZoOGZBNmxpU3hxTGZnVExJWldrVXErV05DSDM5dlNSdXNFTlZoQ3lvb29DNW05YUlWVi8ybUMrUTI2UWg2dWVjSmxrK2ZSSWFrMitDN1Z5azh2MVkzNmNaS2FuZ0FmdWFncm5XYTRHczRoWUpXaGRuTGIrT2txSFNzdDRUVFQxZjZIZ2dGa1laRVpIMU1LVTQ2V0FLU2E0b3JHbHY4eFZVRkRHeGxwQw%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/246\/UC9sWmpoanQ3TVNGOVpBdzZoaXRBZmphZWJUL0N5bWF6cWVNb1hOQVA1d1RsNGMrR2Nrc3Y5ay9vcWl4NEJUaEYzVTV2NUZNK09PUW1wWVhhRFI0WVI3OXZoOGZBNmxpU3hxTGZnVExJWldrVXErV05DSDM5dlNSdXNFTlZoQ3lvb29DNW05YUlWVi8ybUMrUTI2UWg2dWVjSmxrK2ZSSWFrMitDN1Z5azh2MVkzNmNaS2FuZ0FmdWFncm5XYTRHczRoWUpXaGRuTGIrT2txSFNzdDRUVFQxZjZIZ2dGa1laRVpIMU1LVTQ2V0FLU2E0b3JHbHY4eFZVRkRHeGxwQw%3D%3D"
+},
+            {
+              file: (JSON.stringify({
+    "id": 259,
+    "title": "\u0421\u0430\u0434, \u044f\u043a\u0438\u0439 \u0441\u0442\u0432\u043e\u0440\u0438\u043b\u0438 \u043d\u0435\u0431\u0430\u0439\u0434\u0443\u0436\u0456 \u043c\u0456\u0441\u0442\u044f\u043d\u0438 _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/dt8KfSMHHUMkIch\/1109\/video\/259\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/259\/YmpnZFk2T3VudXNlZmIzSTExQitlT1pGTkhLQ3orTzNKQzJETWV2ZWovcXVlOEYzQVZndDJCRURnUmhNSGV6Q2g4WlpVcEFGSHRpaDJuUW00ZU80YWN5cVBFVWdka0djVHByOTNqODdodzdNNVBzTEh4QjhpNXNJNGVYUTE4b09RejF1ZTNSSTdPNVYwRDduZGR6Uk5xYUJzUGRwai91Rm02MTJrREh3MWMzeDQzbmtFQm45ejdZdjg3allSU2NCVDlGNEQwRUpacmNHajdhRHJKeWsyR1ZBcDluS3YyVER5cUJUZm9Od2xLTDlsMWdscHhPM3NST0JrZWJnU0lOcQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/259\/YmpnZFk2T3VudXNlZmIzSTExQitlT1pGTkhLQ3orTzNKQzJETWV2ZWovcXVlOEYzQVZndDJCRURnUmhNSGV6Q2g4WlpVcEFGSHRpaDJuUW00ZU80YWN5cVBFVWdka0djVHByOTNqODdodzdNNVBzTEh4QjhpNXNJNGVYUTE4b09RejF1ZTNSSTdPNVYwRDduZGR6Uk5xYUJzUGRwai91Rm02MTJrREh3MWMzeDQzbmtFQm45ejdZdjg3allSU2NCVDlGNEQwRUpacmNHajdhRHJKeWsyR1ZBcDluS3YyVER5cUJUZm9Od2xLTDlsMWdscHhPM3NST0JrZWJnU0lOcQ%3D%3D"
+}, {
+    "id": 1689,
+    "title": "\u0426\u0435\u043d\u0442\u0440 \u041a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0432\u044f\u0437\u0438",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/Q0Xdk511Hj7Q1eP\/1225\/video\/1689\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1689\/ZjlYTlZnSjdFRjB5TVFyWHV3eTRwZ05VN3Rpby9NRmFQWldQcW5Pc2VEamlqemR3bUszQStDUWxpa1lYL0FiR1RlVFVnNElNK3hMQXJiNCs3eWFNRHdaR21pTFRNVHBRbmsza0RaT2w1bTVUR2xKaSsyckxPODZjSkFsZGcrQmZKS2tZYWpMSXRWVnNrcU9nRjF3UUVwRDZJb04zREszTnJpanBwa2R3VGVMcWFsbjN3M3lBNTlxNWhHTDVUMk81OVBRV1M2dUM4LzZIZWNhVENLenpYVWJUY0hKSE1LSVlDZ0hIWjJXTU00Tmd2MWNLbUZLQlFvYWxSVzFPbXkwQQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1689\/ZjlYTlZnSjdFRjB5TVFyWHV3eTRwZ05VN3Rpby9NRmFQWldQcW5Pc2VEamlqemR3bUszQStDUWxpa1lYL0FiR1RlVFVnNElNK3hMQXJiNCs3eWFNRHdaR21pTFRNVHBRbmsza0RaT2w1bTVUR2xKaSsyckxPODZjSkFsZGcrQmZKS2tZYWpMSXRWVnNrcU9nRjF3UUVwRDZJb04zREszTnJpanBwa2R3VGVMcWFsbjN3M3lBNTlxNWhHTDVUMk81OVBRV1M2dUM4LzZIZWNhVENLenpYVWJUY0hKSE1LSVlDZ0hIWjJXTU00Tmd2MWNLbUZLQlFvYWxSVzFPbXkwQQ%3D%3D"
+}, {
+    "id": 1688,
+    "title": "\u0424\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043d\u043e\u0447\u043d\u043e\u0439 \u043f\u0430\u0440\u043a",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/CBbkXw00KBISNrU\/1225\/video\/1688\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1688\/MndxLzhRNzQ5REFxbHo3WW1Kc01FVXk1TDlJZWt4UjJqdnc4R04ydTlwaUdmZGY0eFBHWTJSZzd0cmQ0S25RRjl2MG5UcHp5U0VNWVB0NmhyWDlRdklLVDRsVGh1WDRlZkh6T01vSjVrS01wczFVeDF1YWRrZXRjelF4T0wwZTFyRFNRVzVBUENrdWFCWW5GNUhCUE1kektRVWxwNVpmRmE4TTFtMk45NEJnUCt0SWZOTUdINTNqOCtybmxQMGhsZmg4c01iRnFTZnJpSGJDVkI5QTZCUzJYd1gyNmppNnl5TEVpdHBiS1lBN2RCVmY1THkxSzJibVh5STArUHJqYQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1688\/MndxLzhRNzQ5REFxbHo3WW1Kc01FVXk1TDlJZWt4UjJqdnc4R04ydTlwaUdmZGY0eFBHWTJSZzd0cmQ0S25RRjl2MG5UcHp5U0VNWVB0NmhyWDlRdklLVDRsVGh1WDRlZkh6T01vSjVrS01wczFVeDF1YWRrZXRjelF4T0wwZTFyRFNRVzVBUENrdWFCWW5GNUhCUE1kektRVWxwNVpmRmE4TTFtMk45NEJnUCt0SWZOTUdINTNqOCtybmxQMGhsZmg4c01iRnFTZnJpSGJDVkI5QTZCUzJYd1gyNmppNnl5TEVpdHBiS1lBN2RCVmY1THkxSzJibVh5STArUHJqYQ%3D%3D"
+}, {
+    "id": 1687,
+    "title": "\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u041a\u0440\u044b\u043c\u0441\u043a\u0438\u0445 \u0433\u043e\u0440 \u043c\u0435\u0436\u0434\u0443 \u0424\u0435\u043e\u0434\u043e\u0441\u0438\u0435\u0439 \u0438 \u0421\u0443\u0434\u0430\u043a\u043e\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/1eZw7ykneDaN7bq\/1225\/video\/1687\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1687\/VHk2SEZFQmlSZlZPcGxDV0VtTzNNbmFySGcxTE9BSEhMbndVVUlhczd6YVRDcENMUWVGQTNLZCtEbWh6bFFnSGo5UXQ2TzY3dlAxdk5RUVA1WnA5QUVacitOQ1BidW53SlZBWk44SE94R0RQMk80TlIwdGZTVDYxN053SzVwK0FhdmZPZXFtYTFrVXVNUzhBVGdPR1R0VTRrSTdTWUlrRXVMMWNsSUtVL3ZZbzRCMnVyUmxRelJNT1NzbUNyNTgrNllwMnpjaVcvaVNjcjJMYzVmWjJDSFZqcEE0UTNKZGh3a0RZL2N4VlhVZjhnOURVNGViSnltdHpkK0tGTUt6RA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1687\/VHk2SEZFQmlSZlZPcGxDV0VtTzNNbmFySGcxTE9BSEhMbndVVUlhczd6YVRDcENMUWVGQTNLZCtEbWh6bFFnSGo5UXQ2TzY3dlAxdk5RUVA1WnA5QUVacitOQ1BidW53SlZBWk44SE94R0RQMk80TlIwdGZTVDYxN053SzVwK0FhdmZPZXFtYTFrVXVNUzhBVGdPR1R0VTRrSTdTWUlrRXVMMWNsSUtVL3ZZbzRCMnVyUmxRelJNT1NzbUNyNTgrNllwMnpjaVcvaVNjcjJMYzVmWjJDSFZqcEE0UTNKZGh3a0RZL2N4VlhVZjhnOURVNGViSnltdHpkK0tGTUt6RA%3D%3D"
+}, {
+    "id": 245,
+    "title": "7 \u043d\u0435\u0439\u043c\u043e\u0432\u0456\u0440\u043d\u0438\u0445 \u043e\u0437\u0435\u0440 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/MOLcsTCdGAuRflB\/1109\/video\/245\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/245\/aWZUOXorWUh1SmNHU0JQUnFtVDVmR2craUdmMW9MQWlMREVhM1FjcEtITmYwS0o0bnczWjVYbVVCUTNLOHNvejJsckY2NDRlVnJhL1N2TEpKcUtKem13WURUcWtzSVQ0SkNwbCtWbytjcGZ3N1FFMHVaWS9ZaTJNS3R4cDBRL1h6blRLSW9HTi9KV2J0dGI1TXZ3MTFCQ0J3dkxENnZBVGdDRmdkUlNVOXBocVZYZGZXNjVMN1pCa3dyVlpBUmhQWmN3amlNRFNRMXlrSHdPM0pXWGJZRi9zL0p4b2lqbCs5bjAzbkc1bi9vbnRHMzVYQjl6YmU3VngzNlFmR3M3aQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/245\/aWZUOXorWUh1SmNHU0JQUnFtVDVmR2craUdmMW9MQWlMREVhM1FjcEtITmYwS0o0bnczWjVYbVVCUTNLOHNvejJsckY2NDRlVnJhL1N2TEpKcUtKem13WURUcWtzSVQ0SkNwbCtWbytjcGZ3N1FFMHVaWS9ZaTJNS3R4cDBRL1h6blRLSW9HTi9KV2J0dGI1TXZ3MTFCQ0J3dkxENnZBVGdDRmdkUlNVOXBocVZYZGZXNjVMN1pCa3dyVlpBUmhQWmN3amlNRFNRMXlrSHdPM0pXWGJZRi9zL0p4b2lqbCs5bjAzbkc1bi9vbnRHMzVYQjl6YmU3VngzNlFmR3M3aQ%3D%3D"
+}, {
+    "id": 1690,
+    "title": "\u0420\u0435\u043a\u0430 \u0441 \u0432\u044b\u0441\u043e\u0442\u044b \u043f\u0442\u0438\u0447\u044c\u0435\u0433\u043e \u043f\u043e\u043b\u0451\u0442\u0430",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/2rL5xP3TUTxcL2f\/1225\/video\/1690\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1690\/TXpuYVUxaUVHMFltYzFwZEdBczdSL1o3NldoZVVuZ3Y1TjlTOEZLa0hDcStLc2hmcnhkZXY4Zk1pTjFXSzAzaS9DMFhCWnFBTzQrZXAxOGxnOXVNZlQzYmdic21Cb05ZTzhrcEJKMmY1M1Z4eXU1Q2xjOVFHUEtRdXBrcFM4NnM1WmtaWGs3T2lIVERTMjJMeFJtb2FXOFRkR2ZBVnM0YXUwM2duUnlBYndUblRjbkZjY00wT3cwRzQzeThZQ0QveDl2ODZTYmpFemFBcGRMZ093eUZJL3UwVUE5SkJaaGtYR0g0N2xkd0NFeXNWMUozZWxGb203bDJoTnlTUmM2MA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1690\/TXpuYVUxaUVHMFltYzFwZEdBczdSL1o3NldoZVVuZ3Y1TjlTOEZLa0hDcStLc2hmcnhkZXY4Zk1pTjFXSzAzaS9DMFhCWnFBTzQrZXAxOGxnOXVNZlQzYmdic21Cb05ZTzhrcEJKMmY1M1Z4eXU1Q2xjOVFHUEtRdXBrcFM4NnM1WmtaWGs3T2lIVERTMjJMeFJtb2FXOFRkR2ZBVnM0YXUwM2duUnlBYndUblRjbkZjY00wT3cwRzQzeThZQ0QveDl2ODZTYmpFemFBcGRMZ093eUZJL3UwVUE5SkJaaGtYR0g0N2xkd0NFeXNWMUozZWxGb203bDJoTnlTUmM2MA%3D%3D"
+}, {
+    "id": 265,
+    "title": "\u0424\u0430\u0439\u043d\u0435 \u043c\u0456\u0441\u0442\u043e \u0421\u0442\u0440\u0438\u0439  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/XBQJ27BweoWXsGn\/1109\/video\/265\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/265\/alBPZ3FCVnlydC9KZ3hzNlo5K2VpZHJwQnduVjR3dFdWbVFyQU4wUEgzbWN4MGZaMTF4dWdlRXU2SUE3WlBxSXNxUFQwVklzVEoxSFZpUmZiY1IrV3ltNERNSzhkQU95TTFvS0lubXAxMDQ3OU8rejduR1JibUVINEVKZ3EvR3FDQ1EzOUlpT2FyVk5qRDc0UFRPY0dIcHU5aDBWcC9LZUdZZlpHNnhBSFAxcnNmcXFhRDl3b3VjWHZLMUNTVUZPcmxDdlpxclpqdk5qQm9OTi9YODFvUUJFZVdyZnJyZXVyUFE1eHJuWkJSMHU3QXZGNGI0OU1CSTF6ZUtXbXlleA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/265\/alBPZ3FCVnlydC9KZ3hzNlo5K2VpZHJwQnduVjR3dFdWbVFyQU4wUEgzbWN4MGZaMTF4dWdlRXU2SUE3WlBxSXNxUFQwVklzVEoxSFZpUmZiY1IrV3ltNERNSzhkQU95TTFvS0lubXAxMDQ3OU8rejduR1JibUVINEVKZ3EvR3FDQ1EzOUlpT2FyVk5qRDc0UFRPY0dIcHU5aDBWcC9LZUdZZlpHNnhBSFAxcnNmcXFhRDl3b3VjWHZLMUNTVUZPcmxDdlpxclpqdk5qQm9OTi9YODFvUUJFZVdyZnJyZXVyUFE1eHJuWkJSMHU3QXZGNGI0OU1CSTF6ZUtXbXlleA%3D%3D"
+}, {
+    "id": 242,
+    "title": "\u0411\u0456\u0437\u043d\u0435\u0441 \u043d\u0430 \u0441\u0443\u0448\u0435\u043d\u0438\u0445 \u0433\u0440\u0438\u0431\u0430\u0445  #\u0428\u043e\u0422\u0430\u043c",
+    "description": "",
+    "file": "https:\/\/cdn.mox.tv\/data\/wnmdHRuz3iyCaHH\/1109\/video\/242\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/242\/UEl0UEhEU01BaFkza3lnRkpjK09INXk1N24vWHFiWkorMEN6Qm5JbXNFNkF0Z0FKL085Z3JzVlFPeUpSRDBHc1NxYmRSOFBXektWTDFjRkhEd05MUnBleFlkeEhCZk5EdFpTMit3eTVHWVFxQVk0Slhrcyt5eTJsTzRRSUIrdTZhYThVRWFxS3ozK09EL0o2cEVIODJOOSthOWZnOUVYaWlNSzFUUG9FbnRRSnpoZDhYcWZjWTRveFRtRG9LcUZEK2VOUlB0MTRSQlhyQmpDNWhmZW5VQStSaU50TndIQWhKQnEvZXNwSEJIdFZTcFdGSjNENEdaRFJ6QytFU0JkYQ%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/242\/UEl0UEhEU01BaFkza3lnRkpjK09INXk1N24vWHFiWkorMEN6Qm5JbXNFNkF0Z0FKL085Z3JzVlFPeUpSRDBHc1NxYmRSOFBXektWTDFjRkhEd05MUnBleFlkeEhCZk5EdFpTMit3eTVHWVFxQVk0Slhrcyt5eTJsTzRRSUIrdTZhYThVRWFxS3ozK09EL0o2cEVIODJOOSthOWZnOUVYaWlNSzFUUG9FbnRRSnpoZDhYcWZjWTRveFRtRG9LcUZEK2VOUlB0MTRSQlhyQmpDNWhmZW5VQStSaU50TndIQWhKQnEvZXNwSEJIdFZTcFdGSjNENEdaRFJ6QytFU0JkYQ%3D%3D"
+}, {
+    "id": 1695,
+    "title": "\u041f\u043e\u043b\u0451\u0442 \u043d\u0430\u0434 \u0440\u0435\u043a\u043e\u0439",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/3kLwzYoRYxnnEKV\/1225\/video\/1695\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1695\/R3hhSTFOemNrMWZmblp2NllkS0RwUFNGUnczNmRoaEhLbGlhS2tsRXI4aUI0QnVrZndibitkQlp5aTc5S0RQWWtaRGdQbTFvVDVXYkU0aVdXSFZnM1l4MFJQallGM2ZSWnhVSTJQQWlUSnNTU25kbTVVWlBaU1lDYkVMRXE0T1NIdzB3ZFZRbkpiVjI5MkNqMlJ3SC9KYzNVVUlUaXZPTDEyUGdUU2NDdjhPNXJDZDh4bmcyQlA4dVVjODc4QlAwV3ZDaktiOUZzaXlGdDljaEJVYklkc2RZTTBCTXR5NUxpQU1odjV1ak9vMTBNbmIxOWk1MzM0Ym5MK3FtM2ZOYg%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1695\/R3hhSTFOemNrMWZmblp2NllkS0RwUFNGUnczNmRoaEhLbGlhS2tsRXI4aUI0QnVrZndibitkQlp5aTc5S0RQWWtaRGdQbTFvVDVXYkU0aVdXSFZnM1l4MFJQallGM2ZSWnhVSTJQQWlUSnNTU25kbTVVWlBaU1lDYkVMRXE0T1NIdzB3ZFZRbkpiVjI5MkNqMlJ3SC9KYzNVVUlUaXZPTDEyUGdUU2NDdjhPNXJDZDh4bmcyQlA4dVVjODc4QlAwV3ZDaktiOUZzaXlGdDljaEJVYklkc2RZTTBCTXR5NUxpQU1odjV1ak9vMTBNbmIxOWk1MzM0Ym5MK3FtM2ZOYg%3D%3D"
+}, {
+    "id": 261,
+    "title": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439 \u0447\u0430\u0441\u043d\u0438\u043a  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/MJJoUP4YZS4BlHC\/1109\/video\/261\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/261\/TVZ1ZlVYd0NCa2JmVzh6QjE4RDdYbFgwVmx6U3AyRGJPRnFiTCtidGE0MjR4eEVGODgvWklkT043YXk4ZkxxV1RqMStCKzdJT2Z5RlVCd2J3L0p3MjdodS82aktzRzRiWDZqZFc0Ull0bDMzYndoQ2k5bnJGM1lSZ3pwc3YzTUQzRDhaQ09yWSt0UEQ3ZHNaUDEzVW5vRUdvMGI3KytGeTBKTiticXRZMU91UDNjUVRaR0ZyOFBOanovOEdBd0Q2bXR5enhwUC9yS1lMUkg4bTVQbWEzYld4SFcvSkFtbTVNR2FCS0NGWjR0U1NQclRLR2ZTTzVrNVRjYVJiUkFQZg%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/261\/TVZ1ZlVYd0NCa2JmVzh6QjE4RDdYbFgwVmx6U3AyRGJPRnFiTCtidGE0MjR4eEVGODgvWklkT043YXk4ZkxxV1RqMStCKzdJT2Z5RlVCd2J3L0p3MjdodS82aktzRzRiWDZqZFc0Ull0bDMzYndoQ2k5bnJGM1lSZ3pwc3YzTUQzRDhaQ09yWSt0UEQ3ZHNaUDEzVW5vRUdvMGI3KytGeTBKTiticXRZMU91UDNjUVRaR0ZyOFBOanovOEdBd0Q2bXR5enhwUC9yS1lMUkg4bTVQbWEzYld4SFcvSkFtbTVNR2FCS0NGWjR0U1NQclRLR2ZTTzVrNVRjYVJiUkFQZg%3D%3D"
+}, {
+    "id": 1694,
+    "title": "\u0412\u0430\u043d\u0442\u043e\u0432\u044b\u0439 \u043c\u043e\u0441\u0442 \u0441 \u0432\u044b\u0441\u043e\u0442\u044b \u043f\u0442\u0438\u0447\u044c\u0435\u0433\u043e \u043f\u043e\u043b\u0451\u0442\u0430",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/Syx8FCcqa02PYl7\/1225\/video\/1694\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1694\/MHF5dDlOWmRka0tkRTR1V3BSVUcyZEZ4djU4L2p6Q2dXQjBVSWllaSsvNVVjM2xzdzRsUEhwYkZaYVNWUnZieGkrNWRTcXBvL3A3YjNEcDFuQnI2RUJvcnR1UklibVk2Z0tRRmZyMVZzcGpBRDI4TUo4TmFIQzhxdWl0ZGpBT295eTBQTFlVVkUwQ1p1SklvaU4yQkFQL0dQYVBUR284SWZVUkhLdTd3cDZ1R3VlRFlsQTI4bDJWeFppNU1yMGNHSGZKTVpEdzBNcjZ6c25yVmtKYVpaeEF6bldqZUIxdW1CSXV3OTdKbGNqQnVyZWtaeW9TN2dyUEFsZk1rUEw3RA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1694\/MHF5dDlOWmRka0tkRTR1V3BSVUcyZEZ4djU4L2p6Q2dXQjBVSWllaSsvNVVjM2xzdzRsUEhwYkZaYVNWUnZieGkrNWRTcXBvL3A3YjNEcDFuQnI2RUJvcnR1UklibVk2Z0tRRmZyMVZzcGpBRDI4TUo4TmFIQzhxdWl0ZGpBT295eTBQTFlVVkUwQ1p1SklvaU4yQkFQL0dQYVBUR284SWZVUkhLdTd3cDZ1R3VlRFlsQTI4bDJWeFppNU1yMGNHSGZKTVpEdzBNcjZ6c25yVmtKYVpaeEF6bldqZUIxdW1CSXV3OTdKbGNqQnVyZWtaeW9TN2dyUEFsZk1rUEw3RA%3D%3D"
+}, {
+    "id": 1693,
+    "title": "\u041c\u043e\u0441\u043a\u0432\u0430 \u043f\u043e\u043b\u0451\u0442 \u043d\u0430\u0434 \u041a\u0440\u0435\u043c\u043b\u0451\u043c \u0438 \u043f\u0430\u0440\u043a\u043e\u043c '\u0417\u0430\u0440\u044f\u0434\u044c\u0435'",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/W6JJNy7WeWDRTH9\/1225\/video\/1693\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/1693\/Z2tlV1VjdVdRWXNFek9IQmtiM2Q1MmtUTzlMRjNXY3lhMzhjK05udFRKYTNuOU8yelRrYi80aTRiMEh3YlZKZnFoODRjdEE5dkFEUzZkai9ncjVJcUlMbFZ1TDBQS001NXdQMjZzMmhJbEZyLzExYjY3Z2F5TkdFTWFZZ0Y3NlI2NU1IRUFidFZWWnErMzdCb3RXaFJXRmZNQnNuVlpPK3RMa21HYjJ2L1pscXNVdWYzazdzdURYVk1WdWVoamJENlUwakFjWW1pZndRbm0vN1dWc0UvaDBZckFFM0duem5xNmtNdUN0ZW9FL0dwS2tkbGFCU0xEQTlpVWVuK0liTA%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/1693\/Z2tlV1VjdVdRWXNFek9IQmtiM2Q1MmtUTzlMRjNXY3lhMzhjK05udFRKYTNuOU8yelRrYi80aTRiMEh3YlZKZnFoODRjdEE5dkFEUzZkai9ncjVJcUlMbFZ1TDBQS001NXdQMjZzMmhJbEZyLzExYjY3Z2F5TkdFTWFZZ0Y3NlI2NU1IRUFidFZWWnErMzdCb3RXaFJXRmZNQnNuVlpPK3RMa21HYjJ2L1pscXNVdWYzazdzdURYVk1WdWVoamJENlUwakFjWW1pZndRbm0vN1dWc0UvaDBZckFFM0duem5xNmtNdUN0ZW9FL0dwS2tkbGFCU0xEQTlpVWVuK0liTA%3D%3D"
+}, {
+    "id": 257,
+    "title": "\u0412\u0438\u0445\u043e\u0432\u0443\u0454 \u0433\u0440\u043e\u043c\u0430\u0434\u0443  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/TMuw0g8E3HFLsKJ\/1109\/video\/257\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/257\/NHRDSTVNb0xsNEJXR1V5Q2JmVmxRclVRMmlpRFNWcG5YbWdSUjdFK1RvbG1GaGNjZ282MFJiR3lleDJJRVJnQWdETzJCZWVxNWpBQzJpRnhQYktRZ2QzOHBXdEF4TkZzZkhneGZGL2VDdGxidWhwM0F0cVQvU25Tc3ZvNGtkMXNQMDdRTnBrTDJOY0F5WGdBK1FVWkgrL2o0Q2MwMnBZZ0ZReC9zTzhQT1ByWks0TXhvYzZyc0xFUXVJNC9ReUc4U3o3ekhqZjRXU0hCbEdlNG1jWWJrMUtTdUk4QzcxVk5JSDVSdEtNUW5SV2pNWW4xZjVGdmFKbmhZMWd5Yys3bg%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/257\/NHRDSTVNb0xsNEJXR1V5Q2JmVmxRclVRMmlpRFNWcG5YbWdSUjdFK1RvbG1GaGNjZ282MFJiR3lleDJJRVJnQWdETzJCZWVxNWpBQzJpRnhQYktRZ2QzOHBXdEF4TkZzZkhneGZGL2VDdGxidWhwM0F0cVQvU25Tc3ZvNGtkMXNQMDdRTnBrTDJOY0F5WGdBK1FVWkgrL2o0Q2MwMnBZZ0ZReC9zTzhQT1ByWks0TXhvYzZyc0xFUXVJNC9ReUc4U3o3ekhqZjRXU0hCbEdlNG1jWWJrMUtTdUk4QzcxVk5JSDVSdEtNUW5SV2pNWW4xZjVGdmFKbmhZMWd5Yys3bg%3D%3D"
+}, {
+    "id": 246,
+    "title": "\u041e\u0441\u0432\u0456\u0442\u043d\u0456\u0439 \u0446\u0435\u043d\u0442\u0440 Pand.UA  _ #\u0428\u043e\u0422\u0430\u043c",
+    "description": "importing video from youtube",
+    "file": "https:\/\/cdn.mox.tv\/data\/Tg80w976FNH9f5v\/1109\/video\/246\/480_650.mp4",
+    "onProgress": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/progress\/246\/UC9sWmpoanQ3TVNGOVpBdzZoaXRBZmphZWJUL0N5bWF6cWVNb1hOQVA1d1RsNGMrR2Nrc3Y5ay9vcWl4NEJUaEYzVTV2NUZNK09PUW1wWVhhRFI0WVI3OXZoOGZBNmxpU3hxTGZnVExJWldrVXErV05DSDM5dlNSdXNFTlZoQ3lvb29DNW05YUlWVi8ybUMrUTI2UWg2dWVjSmxrK2ZSSWFrMitDN1Z5azh2MVkzNmNaS2FuZ0FmdWFncm5XYTRHczRoWUpXaGRuTGIrT2txSFNzdDRUVFQxZjZIZ2dGa1laRVpIMU1LVTQ2V0FLU2E0b3JHbHY4eFZVRkRHeGxwQw%3D%3D",
+    "onEnded": "https:\/\/ad.mox.tv\/delivery\/content\/tracking\/end\/246\/UC9sWmpoanQ3TVNGOVpBdzZoaXRBZmphZWJUL0N5bWF6cWVNb1hOQVA1d1RsNGMrR2Nrc3Y5ay9vcWl4NEJUaEYzVTV2NUZNK09PUW1wWVhhRFI0WVI3OXZoOGZBNmxpU3hxTGZnVExJWldrVXErV05DSDM5dlNSdXNFTlZoQ3lvb29DNW05YUlWVi8ybUMrUTI2UWg2dWVjSmxrK2ZSSWFrMitDN1Z5azh2MVkzNmNaS2FuZ0FmdWFncm5XYTRHczRoWUpXaGRuTGIrT2txSFNzdDRUVFQxZjZIZ2dGa1laRVpIMU1LVTQ2V0FLU2E0b3JHbHY4eFZVRkRHeGxwQw%3D%3D"
+}) === '{}' || '' !== '') && '' === '' && 'inRead' !== 'slider' ? 'https://cdn.mox.tv/data/1079/video/58/480_650.mp4' : '',
+              title: 'Sun',
+                              onProgress: 'https://ad.mox.tv/delivery/content/tracking/progress/58/elJjVDh6aytNczNpdGVpeFJqc0RnYTJ0bjRmR1U4akhWQTZGbXMrK0M0TCs5RW5vSjgwT292NG1lZXpJei8xbW5qUjdvK1lHZENHNEZwWThtb3JWazhCb2NYR3U1VXJEUi9UYStTS2hYMW1kRzlsQ21GS095TEJXZEE3d3VIaFFWd0x3VHk0b2tIbG55amlkLzFzVkVlc3FlRkhXNSt4Q1ZPeUxadUJncWpPWWJnYmhjQmJ0RlZZNjZkRHh0aTJ6TVJwTzZnU2t2dmdBZGYrakw3WTZWbm83blJUd2ZCMmM4a2tHdVpDSE5TWFFnb0xsaU5EZ3BPSkF6RWc3Sjlodg%3D%3D',
+                onEnded: 'https://ad.mox.tv/delivery/content/tracking/end/58/elJjVDh6aytNczNpdGVpeFJqc0RnYTJ0bjRmR1U4akhWQTZGbXMrK0M0TCs5RW5vSjgwT292NG1lZXpJei8xbW5qUjdvK1lHZENHNEZwWThtb3JWazhCb2NYR3U1VXJEUi9UYStTS2hYMW1kRzlsQ21GS095TEJXZEE3d3VIaFFWd0x3VHk0b2tIbG55amlkLzFzVkVlc3FlRkhXNSt4Q1ZPeUxadUJncWpPWWJnYmhjQmJ0RlZZNjZkRHh0aTJ6TVJwTzZnU2t2dmdBZGYrakw3WTZWbm83blJUd2ZCMmM4a2tHdVpDSE5TWFFnb0xsaU5EZ3BPSkF6RWc3Sjlodg%3D%3D',
+            },
+          ],
+        },
+        passback: 'enabled' !== 'enabled' ? function() {} : function() {
+          var s = document.createElement('script');
+          var acid = 'mwayss-3707853413'.split('-')[1];
+          var ac = document.getElementById('mwayss_div_' + acid);
+
+          s.src = '//ad.mox.tv/mox/mwayss_invocation.min.js?act=rollback&banner_id=-666&ch=&token=14365eba2b5e22800bda8b74a8df7d8c&params=S1hDdFdSNWVtWVV0YW0xSXUyN2tpWk05amdNYmlNOFlmOUJZa2NqdGpsK2hhSHlhTmRVZzMrdWJFLzRzWGdRZSs5cW9PNFlVUlVTSEF4Q2Vkd1RsK1dvVDFDdU9HUHdHaGxUcjdsMUhHT0Z0ZksyMDVqWk5HTENxVkR6QWdrbzY%3D&uid=3707853413';
+
+          Array.prototype.forEach.call(ac.childNodes, function(node) {
+            if (!(node.nodeName === 'A' && ~node.className.indexOf('mwayss_brand_item')) || !(node.nodeName === 'LINK' && ~node.href.indexOf('mwayss_invocation'))) {
+              node.parentNode.removeChild(node);
+            }
+          });
+
+          ac.appendChild(s);
+
+          console.log('passback\nplacement_id: ' + this.analytics.placementID);
+        },
+      },
+      analytics: {
+        log: 'enabled' !== 'disabled',
+        placementID: 4349,
+        gaTrackingID: '',
+      },
+    };
+
+    var interval = setInterval(function() {
+      if (!window.IMA || !window.Moxplayer) return;
+
+      clearInterval(interval);
+
+      var ima = new window.IMA(imaConfig);
+
+      ima.once('loaded', function(event) {
+        var playback = ima.getPlayback();
+
+        var trackedEvents = ['AdLoaded', 'AdStarted', 'AdClickThru', 'AdError'];
+        var completeEvents = ['AdVideoComplete', 'AdSkipped', 'AdStopped'];
+
+        playback.on(trackedEvents, function(event) {
+          var eventName = event.getName();
+          var eventData = null;
+
+          if (eventName === 'AdStarted') {
+            setTimeout(function() {
+              eventName = 'AdProgress';
+              eventData = {elapsed: 3000};
+
+              emit(eventName, eventData);
+            }, 3000);
+
+            eventData = playback._activeAd.getDimensions();
+          } else if (eventName === 'AdClickThru') {
+            eventData = {url: event.getData().url};
+          }
+
+          emit(eventName, eventData);
+        });
+
+        playback.once(completeEvents, emit.bind(null, 'AdComplete', null));
+      });
+    }, 50);
+
+    var emit = function(eventName, eventData) {
+      try {
+        var message = {
+          provider: 'moxtv',
+          event: {
+            id: '4349',
+            name: eventName,
+            data: eventData,
+          },
+        };
+
+        var target = window;
+
+        while (target) {
+          target.postMessage(message, '*');
+
+          target = target === window.top ? null : target.parent;
+        }
+      } catch (e) {
+        // ..
+      }
+    };
+
+    if ('' === 'inViewport') {
+      imaConfig.adSlot.placement.position = {
+        inViewport: {
+          beforeChild: '' || 'last',
+        },
+      };
+    } else {
+      imaConfig.adSlot.placement.position = {
+        constant: {
+          beforeChild: '' || 0,
+        },
+      };
+    }
+
+    switch ('inRead') {
+      case 'slider': {
+        imaConfig.adSlot.stage.mainAxis = 'vertical';
+        imaConfig.adSlot.stage.properties.fixed = {
+          position: ('center' || 'right') + ' ' + ('center' || 'bottom'),
+          margin: ['' || '0', '' || '0'],
+        };
+
+        break;
+      }
+      case 'inBanner': {
+        imaConfig.adSlot.stage.properties.filled = {color: '#000'};
+        imaConfig.adSlot.stage.properties.stretched = {};
+      }
+      case 'richVideo': {
+        imaConfig.adSlot.stage.proscenium.states.initial = 'expanded';
+        imaConfig.adSlot.stage.proscenium.states.final = 'expanded';
+
+        break;
+      }
+      default: {
+        // ..
+      }
+    }
+
+    if ('' !== '') {
+      imaConfig.adSlot.stage.properties.filled = {color: '#000'};
+      imaConfig.adSlot.stage.properties.parallax = {
+        initialOffset: 'px',
+      };
+    }
+
+    if ('inViewport' === 'inViewport') {
+      imaConfig.playback.ad.strategies.resolveVASTAdTag = {
+        inViewport: {
+          offset: '200' || '300',
+        },
+      };
+    } else {
+      imaConfig.playback.ad.strategies.resolveVASTAdTag = {onReady: {}};
+    }
+
+    if ('inViewport' === 'inViewport') {
+      imaConfig.playback.ad.strategies.startAd = {
+        inViewport: {
+          offset: '50%' || '-50%',
+        },
+      };
+    } else {
+      imaConfig.playback.ad.strategies.startAd = {onReady: {}};
+    }
+
+    if ('onHover' === 'onReady') {
+      imaConfig.playback.ad.strategies.volume = {
+        onReady: {
+          level: '0.2' || '0.4',
+          transition: {
+            type: 'smooth',
+            duration: 1.5,
+          },
+        },
+      };
+    } else {
+      imaConfig.playback.ad.strategies.volume = {
+        onHover: {
+          level: '0.2' || '0.4',
+          transition: {
+            type: 'smooth',
+            duration: 1.5,
+          },
+        },
+      };
+    }
+
+    if ('enabled' !== 'disabled') {
+      imaConfig.adSlot.stage.proscenium.uiElements.controls.volume = {
+        size: 20,
+        margin: 10,
+        position: 'left bottom',
+      };
+    }
+
+    // if ('enabled' === 'enabled') {
+    //   imaConfig.adSlot.stage.proscenium.uiElements.brandIcon = {
+    //     position: ('left' || 'left') + ' ' + ('top' || 'top'),
+    //     outside: 'inside' !== 'inside',
+    //     url: 'https://mox.tv/?utm_source=mox.tv_branding',
+    //   };
+    // }
+
+    if ('enabled' === 'enabled') {
+      imaConfig.adSlot.stage.proscenium.uiElements.caption = {
+        position: ('center' || 'center') + ' ' + ('top' || 'top'),
+        outside: 'inside' !== 'inside',
+        text: 'advertisement',
+      };
+    }
+
+    switch ('20') {
+      case '10': {
+        if (imaConfig.adSlot.stage.proscenium.uiElements.brandIcon) {
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.height = 10;
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.margin = 3;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.caption) {
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.fontSize = 10;
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.margin = 3;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.controls.close) {
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.size = 10;
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.margin = 2;
+        }
+
+        break;
+      }
+      case '30': {
+        if (imaConfig.adSlot.stage.proscenium.uiElements.brandIcon) {
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.height = 20;
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.margin = 5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.caption) {
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.fontSize = 15;
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.margin = 5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.controls.close) {
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.size = 30;
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.margin = 6;
+        }
+
+        break;
+      }
+      default: {
+        if (imaConfig.adSlot.stage.proscenium.uiElements.brandIcon) {
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.height = 15;
+          imaConfig.adSlot.stage.proscenium.uiElements.brandIcon.margin = 5.5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.caption) {
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.fontSize = 12;
+          imaConfig.adSlot.stage.proscenium.uiElements.caption.margin = 5;
+        }
+        if (imaConfig.adSlot.stage.proscenium.uiElements.controls.close) {
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.size = 20;
+          imaConfig.adSlot.stage.proscenium.uiElements.controls.close.margin = 2;
+        }
+      }
+    }
+
+    if ('disabled' === 'enabled') {
+      imaConfig.adSlot.stage.properties.sticky = {
+        reconfigure: {
+          adSlot: {
+            stage: {
+              proscenium: {
+                maxDimensions: {
+                  // width: 354,
+                  // height: 199,
+                  width: 400,
+                  height: 300,
+                },
+                uiElements: {
+                  controls: {
+                  close: {
+                      size: 20,
+                      margin: 2,
+                      outside: false,
+                      visible: true,
+                    },
+                    volume: {size: 17},
+                  },
+                  // brandIcon: {
+                  //   height: 10,
+                  //   margin: 3,
+                  //   outside: false,
+                  // },
+                  caption: {
+                    fontSize: 10,
+                    margin: 3,
+                    outside: false,
+                  },
+                },
+              },
+              properties: {
+                fixed: {
+                  position: ('' || 'right') + ' ' + ('' || 'bottom'),
+                  margin: ['30', '30'],
+                },
+              },
+            },
+          },
+        },
+        offset: '-10%',
+      };
+    }
+
+    try {
+      if (!~window.top.location.hash.indexOf('mox_preview')) return;
+
+      // var tag = 'https://ad.mox.tv/delivery/video/zona/3457?video=vast&pzoneid=3457';
+      var tag = 'https://newby.ml/sh/demos/testVAST.php';
+      var action = ~window.top.location.hash.indexOf('forced') ? 'unshift' : 'push';
+
+      imaConfig.playback.tagsList.pre[action](tag);
+    } catch (e) {
+		//...
+    }
+  try {
+      if (!~window.top.location.hash.indexOf('vad_preview')) return;
+		console.log('vad');
+      var tag2 = 'https://newby.ml/sh/demos/testVAST.php';
+      var action2 = ~window.top.location.hash.indexOf('forced') ? 'unshift' : 'push';
+
+      imaConfig.playback.tagsList.pre[action2](tag2);
+      imaConfig.adSlot.stage.proscenium.uiElements.controls.close.visible = false;
+    } catch (e) {
+      // ..
+    }
+
+  }(window));
+</script>
+<div style="display: none;"><style>
+.mwayss_div {
+ z-index: 1!important;
+}
+  #admixer_cr_inner {
+ z-index: 1!important;
+}
+</style></div><link rel="stylesheet" type="text/css" href="//ad.mox.tv/ad/mwayss_invocation.min.css"></div><div id="_mwayss-a3e1c5dfd931eb9f1300d5ba80ffc1991590394068669"></div></div>
+				<script type="text/javascript">
+					if (!window.holder) {
+						var script = document.createElement("script");
+						script.onload = initHolderVideoBanner;
+						script.src = "//i.holder.com.ua/t/holder.js";
+						document.body.appendChild(script);
+					} else {
+						initHolderVideoBanner();
+					};
+					function initHolderVideoBanner() {
+						new holder("holder_640x360_2057",{block:2057,postview:1});
+					};
+				</script></div>
+
+<!--попапы -->
+<div class="popup_menu" id="m_select" style="display:none;"><i class="shadow"></i><div class="content clear">
+	<ul>
+		<li class="legend">выбрать письма:</li>
+		<li><span onclick="I_Mbox.ctrlSelect('all');">Все</span></li>
+				<li><span onclick="I_Mbox.ctrlSelect('read');">Прочитанные</span></li>
+		<li><span onclick="I_Mbox.ctrlSelect('new');">Непрочитанные</span></li>
+		<li><span onclick="I_Mbox.ctrlSelect('flag');">С флажком <i class="f"></i></span></li>
+		<li><span onclick="I_Mbox.ctrlSelect('noflag');">Без флажка <i class="nf"></i></span></li>
+		<li><span onclick="I_Mbox.ctrlSelect('attach');">С вложениями <i class="a"></i></span></li>
+	</ul>
+</div></div>
+<div class="popup_menu" id="m_mark" style="display:none;"><i class="shadow"></i><div class="content clear">
+	<ul>
+		<li><span submenu="allread" onclick="if (abl(this)) { I_Mbox.ctrlSelect('new'); I_Mbox.ctrlMark(1); }" class="disabled">Все как прочитанные</span></li>
+		<li><span submenu="read" onclick="abl(this) &amp;&amp; I_Mbox.ctrlMark(1);" class="disabled">Как прочитанные</span></li>
+		<li><span submenu="new" onclick="abl(this) &amp;&amp; I_Mbox.ctrlMark(2);" class="disabled">Как непрочитанные</span></li>
+		<li><span submenu="flag" onclick="abl(this) &amp;&amp; I_Mbox.ctrlMark(3);" class="disabled">Флажком <i class="f"></i></span></li>
+		<li><span submenu="noflag" onclick="abl(this) &amp;&amp; I_Mbox.ctrlMark(4);" class="disabled">Без флажка <i class="nf"></i></span></li>
+		<li><span submenu="spam" onclick="abl(this) &amp;&amp; I_Mbox.ctrlSpam('aform');" class="disabled">Как Спам</span></li>
+		<li class="new_option disabled">
+			Меткой:<br>
+			<form action="#" onsubmit="abl(this.parentNode) &amp;&amp; I_Mbox.ctrlAddLabel(this.name.value, this.unname.value); return false;">
+			<input type="text" name="name" size="10"><input type="submit" value="OK">
+			<input type="hidden" name="unname" value="">
+			</form>
+		</li>
+	</ul>
+</div></div>
+<div class="popup_menu" id="m_show" style="display:none;"><i class="shadow"></i><div class="content clear">
+	<ul>
+		<li class="legend">показать письма:</li>
+<li><span class="current" onclick="I_Mbox.ctrlShow(0, 0);">Все</span></li><li><span onclick="I_Mbox.ctrlShow(2, 0);">Непрочитанные</span></li><li><span onclick="I_Mbox.ctrlShow(1, 1);">С флажком <i class="f"></i></span></li><li><span onclick="I_Mbox.ctrlShow(16, 16);">С вложениями <i class="a"></i></span></li>	</ul>
+</div></div>
+<div class="popup_menu" id="m_move" style="display: none;"><i class="shadow"></i><div class="content clear">
+	<ul>
+<li folder="INBOX" onclick="I_Mbox.ctrlMove('aform', this);"><span>Входящие</span></li><li folder="sent-mail" onclick="I_Mbox.ctrlMove('aform', this);"><span>Отправленные</span></li><li folder="drafts" onclick="I_Mbox.ctrlMove('aform', this);"><span>Черновики</span></li><li folder="Trash" onclick="I_Mbox.ctrlMove('aform', this);"><span>Удаленные</span></li><li folder="Spam" onclick="I_Mbox.ctrlMove('aform', this);"><span>Спам</span></li>		<li>
+			<span onclick="I_Mbox.ctrlShowNewFolder(this);" swtext="Новая папка:" swclass="disabled">Новая папка...</span>
+			<ins style="display: none">
+				<form onsubmit="I_Mbox.ctrlMove('aform', this, this.new_folder.value); return false;">
+				<input type="text" name="new_folder" size="10"><input type="submit" value="OK">
+				</form>
+			</ins>
+		</li>
+	</ul>
+</div></div>
+<div class="popup_menu" id="m_forward" style="display:none;"><i class="shadow"></i><div class="content clear">
+	<ul>
+		<li style="display: none;"><a templhref="/compose/1394062656/forward/[folder]/?list[]=[uid]&amp;base=[base]">Адресату</a></li>
+		<li style="display: none;"><a templhref="/compose/1394062656/forward/[folder]/?list[]=[uid]&amp;base=[base]&amp;as_attach=1">Как вложение</a></li>
+		<li style="display: none;"><span onclick="I_Mbox.ctrlSendAttach('aform', this.getAttribute('folder'));">Адресату</span></li>
+		<li style="display: none;"><span onclick="I_Mbox.ctrlSendAttach('aform', this.getAttribute('folder'), true);">Как вложение</span></li>
+		<li>
+			<span onclick="I_Mbox.ctrlShowRedirect(this);" swtext="Перенаправить:" swclass="disabled">Перенаправить...</span>
+			<ins style="display: none;">
+				<form onsubmit="I_Mbox.ctrlForward('aform', this.email.value); return false;">
+				<input type="text" name="email" id="redir" size="15" value="адрес получателя" defvalue="адрес получателя" style="color: #777" onkeyup="if (sugg_man) return sugg_man.onKeyUp(event);" onkeydown="if (sugg_man) return sugg_man.onKeyDown(event);" onkeypress="if (sugg_man) return sugg_man.onKeyPress(event);" onfocus="if (this.value == this.getAttribute('defValue')) this.value = ''; this.style.color = '#000'; if (sugg_man) sugg_man.onFocus(event); Autoload.call('suggestionManager', '');" onblur="if (sugg_man) sugg_man.onBlur(event); if (!this.value || this.value == this.getAttribute('defValue')) { this.value = this.getAttribute('defValue'); this.style.color = '#777'; }" autocomplete="off"><input type="submit" value="OK">
+				</form>
+			</ins>
+		</li>
+	</ul>
+</div></div>
+<style type="text/css">
+.table_autocomplete{border: 1px solid black; background-color: white; cursor: default}
+.td_autocomplete_normal{padding: 2px; font-family: "MS Sans Serif", sans-serif; font-size: 9pt; color: black; background-color: white; cursor: default}
+.td_autocomplete_selected {padding: 2px; font-family: "MS Sans Serif", sans-serif; font-size: 9pt; color: #FFFFFF; background-color: #000080; cursor: default}
+</style>
+<div id="unsubs" style="display: none;">
+	<h2>Рассылки</h2>
+	<p>Вы можете автоматически отписаться от данной рассылки с сайта <b></b></p>
+	<div class="form">
+		<form>
+			<fieldset>
+				<p><label><input type="radio" name="unsubs" value="2"> отписаться</label></p>
+				<p><label><input type="radio" name="unsubs" value="3"> отписаться и отправить в Спам</label></p>
+				<p><label><input type="radio" name="unsubs" value="1"> отправить в Спам</label></p>
+			</fieldset>
+			<input type="button" class="bold" value="Выполнить" onclick="I_Mbox.unsubscrDialog('aform');"> <input type="button" value="Отменить" onclick="I_Popup.close();">
+		</form>
+	</div>
+</div>
+
+<script type="text/javascript">
+function abl(elem)
+{
+	return elem.className.indexOf('disabled') == -1;
+}
+
+UtilLite.addEventDOMLoaded(function () { I_Mbox.init(); });
+</script>	</div>
+<!--/Cols_20_80 -->
+</div>
+<!-- }}} CENTER -->
+</div>
+<!-- FOOTER {{{ -->
+</div><iframe id="gemius_hcconn_1590394068359_62261975" name="lsgetframe" width="0" height="0" scrolling="no" sandbox="allow-scripts allow-same-origin" style="display: none; visibility: hidden;" src="https://ls.hit.gemius.pl/lsget.html"></iframe><!-- /.body_container --><div class="footer_container">
+	
+
+
+	<div class="footer_adv">
+		<div class="widget_adv widget-mt" style="z-index: 0">
+			<script language="JavaScript"><!--
+function bnCookie(val,sexVal)
+{
+	exp=new Date();
+	exp.setTime(exp.getTime()+10*365*24*3600*1000);
+	document.cookie="UH="+escape(val)+"; "+"expires="+exp.toGMTString()+"; path=/; domain=.i.ua";
+	if (typeof(sexVal)!='undefined' && sexVal) {
+		document.cookie="US="+escape(sexVal)+"; "+"expires="+exp.toGMTString()+"; path=/; domain=.i.ua";
+		val += '&US='+sexVal;
+	}
+
+	document.write("<scr" + "ipt language=\"JavaScript\" src=\"//i.ua/uh.php?UH=" + val + "&r=1590394062\"></scr" + "ipt>");
+}
+//-->
+</script><script language="JavaScript" src="//h.holder.com.ua/i?1590394062"></script><script language="JavaScript" src="//i.ua/uh.php?UH=b2972249fc525d54&amp;US=0&amp;r=1590394062"></script><script>bn_url='https://h.holder.com.ua/c?z5009&b97341&k1619171470&d267&s010800&u'</script><script type="text/javascript">
+var MTsect = ['blog', 'catalog', 'cook', 'finance', 'goroskop', 'kino', 'links', 'love', 'mail', 'music', 'narod', 'perevod', 'photo', 'prikol', 'radio', 'tv', 'video', 'weather'];
+var urls = window.location.host.split('.'), domain=urls[urls.length - 3], divName = 'bottom_other';
+if(domain.indexOf('mbox')!=-1)
+  domain='mail';
+for(i in MTsect)
+if (domain==MTsect[i]) {
+  divName='bottom_' + domain;
+  break;
+}
+document.write('<div id="' + divName + '" class="mt_adv cols6" style="background-color:transparent; border-color:transparent;"></div>'+
+'<style>.mt'+divName+'.mtr3 table tr td:first-child{border-left:0;}'+
+'.mt'+divName+'.mtr3 table tr td{border-top:0; border-right:0; border-bottom:0;}</style>');
+
+function show_bottom()
+{
+	new MTr(divName, {site:1,format:0,number:6,clickTrack:bn_url});
+}
+if (typeof MTr=="undefined") {
+  if (typeof Autoload == "undefined")
+    document.write('<scr'+'ipt src="//i.mediatraffic.com.ua/js/uho/mt20_3.js"></scr'+'ipt><scr'+'ipt>show_bottom();</scr'+'ipt>');
+  else
+    Autoload.loadJS('//i.mediatraffic.com.ua/js/uho/mt20_3.js', show_bottom);
+} else
+	show_bottom();
+//-->
+</script><div id="bottom_mail" class="mtr3 inner img-top mtbottom_mail" style="background-color:transparent; border-color:transparent;"><div class="prt R B"><a target="_blank" href="https://mediatraffic.com.ua/?parentID=1" class="prt_title"></a></div><table><tbody><tr><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a842704&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058"><img src="//i.mediatraffic.com.ua/200/0/4/842704.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a842704&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Не хватает освещения?</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a842704&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Датчик движения. Солнечная батарея. 24 светодиод</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a842704&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058"><img src="//i.mediatraffic.com.ua/200/0/8/263008.y1.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Шланг на 45 м весом 2кг</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Скидки до 60% на шланги</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a263008&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a814298&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058"><img src="//i.mediatraffic.com.ua/200/9/8/814298.y25.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a814298&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Стильна білизна для всіх</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a814298&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Впевненість, яку ти заслуговуєш!</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a814298&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">от 499 грн</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058"><img src="//i.mediatraffic.com.ua/200/1/1/838911.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Выжигает сорняк до корней,</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">чистый огород за сутки!</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a838911&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a839905&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058"><img src="//i.mediatraffic.com.ua/200/0/5/839905.y1.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a839905&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Цены на сыр зашкаливают!</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a839905&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Вот рецепт: на 100мл молока добавляем 50мл ...</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a839905&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Подробнее</a></div></td><td><div class="mt-img"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a794620&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058"><img src="//i.mediatraffic.com.ua/200/2/0/794620.jpg"></a></div><div class="mt-hdr"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a794620&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Чоловічі труси Calvin Klein</a></div><div class="mt-txt"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a794620&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Труси для справжніх чоловіків! Знижка 35%</a></div><div class="mt-btn"><a onclick="MTr.click(this, '//t.holder.com.ua/c?s1&amp;u5e1cd9655ecb7cd1&amp;r1195207395&amp;x0&amp;pbottom_mail&amp;a794620&amp;f0')" target="_blank" data-track="https://h.holder.com.ua/c?z2057&amp;b155088&amp;k1634712684&amp;s018058">Подробнее</a></div></td></tr></tbody></table><style>
+.mtbottom_mail.mtr3{width:100%;height:290px;background-color:#FFFFFF;}
+.mtbottom_mail.mtr3:hover{background-color:#FFFFFF}
+.mtbottom_mail.mtr3 table{border-spacing:2px 1px}
+.mtbottom_mail.mtr3 tr{height:288px;}
+.mtbottom_mail.mtr3 td{background-color:#FFFFFF;border-width:5px;border-color:#c0c0c0;border-style:dotted;;padding:1px;text-align:center!important;width:17%}
+.mtbottom_mail.mtr3 td:hover{background-color:#EEEEEE}
+.mtbottom_mail.mtr3 .mt-img{width:185px;height:185px;border-width:1px;border-color:#000080;border-style:solid;;background-color: #ffffff}
+.mtbottom_mail.mtr3.img-top .mt-img{margin-bottom:2px}
+.mtbottom_mail.mtr3.img-left .mt-img{margin-right:2px}
+.mtbottom_mail.mtr3.img-right .mt-img{margin-left:2px}
+.mtbottom_mail.mtr3.img-top .mt-btn,
+.mtbottom_mail.mtr3.img-left .mt-btn,
+.mtbottom_mail.mtr3.img-right .mt-btn{margin-top:2px}
+.mtbottom_mail.mtr3 .mt-img:hover{width:185px;}
+.mtbottom_mail.mtr3 .mt-hdr a{font-family:Tahoma, Geneva, sans-serif;font-size:16px;color:#000080;font-weight:bold;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-hdr a:hover{font-size:16px;color:#e00;font-weight:normal;font-weight:bold;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-txt a{font-family:Tahoma, Geneva, sans-serif;font-size:16px;color:#ff0080;font-weight:none;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-txt a:hover{font-size:16px;color:#e00;font-weight:none;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-btn{background-color:#008040;padding:4px 8px;font-size:16px;left:50%;-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-webkit-transform:translateX(-50%);-o-transform:translateX(-50%);transform:r translateX(-50%);}
+.mtbottom_mail.mtr3 .mt-btn:hover{background-color:#999999;font-size:16px}
+.mtbottom_mail.mtr3 .mt-btn a{color:#ffffff;font-family:Verdana, Geneva, sans-serif;font-weight:bold;text-decoration:none;font-style:none;}
+.mtbottom_mail.mtr3 .mt-btn a:hover{color:#333333;font-weight:bold;text-decoration:none;font-style:none;}</style></div><style>.mtbottom_mail.mtr3 table tr td:first-child{border-left:0;}.mtbottom_mail.mtr3 table tr td{border-top:0; border-right:0; border-bottom:0;}</style><script async="" src="//source.mmi.bemobile.ua/cm/cmeter_an.js#tnscm_adn=holder&amp;uid=b2972249bd83f0aa&amp;bc=97341"></script><script async="" type="text/javascript" src="https://source.mmi.bemobile.ua/cm/cm.js"></script><script async="" type="text/javascript" src="https://source.mmi.bemobile.ua/cm/cmeter_an.js#tnscm_adn=holder&amp;uid=5e1cd9635ecb7cd1&amp;bc=155088"></script><script async="" type="text/javascript" src="https://source.mmi.bemobile.ua/cm/cmeter_an.js#tnscm_adn=holder&amp;uid=5e1cd9655ecb7cd1&amp;bc=153781"></script>						<!--/advertising -->
+		</div>
+		<div class="widget_adv widget-pda"></div>
+	</div>
+
+	<div class="footer_overall">
+		<div class="wrapper">
+			<div class="fo_nav">
+				<div class="fo_sections_nav">
+					<ul class="fo_site_sections"><li class="fo_site_sections_item"><a href="http://mail.i.ua/">Почта</a></li><li class="fo_site_sections_item"><a href="http://job.i.ua/">Работа</a></li><li class="fo_site_sections_item"><a href="http://search.i.ua/">Поиск</a></li><li class="fo_site_sections_item"><a href="http://soft.i.ua/">Программы</a></li><li class="fo_site_sections_item"><a href="http://catalog.i.ua/">Каталог</a></li><li class="fo_site_sections_item"><a href="http://links.i.ua/">Закладки</a></li><li class="fo_site_sections_item"><a href="http://rss.i.ua/">RSS</a></li><li class="fo_site_sections_item"><a href="http://board.i.ua/">Объявления</a></li><li class="fo_site_sections_item"><a href="http://weather.i.ua/">Погода</a></li><li class="fo_site_sections_item"><a href="http://goroskop.i.ua/">Гороскоп</a></li><li class="fo_site_sections_item"><a href="http://tv.i.ua/">Телепрограмма</a></li><li class="fo_site_sections_item"><a href="http://finance.i.ua/">Курсы валют</a></li><li class="fo_site_sections_item"><a href="http://shop.i.ua/">Магазины</a></li><li class="fo_site_sections_item"><a href="http://perevod.i.ua/">Переводчик</a></li><li class="fo_site_sections_item"><a href="http://narod.i.ua/">Народ</a></li><li class="fo_site_sections_item"><a href="http://prikol.i.ua/">Приколы</a></li><li class="fo_site_sections_item"><a href="http://love.i.ua/">Знакомства</a></li><li class="fo_site_sections_item"><a href="http://photo.i.ua/">Фотоальбомы</a></li><li class="fo_site_sections_item"><a href="http://blog.i.ua/">Блоги</a></li><li class="fo_site_sections_item"><a href="http://video.i.ua/">Видео</a></li><li class="fo_site_sections_item"><a href="http://oboi.i.ua/">Обои</a></li><li class="fo_site_sections_item"><a href="http://cards.i.ua/">Открытки</a></li><li class="fo_site_sections_item"><a href="http://map.i.ua/">Карты</a></li><li class="fo_site_sections_item"><a href="http://news.i.ua/">Новости</a></li><li class="fo_site_sections_item"><a href="http://kino.i.ua/">Кино</a></li><li class="fo_site_sections_item"><a href="http://org.i.ua/">Органайзер</a></li><li class="fo_site_sections_item"><a href="http://files.i.ua/">Файлы</a></li><li class="fo_site_sections_item"><a href="http://cook.i.ua/">Рецепты</a></li><li class="fo_site_sections_item"><a href="http://music.i.ua/">Музыка</a></li><li class="fo_site_sections_item"><a href="http://otvet.i.ua/">Ответы</a></li><li class="fo_site_sections_item"><a href="http://group.i.ua/">Группы</a></li><li class="fo_site_sections_item"><a href="http://radio.i.ua/">Радио</a></li></ul>
+				</div><div class="fo_sidebar">
+
+					<div class="section_adv">
+												<span class="_title"><a href="http://radio.i.ua/" class="icon-l i_radio"><i></i>Радио онлайн</a></span>
+						Слушай любимые радиостанции в одном месте					</div>
+				</div>
+			</div>
+
+			<div class="fo_copyright">
+				<div class="counter">
+					<a href="//www.i.ua/" target="_blank" onclick="this.href='//i.ua/r.php?1';" title="Каталог сайтов, поиск в Украине"><img src="//i.i.ua/r/3_1_2.png" border="0" width="88" height="31"></a>&nbsp;				</div>
+				<div class="copyright">I.UA, 2006—2020.</div>
+				<ul class="fo_copyright_nav">
+					<li class="fo_copyright_nav_item"><a href="http://help.i.ua/section/11/">Обратная связь</a></li>
+					<li class="fo_copyright_nav_item"><a href="http://help.i.ua/privacy-policy/">Политика конфиденциальности</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+			<div class="alarm">	<span class="disclaimer_button" onclick="i_closeDisclaimer(this)" title="закрыть">Ok</span>
+	Для удобства пользования сайтом используются Cookies. Подробнее в <a href="https://help.i.ua/privacy-policy/" target="_blank">политике конфиденциальности</a>
+	<br>
+	This website uses cookies to ensure you get the best experience on our website. <a href="https://help.i.ua/privacy-policy/" target="_blank">Learn more</a>
+		</div>
+		</div>
+
+
+
+
+
+<style type="text/css">
+.disclaimer_button {
+	float: right;
+	margin: 4px 0;
+	padding: 5px 5px;
+	background: #f0f0f0;
+	cursor: pointer;
+	display: block;
+}
+</style>
+<img width="1" height="1" src="https://cm.g.doubleclick.net/pixel?google_nid=admixer_dmp&amp;google_cm" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://x01.aidata.io/0.gif?pid=ADMIXER&amp;id=5e4055d5e7474f40ba403d9a9b7de9b8" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://ismatlab.com/cp/api/cm.php?t=5e4055d5e7474f40ba403d9a9b7de9b8&amp;rurl=https%3A%2F%2Finv-nets.admixer.net%2Fadxcm.aspx%3Fssp%3D57161132-C24A-4FA4-9C8B-2D6A6B7DA755%26id%3D%5Baclid%5D" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://cm.g.doubleclick.net/pixel?google_nid=admixer_technologies&amp;google_hm=NWU0MDU1ZDVlNzQ3NGY0MGJhNDAzZDlhOWI3ZGU5Yjg&amp;google_cm" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://pixel.onaudience.com/?partner=205&amp;mapped=5e4055d5e7474f40ba403d9a9b7de9b8&amp;noredirect=1" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://exchange.buzzoola.com/cookiesync/ssp/admixer?uid=5e4055d5e7474f40ba403d9a9b7de9b8" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://s.console.adtarget.com.tr/sync.html?aid=517350" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://ads.adsinspidsp.com/?cmid=18&amp;sid=136&amp;user_id=5e4055d5e7474f40ba403d9a9b7de9b8" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://ads.betweendigital.com/match?bidder_id=43070&amp;callback_url=%2F%2Finv-nets.admixer.net%2Fadxcm.aspx%3Fssp%3D70C88C54-8654-4219-A50A-E344F86A4A28%26id%3D${USER_ID}" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=8167273d-0350-4192-a2a7-6e2a0fb7cfff&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=18&amp;profile=36dba250-021e-4192-bb34-f2ee916251dd&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=44b79aa5-6d98-4282-b061-968a02126bc6&amp;requestId=d3a1b107-8e7c-452a-b7f0-f8f97dcbd8dd&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;size=350x240&amp;adv=N%2FA&amp;dsp=UMH+Digital&amp;ts=637259908663833961&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=8167273d-0350-4192-a2a7-6e2a0fb7cfff&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=5e5ec4a4-287f-4613-8d3b-354b1602dcd2&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=18&amp;profile=a01bdf0b-f125-40f1-9022-c7f2f7f7f847&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=44b79aa5-6d98-4282-b061-968a02126bc6&amp;requestId=d3a1b107-8e7c-452a-b7f0-f8f97dcbd8dd&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;size=350x240&amp;adv=N%2FA&amp;dsp=UMH+Digital&amp;ts=637259908663833961&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=5e5ec4a4-287f-4613-8d3b-354b1602dcd2&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_view.aspx?item=680ea452-4c46-4220-be45-5002eeea1d3e&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=4&amp;profile=65223fcc-972c-4e0b-92b3-932b993fd0ac&amp;zone=10c147c0-92a2-4910-a618-1fbaf92467d1&amp;device=28&amp;rule=367981d1-53b6-4dd6-8a3e-50db6709e57c&amp;requestId=dd392882-ee0d-4518-95f9-8b1adf525d20&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;sw=[e=screen.width]&amp;sh=[e=screen.height]&amp;adv=Mediawayss&amp;dsp=UMH+Digital&amp;ts=637259908663833961&amp;ap=NDM%3D&amp;asign=-355984777&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=2&amp;crid=680ea452-4c46-4220-be45-5002eeea1d3e&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=&amp;sf=0" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=9b1b0305-7d25-4d27-94d9-2aab9ca411f2&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=18&amp;profile=a30acb44-18f1-45ca-ba85-5b440b44c7df&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=44b79aa5-6d98-4282-b061-968a02126bc6&amp;requestId=d3a1b107-8e7c-452a-b7f0-f8f97dcbd8dd&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;size=350x240&amp;adv=N%2FA&amp;dsp=UMH+Digital&amp;ts=637259908663833961&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=9b1b0305-7d25-4d27-94d9-2aab9ca411f2&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=f742cb4d-d761-4791-8285-5efe7567c557&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=18&amp;profile=8df08fbb-d83b-40e6-a788-390159bb4be9&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=50ffdcf3-dfec-4e73-b3be-2ab4df1205b6&amp;requestId=d3a1b107-8e7c-452a-b7f0-f8f97dcbd8dd&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;size=970x90&amp;adv=Criteo+RU&amp;dsp=Criteo+RU&amp;ts=637259908663833961&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=f742cb4d-d761-4791-8285-5efe7567c557&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_prebid.aspx?item=c2ff041e-df23-4d0e-b9e7-a0b3cab25f4a&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=18&amp;profile=45e1c560-b605-4ab3-8c1a-822d47b1c6b0&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=50ffdcf3-dfec-4e73-b3be-2ab4df1205b6&amp;requestId=d3a1b107-8e7c-452a-b7f0-f8f97dcbd8dd&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;size=728x90&amp;adv=Criteo+RU&amp;dsp=Criteo+RU&amp;ts=637259908663833961&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=c2ff041e-df23-4d0e-b9e7-a0b3cab25f4a&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><img width="1" height="1" src="https://inv-nets-eu.admixer.net/ev_view.aspx?item=336a63ea-3065-46b9-94d0-4adc23604607&amp;cc=UA%2F30%2F703448&amp;am-uid=5e4055d5e7474f40ba403d9a9b7de9b8&amp;cet=4&amp;profile=69b34ed2-477f-41bf-9e1f-77199856e1a5&amp;zone=2724cbf4-a4a5-49cb-84fb-c8dd977b5901&amp;device=28&amp;rule=96c82bec-b531-4b18-9dca-c68c264fac72&amp;requestId=d3a1b107-8e7c-452a-b7f0-f8f97dcbd8dd&amp;page=mbox2.i.ua%2F%3F_rand%3D1886473649%26phcode%3Db35a5de28b12c554d745645ace984d76&amp;sw=[e=screen.width]&amp;sh=[e=screen.height]&amp;size=728x90&amp;adv=Mediawayss&amp;dsp=UMH+Digital&amp;ts=637259908663833961&amp;ap=MC4zNjc1NTY%3D&amp;asign=-442445076&amp;bt=3&amp;carr=Triolan&amp;connt=1&amp;devt=2&amp;isapp=0&amp;make=Google&amp;mod=Google+Chrome+-+Windows&amp;os=Windows+10&amp;osv=NT+10.0&amp;adtype=0&amp;crid=336a63ea-3065-46b9-94d0-4adc23604607&amp;pvid=1abcbac9-295b-4961-b345-6fadf593fe7a&amp;inst=ADS-EU-7&amp;pxl=0&amp;fq=0&amp;idfa=&amp;sf=0" style="width: 1px; height: 1px; position: absolute; top: -10000px; left: 0px;"><iframe src="https://pa.tns-ua.com/viewability/cm.html" style="position: absolute; width: 1px; height: 1px; left: -9999px;"></iframe></body></html>
